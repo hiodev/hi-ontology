@@ -17,5 +17,5 @@ The HIO is released every two months with possible special releases when there a
 Please use this GitHub repository's [Issue tracker](https://github.com/hiodev/hio-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 # Acknowledgements
-This ontology repository is being created under the Genetic Medicine of African Population (GeneMAP), a pan-African collaborative research model which currently includes three main projects: Hearing Impairment Genetic Studies in Africa (HI GENES Africa), Sickle Africa Data Coordinating Center (SADaCC) and Individual Findings in Human Genetic Research in Africa
+This ontology repository is being created under the Genetic Medicine of African Populations (GeneMAP), a pan-African collaborative research model which currently includes three main projects: Hearing Impairment Genetic Studies in Africa (HI GENES Africa), Sickle Africa Data Coordinating Center (SADaCC) and Individual Findings in Human Genetic Research in Africa
 (IFGENERA), supported by the National Institute of Health (NIH) and Wellcome Trust. 
