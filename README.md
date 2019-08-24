@@ -13,8 +13,8 @@ Editors of this ontology should use the edit version, [src/ontology/hio-edit.owl
 The HIO is released every two months with possible special releases when there are significant incidental changes. It is freely available under the [Creative Commons Attribution 4.0 Unported License] (CC:https://creativecommons.org/licenses/by/4.0/legalcode) and further copyrighted to maintain the quality and integrity of the term vocabulary, meaning that any modification to the HIO can only be done by HIO developers and curators.
 
 
-## Contact
+# Contact
 Please use this GitHub repository's [Issue tracker](https://github.com/hiodev/hio-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
-## Acknowledgements
+# Acknowledgements
 This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit).
