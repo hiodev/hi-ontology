@@ -19,7 +19,4 @@ The HIO is released every two months with possible special releases when there a
 Please use this GitHub repository's [Issue tracker](https://github.com/hiodev/hio-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
-
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit).
