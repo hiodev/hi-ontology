@@ -1,0 +1,5 @@
+id	Term	induced_by
+ID		C 'induced by' some %
+HIO:0000215	Cisplatin-Induced Hearing Impairment	Cisplatin
+HIO:0000239	Aminoglycoside-Induced Hearing Impairment	Aminoglycoside
+HIO:0000285	Neomycin-Induced Hearing Impairment	Neomycin

@@ -1,0 +1,5 @@
+id	Term	condition_has_causal_or_contributing_genetic_variation
+ID		C 'condition has causal or contributing genetic variation' some %
+HIO:0000325	Autosomal Recessive Nonsyndromic Hearing Impairment 101	GRXCR2, 1-BP DUP, 714T
+HIO:0000199	Cerebellar Ataxia, Areflexia, Pes Cavus, Optic Atrophy, and Sensorineural Hearing Loss Syndrome	ATP1A3, GLU818LYS
+HIO:0000307	Nonsyndromic Dominant Auditory Neuropathy	DIAPH3, -172G-A

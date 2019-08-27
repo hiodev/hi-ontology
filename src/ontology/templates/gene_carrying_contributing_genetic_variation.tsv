@@ -1,0 +1,23 @@
+id	Term	gene_carrying_contributing_genetic_variation
+ID		C 'gene carrying contributing genetic variation' some %
+HIO:0000356	Jervell and Lange-Nielsen Syndrome 1	KCNQ1
+HIO:0000357	Jervell and Lange-Nielsen Syndrome 2	KCNE1
+HIO:0000040	Cardiomyopathy, Dilated, 1J	EYA4
+HIO:0000215	Cisplatin-Induced Hearing Impairment	TPMT
+HIO:0000215	Cisplatin-Induced Hearing Impairment	COMT
+HIO:0000248	Peripheral Neuropathy, Myopathy, Hoarseness, and Hearing Loss Syndrome	MYH14
+HIO:0000026	Polyneuropathy, Hearing Loss, Ataxia, Retinitis Pigmentosa, and Cataract (PHARC) Syndrome	ABHD12
+HIO:0000031	Axenfeld-Rieger Syndrome, Type 3	FOXC1
+HIO:0000301	Split Hand-Foot Malformation 1 with Sensorineural Hearing Loss	DLX5
+HIO:0000303	Cataracts, Growth Hormone Deficiency, Sensory Neuropathy, Sensorineural Hearing Loss, and Skeletal Dysplasia Syndrome	IARS2
+HIO:0000307	Nonsyndromic Dominant Auditory Neuropathy	DIAPH3
+HIO:0000019	Alport Syndrome	COL4A5
+HIO:0000019	Alport Syndrome	COL4A3
+HIO:0000019	Alport Syndrome	COL4A4
+HIO:0000200	Heimler Syndrome 1	PEX1
+HIO:0000201	Heimler Syndrome 2	PEX6
+HIO:0000325	Autosomal Recessive Nonsyndromic Hearing Impairment 101	GRXCR2
+HIO:0000199	Cerebellar Ataxia, Areflexia, Pes Cavus, Optic Atrophy, and Sensorineural Hearing Loss Syndrome	ATP1A3
+HIO:0000042	May-Hegglin Anomaly	MYH9
+HIO:0000044	Epstein Syndrome	MYH9
+HIO:0000045	Fechtner Syndrome	MYH9

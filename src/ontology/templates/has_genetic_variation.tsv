@@ -1,0 +1,5 @@
+id	Term	has_genetic_variation
+ID		C 'has genetic variation' some %
+HIO:0000324	GRXCR2	GRXCR2, 1-BP DUP, 714T
+HIO:0000206	ATP1A3	ATP1A3, GLU818LYS
+HIO:0000308	DIAPH3	DIAPH3, -172G-A

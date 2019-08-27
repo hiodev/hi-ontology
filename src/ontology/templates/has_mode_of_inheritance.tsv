@@ -1,0 +1,21 @@
+id	Term	has_mode_of_inheritance
+ID		C 'has mode of inheritance' some %
+HIO:0000197	Heimler Syndrome	Autosomal Recessive
+HIO:0000199	Cerebellar Ataxia, Areflexia, Pes Cavus, Optic Atrophy, and Sensorineural Hearing Loss Syndrome	Autosomal Dominant
+HIO:0000040	Cardiomyopathy, Dilated, 1J	Autosomal Dominant
+HIO:0000248	Peripheral Neuropathy, Myopathy, Hoarseness, and Hearing Loss Syndrome	Autosomal Dominant
+HIO:0000042	May-Hegglin Anomaly	Autosomal Dominant
+HIO:0000016	Brancho-Oto-Renal Syndrome	Autosomal Dominant
+HIO:0000017	Waardenburg Syndrome	Autosomal Dominant
+HIO:0000018	Stickler Syndrome	Autosomal Dominant
+HIO:0000019	Alport Syndrome	X-Linked Inheritance
+HIO:0000021	Treacher Collins Syndrome	Autosomal Dominant
+HIO:0000023	Perrault Syndrome	Autosomal Recessive
+HIO:0000024	Norrie Syndrome	X-Linked Inheritance
+HIO:0000025	CHARGE Syndrome	Autosomal Dominant
+HIO:0000027	Wolfram Syndrome	Autosomal Recessive
+HIO:0000028	Wolfram Syndrome 1	Autosomal Recessive
+HIO:0000029	Wolfram Syndrome 2	Autosomal Recessive
+HIO:0000325	Autosomal Recessive Nonsyndromic Hearing Impairment 101	Autosomal Recessive
+HIO:0000307	Nonsyndromic Dominant Auditory Neuropathy	Autosomal Dominant
+HIO:0000020	Jervell and Lange-Nielsen Syndrome	Autosomal Recessive

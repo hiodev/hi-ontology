@@ -1,0 +1,8 @@
+id	Term	has_gene_product
+ID		C 'has gene product' some %
+HIO:0000344	PEX1	Peroxisomal Biogenesis Factor 1
+HIO:0000345	PEX6	Peroxisomal Biogenesis Factor 6
+HIO:0000324	GRXCR2	Glutaredoxin Domain-Containing Cysteine-Rich Protein 2
+HIO:0000206	ATP1A3	Sodium/Potassium-Transporting ATPase Subunit Alpha-3
+HIO:0000308	DIAPH3	Protein Diaphanous Homolog 3
+HIO:0000231	KCNQ1	Potassium Voltage-Gated Channel Subfamily KQT Member 1
