@@ -21,12 +21,12 @@ is_a: HIO:0000001 ! HIO
 property_value: HIO:0000088 "Deafness" xsd:string
 property_value: HIO:0000088 "Hearing Defect" xsd:string
 property_value: HIO:0000088 "Hearing Loss" xsd:string
-property_value: HIO:0000225 HIO:0000365
+property_value: HIO:0000225 HP:0000365
 property_value: HIO:0000226 HP:0000365 xsd:string
 property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Suggest update to description in the HPO. The new description also encompasses conductive hearing impairment whereby the problem is not the perception of sound but the transmission of sound from the outer environment to the inner ear." xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A decreased perception and/or transmission of sound." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0000365
+property_value: http://purl.org/dc/elements/1.1/source HP:0000365
 created_by: Jade Hotchkiss
 creation_date: 2019-05-24T09:51:09.421966Z
 
@@ -34,7 +34,7 @@ creation_date: 2019-05-24T09:51:09.421966Z
 id: HIO:0000003
 name: Phenotype
 is_a: HIO:0000001 ! HIO
-property_value: HIO:0000225 HIO:0000023
+property_value: HIO:0000225 OGMS?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOGMS:0000023
 property_value: HIO:0000226 OGMS:0000023 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A (combination of) quality(ies) of an organism determined by the interaction of its genetic make-up and environment that differentiates specific instances of a species from other instances of the same species." xsd:string
@@ -55,7 +55,7 @@ creation_date: 2019-05-24T09:51:45.627156Z
 [Term]
 id: HIO:0000005
 name: deprecated terms
-property_value: HIO:0000225 HIO:0000359
+property_value: HIO:0000225 SCDO:0000359
 property_value: HIO:0000226 "SCDO_0000359" xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 created_by: Jade Hotchkiss
@@ -77,11 +77,11 @@ property_value: HIO:0000088 "Sensorineural Hearing Loss" xsd:string
 property_value: HIO:0000088 "Sensorineural Hearing Loss Disorder" xsd:string
 property_value: HIO:0000088 "Sensory Hearing Loss" xsd:string
 property_value: HIO:0000088 "SNHL" xsd:string
-property_value: HIO:0000225 HIO:1001176
+property_value: HIO:0000225 EFO:1001176
 property_value: HIO:0000226 EFO:1001176 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Hearing loss due to disease of the auditory pathways (in the central nervous system) which originate in the cochlear nuclei of the pons and then ascend bilaterally to the midbrain, the thalamus, and then the auditory cortex in the temporal lobe. Bilateral lesions of the auditory pathways are usually required to cause central hearing loss. Cortical deafness refers to loss of hearing due to bilateral auditory cortex lesions. Unilateral brain stem lesions involving the cochlear nuclei may result in unilateral hearing loss." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:1001176
+property_value: http://purl.org/dc/elements/1.1/source EFO:1001176
 created_by: Jade Hotchkiss
 creation_date: 2019-05-24T09:58:12.272446Z
 
@@ -95,11 +95,11 @@ property_value: HIO:0000088 "Conductive Deafness" xsd:string
 property_value: HIO:0000088 "Conductive Hearing Loss" xsd:string
 property_value: HIO:0000088 "Hearing Loss, Conductive" xsd:string
 property_value: HIO:0000088 "Outer or Middle Ear Hearing Impairment" xsd:string
-property_value: HIO:0000225 HIO:0000405
+property_value: HIO:0000225 HP:0000405
 property_value: HIO:0000226 HP:0000405 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "An abnormality of vibrational conductance of sound to the inner ear leading to impairment of sensory perception of sound." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0000405
+property_value: http://purl.org/dc/elements/1.1/source HP:0000405
 created_by: Jade Hotchkiss
 creation_date: 2019-05-24T09:58:12.273093Z
 
@@ -109,7 +109,7 @@ name: Mixed Hearing Impairment
 is_a: HIO:0000086 ! Hearing Impairment by Physiopathology Mechanism
 property_value: HIO:0000088 "Inner and Outer or Middle Ear Hearing Impairment" xsd:string
 property_value: HIO:0000088 "Mixed Hearing Loss" xsd:string
-property_value: HIO:0000225 HIO:0000410
+property_value: HIO:0000225 HP:0000410
 property_value: HIO:0000226 HP:0000410 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A type of hearing loss resulting from a combination of conductive hearing impairment and sensorineural hearing impairment." xsd:string
@@ -123,12 +123,12 @@ is_a: HIO:0000465 ! Hearing Impairment of Genetic Origin
 property_value: HIO:0000088 "Non-Syndromic Hearing Impairment" xsd:string
 property_value: HIO:0000088 "Non-Syndromic Hearing Loss" xsd:string
 property_value: HIO:0000088 "Nonsyndromic Hearing Loss" xsd:string
-property_value: HIO:0000225 HIO:0006328
+property_value: HIO:0000225 MP:0006328
 property_value: HIO:0000226 MP:0006328 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "Populate with sub-classes of \"nonsyndromic deafness\" in DO. See dc:source. but use Uniprot, Human Diseases, to write appropriate descriptions." xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A form of hearing impairment that is not associated with visible abnormalities of the external ear or other signs and symptoms and can be associated with abnormalities of the middle ear and/or inner ear" xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0050563
+property_value: http://purl.org/dc/elements/1.1/source DOID:0050563
 created_by: Jade Hotchkiss
 creation_date: 2019-05-24T09:58:12.274397Z
 
@@ -140,7 +140,7 @@ property_value: HIO:0000088 "Hearing Loss Associated with Syndrome" xsd:string
 property_value: HIO:0000088 "SHL" xsd:string
 property_value: HIO:0000088 "Syndromic Genetic Deafness" xsd:string
 property_value: HIO:0000088 "Syndromic Hearing Loss" xsd:string
-property_value: HIO:0000225 HIO:0006330
+property_value: HIO:0000225 MP:0006330
 property_value: HIO:0000226 MP:0006330 xsd:string
 property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Suggest update to description in MP" xsd:string
@@ -324,7 +324,7 @@ relationship: HIO:0000416 HIO:0000075 ! has mode of inheritance Autosomal Recess
 property_value: HIO:0000088 "Gonodal Dysgenesis, XX Type, with Deafness" xsd:string
 property_value: HIO:0000088 "XX Gonodal Dysgenesis - Deafness" xsd:string
 property_value: HIO:0000088 "XX Gonodal Dysgenesis-Deafness Syndrome" xsd:string
-property_value: HIO:0000225 HIO:0050857
+property_value: HIO:0000225 DOID:0050857
 property_value: HIO:0000226 DOID:0050857c xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "An autosomal recessive disease that is characterized by sensorineural hearing loss and ovarian failure." xsd:string
@@ -407,7 +407,7 @@ relationship: HIO:0000416 HIO:0000075 ! has mode of inheritance Autosomal Recess
 property_value: HIO:0000088 "WFS" xsd:string
 property_value: HIO:0000088 "WFS1" xsd:string
 property_value: HIO:0000088 "WS1" xsd:string
-property_value: HIO:0000225 HIO:0110629
+property_value: HIO:0000225 DOID:0110629
 property_value: HIO:0000226 DOID:0110629 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "An autosomal recessive disease that is characterized by diabetes mellitus, optic atrophy, and deafness as well as various other possible disorders and has_material_basis_in autosomal recessive inheritance of homozygous or compound heterozygous mutation in the WFS1 gene on chromosome 4p16.1." xsd:string
@@ -421,8 +421,8 @@ is_a: HIO:0000027 ! Wolfram Syndrome
 relationship: HIO:0000416 HIO:0000075 ! has mode of inheritance Autosomal Recessive
 property_value: HIO:0000088 "WFS2" xsd:string
 property_value: HIO:0000088 "WS2" xsd:string
+property_value: HIO:0000226 DOID:0110630
 property_value: HIO:0000226 DOID:0110630 xsd:string
-property_value: HIO:0000226 HIO:0110630
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "An autosomal recessive neurodegenerative disorder characterized by diabetes mellitus, high frequency sensorineural hearing loss, optic atrophy or neuropathy, and defective platelet aggregation resulting in peptic ulcer bleeding. It has_material_basis_in autosomal recessive inheritance of homozygous or compound heterozygous mutation in the CISD2 gene on chromosome 4q24." xsd:string
 created_by: Jade Hotchkiss
@@ -487,7 +487,7 @@ id: HIO:0000034
 name: Genetic Variation
 is_a: HIO:0000033 ! Genetic Phenomena
 is_a: HIO:0000083 ! Genetic Disease Cause
-property_value: HIO:0000225 HIO:0001369
+property_value: HIO:0000225 SCDO:0001369
 property_value: HIO:0000226 SCDO:0001369 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request update to description in NCIT. Update at a later stage if necessary." xsd:string
@@ -499,7 +499,7 @@ creation_date: 2019-05-31T07:19:42.003651Z
 id: HIO:0000035
 name: Diagnostics
 is_a: HIO:0000001 ! HIO
-property_value: HIO:0000225 HIO:0000379
+property_value: HIO:0000225 SCDO:0000379
 property_value: HIO:0000226 SCDO:0000379 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -581,12 +581,12 @@ property_value: HIO:0000088 "Dilated Cardiomyopathy 1J" xsd:string
 property_value: HIO:0000088 "Neurosensory Hearing Loss with Dilated Cardiomyopathy" xsd:string
 property_value: HIO:0000088 "Sensorineural Deafness with Dilated Cardiomyopathy" xsd:string
 property_value: HIO:0000088 "Sensorineural Hearing Loss with Dilated Cardiomyopathy" xsd:string
-property_value: HIO:0000225 HIO:0011541
+property_value: HIO:0000225 MONDO:0011541
 property_value: HIO:0000226 MONDO:0011541 xsd:string
 property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Suggest update to description in MONDO, by removing the name of the term from the start of the description.\n\nPositioning of this term still up for discussion...perhaps should be moved below \"Syndromic Hearing Impairment\"?" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "An extremely rare autosomal dominant syndrome described in two families to date and characterized by moderate to severe sensorineural hearing loss manifesting during childhood, and associated with late-onset dilated cardiomyopathy that generally progresses to heart failure." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0110440
+property_value: http://purl.org/dc/elements/1.1/source DOID:0110440
 property_value: http://purl.org/dc/elements/1.1/source https://www.uniprot.org/diseases/DI-00217
 created_by: Jade Hotchkiss
 creation_date: 2019-05-31T07:30:50.301074Z
@@ -735,7 +735,7 @@ property_value: HIO:0000227 "None" xsd:string
 property_value: HIO:0000229 "Term too specific to HLO to be irequested for nclusion in other ontologies." xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A definite pathologic process with a characteristic set of signs and symptoms (a disease) or a material entity which is clinically abnormal and part of an extended organism (disorder) that's presence has been associated with the occurrence of hearing impairment." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0000045
+property_value: http://purl.org/dc/elements/1.1/source OGMS:0000045
 created_by: Jade Hotchkiss
 creation_date: 2019-05-31T09:40:21.836524Z
 
@@ -817,7 +817,7 @@ creation_date: 2019-05-31T10:39:13.395214Z
 id: HIO:0000056
 name: Diagnostic Device
 is_a: HIO:0000035 ! Diagnostics
-property_value: HIO:0000225 HIO:0001448
+property_value: HIO:0000225 ERO:0001448
 property_value: HIO:0000226 ERO:0001448 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A medical device used to diagnose medical conditions." xsd:string
@@ -828,7 +828,7 @@ creation_date: 2019-05-31T10:41:48.789368Z
 id: HIO:0000057
 name: Therapeutic Device
 is_a: HIO:0000036 ! Therapeutics
-property_value: HIO:0000225 HIO:0001150
+property_value: HIO:0000225 SCDO:0001150
 property_value: HIO:0000226 SCDO:0001150 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -860,7 +860,7 @@ id: HIO:0000060
 name: Abnormal Phenotype
 is_a: HIO:0000003 ! Phenotype
 property_value: HIO:0000088 "Phenotypic Abnormality" xsd:string
-property_value: HIO:0000225 HIO:0001985
+property_value: HIO:0000225 FYPO:0001985
 property_value: HIO:0000226 FYPO:0001985 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A phenotype that shows detectable differences from normal." xsd:string
@@ -872,7 +872,7 @@ id: HIO:0000061
 name: Symptomatic Therapeutics
 is_a: HIO:0000036 ! Therapeutics
 property_value: HIO:0000088 "Symptomatic Treatment" xsd:string
-property_value: HIO:0000225 HIO:0001133
+property_value: HIO:0000225 SCDO:0001133
 property_value: HIO:0000226 SCDO:0001133 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Therapeutics that ease the symptoms without addressing the basic cause of the disease." xsd:string
@@ -898,7 +898,7 @@ name: Preventative Therapeutics
 is_a: HIO:0000036 ! Therapeutics
 property_value: HIO:0000088 "Preventive Therapeutics" xsd:string
 property_value: HIO:0000088 "Prophylactic Therapeutics" xsd:string
-property_value: HIO:0000225 HIO:0000922
+property_value: HIO:0000225 SCDO:0000922
 property_value: HIO:0000226 SCDO:0000922 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Activities to prevent a disease or its complications." xsd:string
@@ -931,7 +931,7 @@ creation_date: 2019-06-06T07:51:10.495859Z
 id: HIO:0000066
 name: Curative Therapeutics
 is_a: HIO:0000036 ! Therapeutics
-property_value: HIO:0000225 HIO:0000301
+property_value: HIO:0000225 SCDO:0000301
 property_value: HIO:0000226 SCDO:0000301 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -944,7 +944,7 @@ id: HIO:0000067
 name: Diagnostic Measurement
 is_a: HIO:0000035 ! Diagnostics
 property_value: HIO:0000088 "Diagnostic Quantitative Measurement" xsd:string
-property_value: HIO:0000225 HIO:0000728
+property_value: HIO:0000225 SCDO:0000728
 property_value: HIO:0000226 SCDO:0000728 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -957,7 +957,7 @@ id: HIO:0000068
 name: Diagnostic Device Visual Output
 is_a: HIO:0000035 ! Diagnostics
 property_value: HIO:0000088 "Visual Output of a Diagnostic Device" xsd:string
-property_value: HIO:0000225 HIO:1000313
+property_value: HIO:0000225 SCDO:1000313
 property_value: HIO:0000226 SCDO:1000313 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -969,7 +969,7 @@ creation_date: 2019-06-06T07:57:10.042806Z
 id: HIO:0000069
 name: Diagnostic Tool
 is_a: HIO:0000035 ! Diagnostics
-property_value: HIO:0000225 HIO:1000032
+property_value: HIO:0000225 SCDO:1000032
 property_value: HIO:0000226 SCDO:1000032 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -1006,7 +1006,7 @@ id: HIO:0000072
 name: Diagnostic Instrument
 is_a: HIO:0000069 ! Diagnostic Tool
 property_value: HIO:0000088 "Diagnostic Questionnaire" xsd:string
-property_value: HIO:0000225 HIO:1000033
+property_value: HIO:0000225 SCDO:1000033
 property_value: HIO:0000226 SCDO:1000033 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -1022,7 +1022,7 @@ property_value: HIO:0000088 "Diagnostic Assay" xsd:string
 property_value: HIO:0000088 "Diagnostic Method" xsd:string
 property_value: HIO:0000088 "Diagnostic Technique" xsd:string
 property_value: HIO:0000088 "Diagnostic Test" xsd:string
-property_value: HIO:0000225 HIO:0000082
+property_value: HIO:0000225 SCDO:0000082
 property_value: HIO:0000226 SCDO:0000082 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -1035,7 +1035,7 @@ id: HIO:0000074
 name: Mode of Inheritance
 is_a: HIO:0000001 ! HIO
 property_value: HIO:0000088 "Inheritance" xsd:string
-property_value: HIO:0000225 HIO:0000005
+property_value: HIO:0000225 HP:0000005
 property_value: HIO:0000226 HP:0000005 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "The pattern in which a particular genetic trait or disorder is passed from one generation to the next." xsd:string
@@ -1049,7 +1049,7 @@ is_a: HIO:0000074 ! Mode of Inheritance
 property_value: HIO:0000088 "Autosomal Recessive Form" xsd:string
 property_value: HIO:0000088 "Autosomal Recessive Inheritance" xsd:string
 property_value: HIO:0000088 "Autosomal Recessive Predisposition" xsd:string
-property_value: HIO:0000225 HIO:0000007
+property_value: HIO:0000225 HP:0000007
 property_value: HIO:0000226 HP:0000007 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in individuals with two pathogenic alleles, either homozygous (two copies of the same mutant allele) or compound heterozygous (whereby each copy of a gene has a distinct mutant allele)." xsd:string
@@ -1063,7 +1063,7 @@ is_a: HIO:0000074 ! Mode of Inheritance
 property_value: HIO:0000088 "Autosomal Dominant Form" xsd:string
 property_value: HIO:0000088 "Autosomal Dominant Inheritance" xsd:string
 property_value: HIO:0000088 "Autosomal Dominant Predisposition" xsd:string
-property_value: HIO:0000225 HIO:0000006
+property_value: HIO:0000225 HP:0000006
 property_value: HIO:0000226 HP:0000006 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in heterozygotes.  An autosomal dominant disorder is caused when a single copy of the mutant allele is present. Males and females are affected equally, and can both transmit the disorder with a risk of 50% for each child of inheriting the mutant allele." xsd:string
@@ -1092,7 +1092,7 @@ is_a: HIO:0000087 ! Drug-Induced Hearing Impairment
 property_value: HIO:0000088 "Antidepressant Induced Hearing Impairment" xsd:string
 property_value: HIO:0000088 "Antidepressant Induced Hearing Loss" xsd:string
 property_value: HIO:0000088 "Antidepressant-Induced Hearing Loss" xsd:string
-property_value: HIO:0000225 HIO:0006324
+property_value: HIO:0000225 EFO:0006324
 property_value: HIO:0000226 EFO:0006324 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Hearing impairment such as ringing in the ears that is the direct result of treatment with antidepressant medication." xsd:string
@@ -1115,7 +1115,7 @@ name: Age of Onset
 is_a: HIO:0000079 ! Disease Attribute
 property_value: HIO:0000088 "Age Symptoms Begin" xsd:string
 property_value: HIO:0000088 "Onset" xsd:string
-property_value: HIO:0000225 HIO:0003674
+property_value: HIO:0000225 HP:0003674
 property_value: HIO:0000226 HP:0003674 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "The age group in which disease manifestations appear." xsd:string
@@ -1179,7 +1179,7 @@ creation_date: 2019-06-06T09:34:44.913232Z
 id: HIO:0000085
 name: Infection
 is_a: HIO:0000082 ! Environmental Disease Cause
-property_value: HIO:0000225 HIO:0000586
+property_value: HIO:0000225 IDO:0000586
 property_value: HIO:0000226 IDO:0000586 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A part of an extended organism that itself has as part a population of one or more infectious agents and that (1) exists as a result of processes initiated by members of the infectious agent population and is (2) clinically abnormal in virtue of the presence of this infectious agent population, or (3) has a disposition to bring clinical abnormality to immunocompetent organisms of the same Species as the host (the organism corresponding to the extended organism) through transmission of a member or offspring of a member of the infectious agent population." xsd:string
@@ -1206,7 +1206,7 @@ is_a: HIO:0000466 ! Hearing Impairment of Environmental Aetiology
 property_value: HIO:0000088 "Drug Induced Hearing Impairment" xsd:string
 property_value: HIO:0000088 "Drug Induced Hearing Loss" xsd:string
 property_value: HIO:0000088 "Drug-Induced Hearing Loss" xsd:string
-property_value: HIO:0000225 HIO:0070310
+property_value: HIO:0000225 DOID:0070310
 property_value: HIO:0000226 DOID:0070310 xsd:string
 property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Suggest update to description in DO" xsd:string
@@ -1231,7 +1231,7 @@ name: Insidious Onset
 is_a: HIO:0000081 ! Mode of Onset
 property_value: HIO:0000088 "Gradual Onset" xsd:string
 property_value: HIO:0000088 "Slow Onset" xsd:string
-property_value: HIO:0000225 HIO:0003587
+property_value: HIO:0000225 HP:0003587
 property_value: HIO:0000226 HP:0003587 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Gradual, very slow onset of disease manifestations." xsd:string
@@ -1243,7 +1243,7 @@ id: HIO:0000091
 name: Acute Onset
 is_a: HIO:0000081 ! Mode of Onset
 property_value: HIO:0000088 "Sudden Onset" xsd:string
-property_value: HIO:0000225 HIO:0011009
+property_value: HIO:0000225 HP:0011009
 property_value: HIO:0000226 HP:0011009 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Sudden appearance of disease manifestations over a short period of time. The word acute is applied to different time scales depending on the disease or manifestation and does not have an exact definition in minutes, hours, or days." xsd:string
@@ -1254,7 +1254,7 @@ creation_date: 2019-08-14T09:02:35.402622Z
 id: HIO:0000092
 name: deprecated - Disorder
 is_a: HIO:0000005 ! deprecated terms
-property_value: HIO:0000225 HIO:0000045
+property_value: HIO:0000225 OGMS:0000045
 property_value: HIO:0000226 OGMS:0000045 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease." xsd:string
@@ -1272,7 +1272,7 @@ property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=c
 property_value: HIO:0000226 NCIT:C3671 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0000546
+property_value: http://purl.org/dc/elements/1.1/source EFO:0000546
 created_by: Jade Hotchkiss
 creation_date: 2019-06-06T11:27:27.276161Z
 
@@ -1350,7 +1350,7 @@ is_a: HIO:0000141 ! Primary Preventative Therapeutics
 property_value: HIO:0000088 "Management of Precipitating Factors" xsd:string
 property_value: HIO:0000088 "Management of Underlying Cause" xsd:string
 property_value: HIO:0000088 "Treatment of Underlying Cause" xsd:string
-property_value: HIO:0000225 HIO:1000020
+property_value: HIO:0000225 SCDO:1000020
 property_value: HIO:0000226 SCDO:1000020 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -1391,7 +1391,7 @@ name: Acute Onset over Minutes
 is_a: HIO:0000091 ! Acute Onset
 property_value: HIO:0000088 "Acute Emergence Over Minutes" xsd:string
 property_value: HIO:0000088 "Sudden Onset over Minutes" xsd:string
-property_value: HIO:0000225 HIO:0025306
+property_value: HIO:0000225 HP:0025306
 property_value: HIO:0000226 HP:0025306 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Acute appearance of disease manifestations in a period of minutes." xsd:string
@@ -1404,7 +1404,7 @@ name: Acute Onset over Hours
 is_a: HIO:0000091 ! Acute Onset
 property_value: HIO:0000088 "Acute Emergence Over Hours" xsd:string
 property_value: HIO:0000088 "Sudden Onset over Hours" xsd:string
-property_value: HIO:0000225 HIO:0025307
+property_value: HIO:0000225 HP:0025307
 property_value: HIO:0000226 HP:0025307 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Acute appearance of disease manifestations in a period of hours." xsd:string
@@ -1417,7 +1417,7 @@ name: Acute Onset over Days
 is_a: HIO:0000091 ! Acute Onset
 property_value: HIO:0000088 "Acute Emergence Over Days" xsd:string
 property_value: HIO:0000088 "Sudden Onset over Days" xsd:string
-property_value: HIO:0000225 HIO:0025308
+property_value: HIO:0000225 HP:0025308
 property_value: HIO:0000226 HP:0025308 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Acute appearance of disease manifestations in a period of hours." xsd:string
@@ -1443,7 +1443,7 @@ name: Adult Onset
 is_a: HIO:0000080 ! Age of Onset
 property_value: HIO:0000088 "Onset in Adulthood" xsd:string
 property_value: HIO:0000088 "Symptoms Begin in Adulthood" xsd:string
-property_value: HIO:0000225 HIO:0003581
+property_value: HIO:0000225 HP:0003581
 property_value: HIO:0000226 HP:0003581 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Onset of disease manifestations in adulthood, defined here as at the age of 16 years or later." xsd:string
@@ -1454,8 +1454,8 @@ creation_date: 2019-08-14T10:21:13.325265Z
 id: HIO:0000108
 name: Molecular Phenotype
 is_a: HIO:0000003 ! Phenotype
-property_value: HIO:0000225 HIO:0170001
-property_value: HIO:0000225 HIO:0170001
+property_value: HIO:0000225 BAO?p=classes&conceptid=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO:0170001
+property_value: HIO:0000225 "BAO_0170001"
 property_value: HIO:0000226 BAO:0170001 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "The molecular characteristics of a cell of tissue including expressed coding and non-coding RNAs, proteins and their post-translational modifications, lipids, carbohydrates and small molecules that characterize the state in a cell or tissue and that result from the interaction of its genotype and the environment." xsd:string
@@ -1466,7 +1466,7 @@ creation_date: 2019-06-07T11:06:20.029935Z
 id: HIO:0000109
 name: Protein Phenotype
 is_a: HIO:0000108 ! Molecular Phenotype
-property_value: HIO:0000225 HIO:0009613
+property_value: HIO:0000225 SCDO:0009613
 property_value: HIO:0000226 SCDO:0009613 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into BioAssayontology. Update at a later stage if necessary." xsd:string
@@ -1553,7 +1553,7 @@ creation_date: 2019-06-10T08:42:38.190718Z
 id: HIO:0000119
 name: Surgery
 is_a: HIO:0000061 ! Symptomatic Therapeutics
-property_value: HIO:0000225 HIO:0000378
+property_value: HIO:0000225 ERO:0000378
 property_value: HIO:0000226 ERO:0000378 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A material processing technique that uses operative manual and instrumental techniques on a patient to investigate and/or treat a pathological condition such as disease or injury or to help improve bodily function or appearance." xsd:string
@@ -1897,7 +1897,7 @@ creation_date: 2019-06-10T11:17:02.636611Z
 id: HIO:0000156
 name: Pneumatic Retinopexy
 is_a: HIO:0000133 ! Ophthalmologic Surgical Procedure
-property_value: HIO:0000225 HIO:0000908
+property_value: HIO:0000225 SCDO:0000908
 property_value: HIO:0000226 SCDO:0000908 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -2232,11 +2232,11 @@ comment: Note: This term is used in the medical literature to describe an appear
 is_a: HIO:0000049 ! Syndrome Associated with Hearing Impairment
 relationship: HIO:0000422 HIO:0000120 ! treated with Otologic Surgery
 property_value: HIO:0000088 "Craniofacial Dysostosis" xsd:string
-property_value: HIO:0000225 HIO:0004439
+property_value: HIO:0000225 HP:0004439
 property_value: HIO:0000226 HP:0004439 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A characteristic appearance resulting from defective ossification of craniofacial bones." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0004439
+property_value: http://purl.org/dc/elements/1.1/source HP:0004439
 created_by: Jade Hotchkiss
 creation_date: 2019-06-14T10:39:55.08973Z
 
@@ -2244,7 +2244,7 @@ creation_date: 2019-06-14T10:39:55.08973Z
 id: HIO:0000194
 name: Ototoxicity
 is_a: HIO:0000222 ! Injury of Inner Ear
-property_value: HIO:0000225 HIO:0006951
+property_value: HIO:0000225 EFO:0006951
 property_value: HIO:0000226 NCIT:C66929 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Damage to the ear, specifically the cochlea or auditory nerve as a result of some toxic stimulus, eg from a drug. Ototoxicity can result in hearing loss." xsd:string
@@ -2269,7 +2269,7 @@ id: HIO:0000196
 name: Abnormality of the Ear
 is_a: HIO:0000060 ! Abnormal Phenotype
 property_value: HIO:0000088 "Ear Anomaly" xsd:string
-property_value: HIO:0000225 HIO:0031704
+property_value: HIO:0000225 HP:0031704
 property_value: HIO:0000226 HP:0031704 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Either a morphological abnormality or hearing deficit. This should be split more cleanly in the future. An abnormality of the ear." xsd:string
@@ -2392,7 +2392,7 @@ creation_date: 2019-06-14T12:30:32.12598Z
 id: HIO:0000205
 name: Mutation
 is_a: HIO:0000034 ! Genetic Variation
-property_value: HIO:0000225 HIO:50000026
+property_value: HIO:0000225 IDOMAL:50000026
 property_value: HIO:0000226 IDOMAL:50000026 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A permanent change in the DNA sequence of a gene that alters the genetic message carried by that gene." xsd:string
@@ -2462,7 +2462,7 @@ id: HIO:0000214
 name: Pediatric Onset
 is_a: HIO:0000080 ! Age of Onset
 property_value: HIO:0000088 "Onset Before Adulthood" xsd:string
-property_value: HIO:0000225 HIO:0410280
+property_value: HIO:0000225 HP:0410280
 property_value: HIO:0000226 HP:0410280 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Onset of disease manifestations before adulthood, defined here as before the age of 16 years, but excluding neonatal or congenital onset." xsd:string
@@ -2501,7 +2501,7 @@ creation_date: 2019-06-14T12:50:20.859558Z
 id: HIO:0000217
 name: Mitochondrial Inheritance
 is_a: HIO:0000074 ! Mode of Inheritance
-property_value: HIO:0000225 HIO:0001427
+property_value: HIO:0000225 HP:0001427
 property_value: HIO:0000226 HP:0001427 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A mode of inheritance that is observed for traits related to a gene encoded on the mitochondrial genome. Because the mitochondrial genome is essentially always maternally inherited, a mitochondrial condition can only be transmitted by females, although the condition can affect both sexes. The proportion of mutant mitochondria can vary, this is known as heteroplasmy." xsd:string
@@ -2513,7 +2513,7 @@ id: HIO:0000218
 name: Sex-Linked Inheritance
 is_a: HIO:0000074 ! Mode of Inheritance
 property_value: HIO:0000088 "Gonosomal Inheritance" xsd:string
-property_value: HIO:0000225 HIO:0010985
+property_value: HIO:0000225 HP:0010985
 property_value: HIO:0000226 HP:0010985 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A mode of inheritance that is observed for traits related to a gene encoded on the sex chromosomes (X and Y)." xsd:string
@@ -2613,7 +2613,7 @@ creation_date: 2019-07-17T14:55:08.318465Z
 id: HIO:0000230
 name: Multifactorial Inheritance
 is_a: HIO:0000074 ! Mode of Inheritance
-property_value: HIO:0000225 HIO:0001426
+property_value: HIO:0000225 HP:0001426
 property_value: HIO:0000226 HP:0001426 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A mode of inheritance that depends on a mixture of major and minor genetic determinants possibly together with environmental factors. Diseases inherited in this manner are termed complex diseases." xsd:string
@@ -2626,7 +2626,7 @@ name: KCNQ1
 is_a: HIO:0000004 ! Gene
 relationship: HIO:0000403 HIO:0000358 ! has gene product Potassium Voltage-Gated Channel Subfamily KQT Member 1
 property_value: HIO:0000088 "KCNQ1 Gene" xsd:string
-property_value: HIO:0000225 HIO:01200232
+property_value: HIO:0000225 DTO:01200232
 property_value: HIO:0000226 DTO:01200232 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "This gene encodes a voltage-gated potassium channel required for repolarization phase of the cardiac action potential. This protein can form heteromultimers with two other potassium channel proteins, KCNE1 and KCNE3. Mutations in this gene are associated with hereditary long QT syndrome 1 (also known as Romano-Ward syndrome), Jervell and Lange-Nielsen syndrome, and familial atrial fibrillation. This gene exhibits tissue-specific imprinting, with preferential expression from the maternal allele in some tissues, and biallelic expression in others. This gene is located in a region of chromosome 11 amongst other imprinted genes that are associated with Beckwith-Wiedemann syndrome (BWS), and itself has been shown to be disrupted by chromosomal rearrangements in patients with BWS. Alternatively spliced transcript variants have been found for this gene." xsd:string
@@ -2638,7 +2638,7 @@ id: HIO:0000232
 name: KCNE1
 is_a: HIO:0000004 ! Gene
 property_value: HIO:0000088 "KCNE1 Gene" xsd:string
-property_value: HIO:0000225 HIO:01200196
+property_value: HIO:0000225 DTO:01200196
 property_value: HIO:0000226 DTO:01200196 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "The product of this gene belongs to the potassium channel KCNE family. Potassium ion channels are essential to many cellular functions and show a high degree of diversity, varying in their electrophysiologic and pharmacologic properties. This gene encodes a transmembrane protein known to associate with the product of the KVLQT1 gene to form the delayed rectifier potassium channel. Mutation in this gene are associated with both Jervell and Lange-Nielsen and Romano-Ward forms of long-QT syndrome. Alternatively spliced transcript variants encoding the same protein have been identified." xsd:string
@@ -2662,12 +2662,12 @@ name: Nonsyndromic Hearing Impairment, Autosomal Dominant
 is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
 property_value: HIO:0000088 "Autosomal Dominant Nonsyndromic Deafness" xsd:string
 property_value: HIO:0000088 "Nonsyndromic Deafness, Autosomal Dominant" xsd:string
-property_value: HIO:0000225 HIO:0050564
+property_value: HIO:0000225 DOID:0050564
 property_value: HIO:0000226 DOID:0050564 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "Add synonyms and sub-classes of \"autosomal dominant nonsyndromic deafness\" from MONDO (see dc:source)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A nonsyndromic deafness characterized by an autosomal dominant inheritance mode." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0019587
+property_value: http://purl.org/dc/elements/1.1/source ?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO:0019587
 created_by: Jade Hotchkiss
 creation_date: 2019-07-18T08:28:01.474936Z
 
@@ -2677,12 +2677,12 @@ name: Nonsyndromic Hearing Impairment, Autosomal Recessive
 is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
 property_value: HIO:0000088 "Autosomal Recessive Nonsyndromic Deafness" xsd:string
 property_value: HIO:0000088 "Nonsyndromic Deafness, Autosomal Recessive" xsd:string
-property_value: HIO:0000225 HIO:0050565
+property_value: HIO:0000225 DOID:0050565
 property_value: HIO:0000226 DOID:0050565 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "Add synonyms and sub-classes of \"autosomal recessive nonsyndromic deafness\" from MONDO (see dc:source)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A nonsyndromic deafness characterized by an autosomal recessive inheritance mode." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0019588
+property_value: http://purl.org/dc/elements/1.1/source ?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO:0019588
 created_by: Jade Hotchkiss
 creation_date: 2019-07-18T08:32:40.345823Z
 
@@ -2693,7 +2693,7 @@ is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
 property_value: HIO:0000088 "Nonsyndromic Deafness, X-Linked" xsd:string
 property_value: HIO:0000088 "X-linked Deafness" xsd:string
 property_value: HIO:0000088 "X-linked Nonsyndromic Deafness" xsd:string
-property_value: HIO:0000225 HIO:0050566
+property_value: HIO:0000225 DOID:0050566
 property_value: HIO:0000226 DOID:0050566 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A nonsyndromic deafness characterized by an X-linked inheritance mode." xsd:string
@@ -2715,7 +2715,7 @@ relationship: HIO:0000413 HIO:0000240 ! induced by Aminoglycoside
 property_value: HIO:0000088 "Aminoglycoside Induced Hearing Impairment" xsd:string
 property_value: HIO:0000088 "Aminoglycoside Induced Hearing Loss" xsd:string
 property_value: HIO:0000088 "Aminoglycoside-Induced Hearing Loss" xsd:string
-property_value: HIO:0000225 HIO:0011975
+property_value: HIO:0000225 HP:0011975
 property_value: HIO:0000226 HP:0011975 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Partial or complete loss of hearing following ingestion of aminoglycoside antibiotics. The ototoxicity of aminoglycoside antibiotics is related to the destruction of sensory hair cells in the cochlea and vestibular labyrinth." xsd:string
@@ -2892,7 +2892,7 @@ property_value: HIO:0000088 "Auditory/ Vestibular System Abnormalities;" xsd:str
 property_value: HIO:0000088 "Auditory/ Vestibular System Defects" xsd:string
 property_value: HIO:0000088 "Ear Dysplasia" xsd:string
 property_value: HIO:0000088 "Ears: Dysmorphology" xsd:string
-property_value: HIO:0000225 HIO:0002102
+property_value: HIO:0000225 MP:0002102
 property_value: HIO:0000226 MP:0002102 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Any structural anomaly of any of the structures involved in the ear or vestibular system." xsd:string
@@ -2904,7 +2904,7 @@ id: HIO:0000254
 name: Abnormal Middle Ear Morphology
 is_a: HIO:0000253 ! Abnormal Ear Morphology
 property_value: HIO:0000088 "Middle Ear Dysplasia" xsd:string
-property_value: HIO:0000225 HIO:0000049
+property_value: HIO:0000225 MP:0000049
 property_value: HIO:0000226 MP:0000049 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Any structural anomaly of any components of the tympanic cavity or its ossicles." xsd:string
@@ -2920,7 +2920,7 @@ property_value: HIO:0000088 "Abnormal Eardrum Morphology" xsd:string
 property_value: HIO:0000088 "Abnormal Membrane Tympani Morphology" xsd:string
 property_value: HIO:0000088 "Abnormal Myringa Morphology" xsd:string
 property_value: HIO:0000088 "Abnormal Myrinx Morphology" xsd:string
-property_value: HIO:0000225 HIO:0006018
+property_value: HIO:0000225 MP:0006018
 property_value: HIO:0000226 MP:0006018 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Any structural anomaly of the thin, tense membrane forming the greater part of the lateral wall of the tympanic cavity and separating it from the external acoustic meatus; the tympanic membrane constitutes the boundary between the external and middle ear." xsd:string
@@ -2936,7 +2936,7 @@ property_value: HIO:0000088 "Perforated Eardrum" xsd:string
 property_value: HIO:0000088 "Perforated Tympanic Membrane" xsd:string
 property_value: HIO:0000088 "Ruptured Eardrum" xsd:string
 property_value: HIO:0000088 "Tympanic Membrane Rupture" xsd:string
-property_value: HIO:0000225 HIO:0030414
+property_value: HIO:0000225 MP:0030414
 property_value: HIO:0000226 MP:0030414 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Presence of a hole or tear in the tympanic membrane (eardrum)." xsd:string
@@ -2950,7 +2950,7 @@ is_a: HIO:0000253 ! Abnormal Ear Morphology
 property_value: HIO:0000088 "Abnormal Pinna Morphology" xsd:string
 property_value: HIO:0000088 "Dysplastic Pinna" xsd:string
 property_value: HIO:0000088 "Outer Ear Dysplasia" xsd:string
-property_value: HIO:0000225 HIO:0002177
+property_value: HIO:0000225 MP:0002177
 property_value: HIO:0000226 MP:0002177 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Any structural anomaly of any components of the auricles or external acoustic meatus." xsd:string
@@ -2962,7 +2962,7 @@ id: HIO:0000258
 name: Abnormal External Auditory Canal Morphology
 is_a: HIO:0000257 ! Abnormal Outer Ear Morphology
 property_value: HIO:0000088 "Abnormal External Meatus" xsd:string
-property_value: HIO:0000225 HIO:0006033
+property_value: HIO:0000225 MP:0006033
 property_value: HIO:0000226 MP:0006033 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Any structural anomaly of the canal that connects the outer and middle ear." xsd:string
@@ -2982,7 +2982,7 @@ property_value: HIO:0000088 "Earwax Buildup" xsd:string
 property_value: HIO:0000088 "Excessive Cerumen" xsd:string
 property_value: HIO:0000088 "Excessive Ear Wax" xsd:string
 property_value: HIO:0000088 "Excessive Earwax" xsd:string
-property_value: HIO:0000225 HIO:0030419
+property_value: HIO:0000225 MP:0030419
 property_value: HIO:0000226 MP:0030419 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Excess buildup of cerumen, a yellowish waxy substance (earwax), in the external auditory canal." xsd:string
@@ -3076,7 +3076,7 @@ id: HIO:0000267
 name: Childhood Onset
 is_a: HIO:0000214 ! Pediatric Onset
 property_value: HIO:0000088 "Symptoms Begin in Childhood" xsd:string
-property_value: HIO:0000225 HIO:0011463
+property_value: HIO:0000225 HP:0011463
 property_value: HIO:0000226 HP:0011463 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Onset of disease at the age of between 1 and 5 years. This term refers to ages up to but not including the fifth birthday (see Juvenile onset)." xsd:string
@@ -3112,7 +3112,7 @@ property_value: HIO:0000088 "Abnormal Separation of Middle Ear B-ones" xsd:strin
 property_value: HIO:0000088 "Dislocation of Ear Ossicle" xsd:string
 property_value: HIO:0000088 "Ossicular Chain Discontinuity" xsd:string
 property_value: HIO:0000088 "Ossicular Chain Dislocation" xsd:string
-property_value: HIO:0000225 HIO:0001199
+property_value: HIO:0000225 MONDO:0001199
 property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Suggest update to description in MONDO" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A separation of the middle ear bones. It results in a hearing loss due to sound not being transmitted properly (conductive hearing loss)." xsd:string
@@ -3124,7 +3124,7 @@ id: HIO:0000271
 name: Otitis Media
 is_a: HIO:0000085 ! Infection
 property_value: HIO:0000088 "Middle Ear Infection" xsd:string
-property_value: HIO:0000225 HIO:0000388
+property_value: HIO:0000225 HP:0000388
 property_value: HIO:0000226 HP:0000388 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "Possibly include sub-classes from HPO" xsd:string
@@ -3136,7 +3136,7 @@ creation_date: 2019-07-31T12:48:04.045012Z
 id: HIO:0000272
 name: Otitis Externa
 is_a: HIO:0000085 ! Infection
-property_value: HIO:0000225 HIO:0410017
+property_value: HIO:0000225 HP:0410017
 property_value: HIO:0000226 HP:0410017 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Inflammation or infection of the external auditory canal (EAC), the auricle, or both." xsd:string
@@ -3276,7 +3276,7 @@ property_value: HIO:0000088 "Erythromycin A" xsd:string
 property_value: HIO:0000088 "Erythromycine" xsd:string
 property_value: HIO:0000088 "Erythromycinum" xsd:string
 property_value: HIO:0000088 "N-methylerythromycin A" xsd:string
-property_value: HIO:0000225 HIO:0000006
+property_value: HIO:0000225 ARO:0000006
 property_value: HIO:0000226 ARO:0000006 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Erythromycin is a macrolide antibiotic with a 14-carbon ring that has an antimicrobial spectrum similar to or slightly wider than that of penicillin, and is often used for people that have an allergy to penicillins. Erythromycin may possess bacteriocidal activity, particularly at higher concentrations by binding to the 50S subunit of the bacterial 70S rRNA complex, inhibiting peptidyl-tRNA translocation. Thus, protein synthesis and subsequently structure/function processes critical for life or replication are inhibited." xsd:string
@@ -3429,7 +3429,7 @@ creation_date: 2019-09-02T12:03:42.215364Z
 id: HIO:0000294
 name: Sickle Cell Disease
 is_a: HIO:0000469 ! Hematologic and Lymphocytic Disorder
-property_value: HIO:0000225 HIO:1000106
+property_value: HIO:0000225 SCDO:1000106
 property_value: HIO:0000226 SCDO:1000106 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Sickle cell disease (SCD) is a pleiotropic inherited disorder of the blood, characterised by the appearance of sickle-shaped red blood cells and anemia. It results from homozygosity for the sickle beta-globin gene mutation at position 6 (glu > val), or double heterozygosity for the sickle gene and another mutation for a different hemoglobin variant or one of numerous beta-thalassemia mutations." xsd:string
@@ -3466,7 +3466,7 @@ property_value: HIO:0000088 "Erythrocytosis" xsd:string
 property_value: HIO:0000088 "Increased Red Blood Cells" xsd:string
 property_value: HIO:0000088 "Polycythaemia" xsd:string
 property_value: HIO:0000088 "Polyglobulia" xsd:string
-property_value: HIO:0000225 HIO:0001901
+property_value: HIO:0000225 HP:0001901
 property_value: HIO:0000226 HP:0001901 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Polycythemia is diagnosed if the red blood cell count, the hemoglobin level, and the red blood cell volume all exceed the upper limits of normal." xsd:string
@@ -3597,7 +3597,7 @@ relationship: HIO:0000416 HIO:0000076 ! has mode of inheritance Autosomal Domina
 relationship: HIO:0000445 HIO:0000354 ! condition has causal or contributing genetic variation DIAPH3, -172G-A
 property_value: HIO:0000088 "AUNA1" xsd:string
 property_value: HIO:0000088 "Autosomal Dominant Auditory Neuropathy 1" xsd:string
-property_value: HIO:0000225 HIO:0060690
+property_value: HIO:0000225 DOID:0060690
 property_value: HIO:0000226 DOID:0060690 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "An autosomal dominant nonsyndromic deafness characterized by preservation of outer hair cell function and abnormal or absent auditory brainstem responses that has_material_basis_in heterozygous mutation in the DIAPH3 gene on chromosome 13q." xsd:string
@@ -3716,7 +3716,7 @@ property_value: HIO:0000088 "Constitutitional Genetic" xsd:string
 property_value: HIO:0000088 "Familial" xsd:string
 property_value: HIO:0000088 "Genetic" xsd:string
 property_value: HIO:0000088 "Hereditary" xsd:string
-property_value: HIO:0000225 HIO:0021152
+property_value: HIO:0000225 MONDO:0021152
 property_value: HIO:0000226 MONDO:0021152 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A characteristic of a disease in which the cause of the disease is a genetic problem inherited from either or both parents." xsd:string
@@ -3727,7 +3727,7 @@ creation_date: 2019-08-14T11:36:23.898894Z
 id: HIO:0000319
 name: Rare
 is_a: HIO:0000395 ! Disease Qualifier
-property_value: HIO:0000225 HIO:0021136
+property_value: HIO:0000225 MONDO:0021136
 property_value: HIO:0000226 MONDO:0021136 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A disease or disorder is defined as rare in Europe when it affects fewer than 1 in 2000. A disease or disorder is defined as rare in the USA when it affects fewer than 200,000 Americans at any given time. Here we take the European definition to be consistent with Orphanet." xsd:string
@@ -3773,7 +3773,7 @@ name: Childhood Onset Sensorineural Hearing Impairment
 is_a: HIO:0000006 ! Sensorineural Hearing Impairment
 is_a: HIO:0000479 ! Childhood Onset Hearing Impairment
 property_value: HIO:0000088 "Sensorineural Hearing Impairment with Childhood Onset" xsd:string
-property_value: HIO:0000225 HIO:0011474
+property_value: HIO:0000225 HP:0011474
 property_value: HIO:0000226 HP:0011474 xsd:string
 property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Suggest update to description in HPO" xsd:string
@@ -3807,7 +3807,7 @@ property_value: HIO:0000088 "Deafness, Autosomal Recessive Type 101" xsd:string
 property_value: HIO:0000088 "Deafness, Autosomal Recessive, 101" xsd:string
 property_value: HIO:0000088 "DFNB101" xsd:string
 property_value: HIO:0000088 "GRXCR2 Autosomal Recessive Nonsyndromic Deafness" xsd:string
-property_value: HIO:0000225 HIO:0014363
+property_value: HIO:0000225 MONDO:0014363
 property_value: HIO:0000226 MONDO:0014363 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Any autosomal recessive nonsyndromic deafness in which the cause of the disease is a mutation in the GRXCR2 gene." xsd:string
@@ -3832,7 +3832,7 @@ id: HIO:0000327
 name: Annual Family Income
 is_a: HIO:0000101 ! Personal Attribute
 is_a: HIO:0000376 ! Socioeconomic Factors
-property_value: HIO:0000225 HIO:0000056
+property_value: HIO:0000225 SCDO:0000056
 property_value: HIO:0000226 SCDO:0000056 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into MESH. Update at a later stage if necessary.\n\nThe PhenX protocol is U.S. specific. Is there one relevant to the African setting? --> also asked in SCDO" xsd:string
@@ -3846,7 +3846,7 @@ id: HIO:0000329
 name: Birthplace
 is_a: HIO:0000101 ! Personal Attribute
 property_value: HIO:0000088 "Place of Birth" xsd:string
-property_value: HIO:0000225 HIO:0000123
+property_value: HIO:0000225 SCDO:0000123
 property_value: HIO:0000226 SCDO:0000123 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -3878,7 +3878,7 @@ name: Current Educational Attainment
 is_a: HIO:0000101 ! Personal Attribute
 is_a: HIO:0000376 ! Socioeconomic Factors
 property_value: HIO:0000088 "Educational Attainment" xsd:string
-property_value: HIO:0000225 HIO:0000305
+property_value: HIO:0000225 SCDO:0000305
 property_value: HIO:0000226 SCDO:0000305 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into MESH. Update at a later stage if necessary." xsd:string
@@ -3942,7 +3942,7 @@ id: HIO:0000336
 name: Health Insurance Coverage
 comment: Also applicable to a population not just to an individual.
 is_a: HIO:0000101 ! Personal Attribute
-property_value: HIO:0000225 HIO:0000490
+property_value: HIO:0000225 SCDO:0000490
 property_value: HIO:0000226 SCDO:0000490 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into MESH. Update at a later stage if necessary." xsd:string
@@ -3955,7 +3955,7 @@ creation_date: 2019-08-07T12:16:33.122414Z
 id: HIO:0000337
 name: Medication Inventory
 is_a: HIO:0000101 ! Personal Attribute
-property_value: HIO:0000225 HIO:0000740
+property_value: HIO:0000225 SCDO:0000740
 property_value: HIO:0000226 SCDO:0000740 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -3986,7 +3986,7 @@ property_value: HIO:0000088 "Career" xsd:string
 property_value: HIO:0000088 "Employment" xsd:string
 property_value: HIO:0000088 "Job" xsd:string
 property_value: HIO:0000088 "Vocation" xsd:string
-property_value: HIO:0000225 HIO:0000034
+property_value: HIO:0000225 ExO:0000034
 property_value: HIO:0000226 ExO:0000034 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "An individual attribute that is the usual or principal work or business of an individual." xsd:string
@@ -4027,7 +4027,7 @@ name: Research Participant Compensation
 comment: Research participants should be reasonably reimbursed for costs directly incurred during the research, such as travel costs, and compensated reasonably for their inconvenience and time spent. Compensation can be monetary or non-monetary. Compensation must not be so large as to induce potential participants to consent to participate in the research against their better judgment ("undue inducement"). A local research ethics committee must approve reimbursement and compensation for research participants.
 is_a: HIO:0000101 ! Personal Attribute
 property_value: HIO:0000088 "Study Participant Compensation" xsd:string
-property_value: HIO:0000225 HIO:0002243
+property_value: HIO:0000225 SCDO:0002243
 property_value: HIO:0000226 SCDO:0002243 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -4097,7 +4097,7 @@ is_a: HIO:0000252 ! Gene Product
 property_value: HIO:0000088 "Peroxin-1" xsd:string
 property_value: HIO:0000088 "Peroxisomal Biogenesis Factor 1" xsd:string
 property_value: HIO:0000088 "Peroxisome Assembly Factor 1" xsd:string
-property_value: HIO:0000225 HIO:000012553
+property_value: HIO:0000225 PR:000012553
 property_value: HIO:0000226 PR:000012553 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A protein that is a translation product of the human PEX1 gene or a 1:1 ortholog thereof." xsd:string
@@ -4110,7 +4110,7 @@ name: Glutaredoxin Domain-Containing Cysteine-Rich Protein 2
 is_a: HIO:0000252 ! Gene Product
 property_value: HIO:0000088 "Glutaredoxin Domain-Containing Cysteine-Rich Protein 1-Like Protein" xsd:string
 property_value: HIO:0000088 "GRXCR1-Like Protein" xsd:string
-property_value: HIO:0000225 HIO:000031772
+property_value: HIO:0000225 PR:000031772
 property_value: HIO:0000226 PR:000031772 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A protein that is a translation product of the human GRXCR2 gene or a 1:1 ortholog thereof." xsd:string
@@ -4138,8 +4138,8 @@ property_value: HIO:0000088 EC:7.2.2.13 xsd:string
 property_value: HIO:0000088 "Na(+)/K(+) ATPase Alpha(III) Subunit" xsd:string
 property_value: HIO:0000088 "Na(+)/K(+) ATPase Alpha-3 Subunit" xsd:string
 property_value: HIO:0000088 "Sodium Pump Subunit Alpha-3" xsd:string
-property_value: HIO:0000225 HIO:000004437
 property_value: HIO:0000225 https://www.uniprot.org/uniprot/P13637
+property_value: HIO:0000225 PR:000004437
 property_value: HIO:0000226 PR:000004437 xsd:string
 property_value: HIO:0000227 "Suggest update to description in the Protein Ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A protein that is a translation product of the human ATP1A3 gene or a 1:1 ortholog thereof. This is the catalytic component of the active enzyme, which catalyzes the hydrolysis of ATP coupled with the exchange of sodium and potassium ions across the plasma membrane. This action creates the electrochemical gradient of sodium and potassium ions, providing the energy for active transport of various nutrients." xsd:string
@@ -4201,7 +4201,7 @@ creation_date: 2019-08-11T19:06:36.595141Z
 id: HIO:0000355
 name: Cholesteatoma
 is_a: HIO:0000254 ! Abnormal Middle Ear Morphology
-property_value: HIO:0000225 HIO:0009797
+property_value: HIO:0000225 HP:0009797
 property_value: HIO:0000226 HP:0009797 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Cholesteatoma is a benign but potentially destructive growth consisting of keratinizing epithelium located in the middle ear and/or mastoid process. In cholesteatoma, a skin cyst grows into the middle ear and mastoid. The cyst is not cancerous but can erode tissue and cause destruction of the ear." xsd:string
@@ -4219,7 +4219,7 @@ property_value: HIO:0000088 "JLNS1" xsd:string
 property_value: HIO:0000088 "KCNQ1 Jervell and Lange-Nielsen Syndrome" xsd:string
 property_value: HIO:0000088 "Prolonged QT Interval in EKG and Sudden Death" xsd:string
 property_value: HIO:0000088 "Surdo-Cardiac Syndrome" xsd:string
-property_value: HIO:0000225 HIO:0024540
+property_value: HIO:0000225 MONDO:0024540
 property_value: HIO:0000226 MONDO:0024540 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Any Jervell and Lange-Nielsen syndrome in which the cause of the disease is a mutation in the KCNQ1 gene." xsd:string
@@ -4235,7 +4235,7 @@ property_value: HIO:0000088 "Jervell and Lange-Nielsen Syndrome Caused by Mutati
 property_value: HIO:0000088 "Jervell and Lange-Nielsen Syndrome Type 2" xsd:string
 property_value: HIO:0000088 "JLNS2" xsd:string
 property_value: HIO:0000088 "KCNE1 Jervell and Lange-Nielsen Syndrome" xsd:string
-property_value: HIO:0000225 HIO:0012871
+property_value: HIO:0000225 MONDO:0012871
 property_value: HIO:0000226 MONDO:0012871 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Any Jervell and Lange-Nielsen syndrome in which the cause of the disease is a mutation in the KCNE1 gene." xsd:string
@@ -4436,7 +4436,7 @@ id: HIO:0000371
 name: Disease Modifier
 is_a: HIO:0000388 ! Modifier
 property_value: HIO:0000088 "Phenotypic Modifier" xsd:string
-property_value: HIO:0000225 HIO:0000391
+property_value: HIO:0000225 SCDO:0000391
 property_value: HIO:0000226 SCDO:0000391 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -4460,7 +4460,7 @@ creation_date: 2019-08-13T20:41:30.056883Z
 id: HIO:0000373
 name: Genetic Disease Modifier
 is_a: HIO:0000371 ! Disease Modifier
-property_value: HIO:0000225 HIO:0000444
+property_value: HIO:0000225 SCDO:0000444
 property_value: HIO:0000226 SCDO:0000444 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -4484,7 +4484,7 @@ creation_date: 2019-08-13T20:45:32.968516Z
 id: HIO:0000375
 name: Genetic Disorder
 is_a: HIO:0000373 ! Genetic Disease Modifier
-property_value: HIO:0000225 HIO:0000047
+property_value: HIO:0000225 OGMS:0000047
 property_value: HIO:0000226 OGMS:0000047 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A disorder whose etiology involves an abnormality in the nucleotide sequence of an organism's genome." xsd:string
@@ -4539,7 +4539,7 @@ creation_date: 2019-08-13T21:07:56.504218Z
 id: HIO:0000380
 name: Environmental Disease Modifier
 is_a: HIO:0000371 ! Disease Modifier
-property_value: HIO:0000225 HIO:0000435
+property_value: HIO:0000225 SCDO:0000435
 property_value: HIO:0000226 SCDO:0000435 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -4577,7 +4577,7 @@ creation_date: 2019-08-13T21:17:30.356454Z
 id: HIO:0000383
 name: Physical Environment
 is_a: HIO:0000380 ! Environmental Disease Modifier
-property_value: HIO:0000225 HIO:0000897
+property_value: HIO:0000225 SCDO:0000897
 property_value: HIO:0000226 SCDO:0000897 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -4589,7 +4589,7 @@ creation_date: 2019-08-13T21:19:06.935061Z
 id: HIO:0000384
 name: Built Environment
 is_a: HIO:0000383 ! Physical Environment
-property_value: HIO:0000225 HIO:0000048
+property_value: HIO:0000225 ExO:0000048
 property_value: HIO:0000226 ExO:0000048 xsd:string
 property_value: HIO:0000227 "Sufficiet" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Human-made surroundings that provide the setting for human activity, ranging in scale from personal shelter and buildings to neighborhoods and cite, and can often include their supporting infrastructure, such as water supply or energy networks." xsd:string
@@ -4601,7 +4601,7 @@ id: HIO:0000385
 name: Geographic Location
 is_a: HIO:0000383 ! Physical Environment
 property_value: HIO:0000088 "Geographic Region" xsd:string
-property_value: HIO:0000225 HIO:00000448
+property_value: HIO:0000225 GAZ:00000448
 property_value: HIO:0000226 GAZ:00000448 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A reference to a place on the Earth, by its name or by its geographical location." xsd:string
@@ -4615,7 +4615,7 @@ is_a: HIO:0000385 ! Geographic Location
 property_value: HIO:0000088 "Rural" xsd:string
 property_value: HIO:0000088 "Rural Area" xsd:string
 property_value: HIO:0000088 "Rural Setting" xsd:string
-property_value: HIO:0000225 HIO:0001017
+property_value: HIO:0000225 SCDO:0001017
 property_value: HIO:0000226 SCDO:0001017 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -4631,7 +4631,7 @@ property_value: HIO:0000088 "Urban" xsd:string
 property_value: HIO:0000088 "Urban Area" xsd:string
 property_value: HIO:0000088 "Urban Environment" xsd:string
 property_value: HIO:0000088 "Urban Setting" xsd:string
-property_value: HIO:0000225 HIO:0001204
+property_value: HIO:0000225 SCDO:0001204
 property_value: HIO:0000226 SCDO:0001204 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to request inclusion into relevant ontology. Update at a later stage if necessary." xsd:string
@@ -4667,7 +4667,7 @@ name: Infantile Onset
 is_a: HIO:0000214 ! Pediatric Onset
 property_value: HIO:0000088 "Onset in First Year of Life" xsd:string
 property_value: HIO:0000088 "Onset in Infancy" xsd:string
-property_value: HIO:0000225 HIO:0003593
+property_value: HIO:0000225 HP:0003593
 property_value: HIO:0000226 HP:0003593 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Onset of signs or symptoms of disease between 28 days to one year of life." xsd:string
@@ -4692,7 +4692,7 @@ name: Neonatal Onset
 is_a: HIO:0000080 ! Age of Onset
 property_value: HIO:0000088 "Onset in First Weeks of Life" xsd:string
 property_value: HIO:0000088 "Onset in Neonatal Period" xsd:string
-property_value: HIO:0000225 HIO:0003623
+property_value: HIO:0000225 HP:0003623
 property_value: HIO:0000226 HP:0003623 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Onset of signs or symptoms of disease within the first 28 days of life." xsd:string
@@ -4704,7 +4704,7 @@ id: HIO:0000393
 name: Juvenile Onset
 is_a: HIO:0000214 ! Pediatric Onset
 property_value: HIO:0000088 "Signs and Symptoms Begin Before 15 Years of Age" xsd:string
-property_value: HIO:0000225 HIO:0003621
+property_value: HIO:0000225 HP:0003621
 property_value: HIO:0000226 HP:0003621 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Onset of signs or symptoms of disease between the age of 5 and 15 years." xsd:string
@@ -4739,7 +4739,7 @@ name: Congenital
 is_a: HIO:0000395 ! Disease Qualifier
 property_value: HIO:0000088 "Connatal" xsd:string
 property_value: HIO:0000088 "Inborn" xsd:string
-property_value: HIO:0000225 HIO:0021140
+property_value: HIO:0000225 MONDO:0021140
 property_value: HIO:0000226 MONDO:0021140 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A characteristic of a disease in which the disease is present at birth, regardless of cause." xsd:string
@@ -4785,7 +4785,7 @@ id: HIO:0000400
 name: Genetic Susceptibility
 is_a: HIO:0000389 ! Disease Cause Modifier
 property_value: HIO:0000088 "Genetic Predisposition" xsd:string
-property_value: HIO:0000225 HIO:0000000
+property_value: HIO:0000225 OGSF:0000000
 property_value: HIO:0000226 OGSF:0000000 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A disposition that is physically based on some genetic material, such as one or more gene mutations or variant, such that if the genome of an organism has the genetic material as its part, the organism may have an increased likelihood or chance to develop: 1) a particular disease; 2) a peculiar biological/bodily process." xsd:string
@@ -5265,7 +5265,7 @@ creation_date: 2019-09-03T17:57:00.494767Z
 [Typedef]
 id: HIO:0000314
 name: has manifestation
-property_value: HIO:0000225 HIO:1000218
+property_value: HIO:0000225 SCDO:1000218
 property_value: HIO:0000226 SCDO:1000218 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship that holds between a condition such as a disease (hemoglobinopathy) and a phenotype (i.e. manifestation), where the phenotype is evidence of the condition." xsd:string
@@ -5291,7 +5291,7 @@ property_value: HIO:0000227 "Suggest update of description" xsd:string
 property_value: HIO:0000229 "Suggest update of description in RO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship between a gene and a gene product where the gene participates in some gene expression process (GO:0010467) where the output of that process is the gene product." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0002205
+property_value: http://purl.org/dc/elements/1.1/source RO:0002205
 inverse_of: HIO:0000426 ! gene product of
 created_by: Jade Hotchkiss
 creation_date: 2019-08-20T20:01:55.911337Z
@@ -5309,7 +5309,7 @@ creation_date: 2019-08-20T20:01:55.912507Z
 [Typedef]
 id: HIO:0000405
 name: caused or contributed to by
-property_value: HIO:0000225 HIO:0000660
+property_value: HIO:0000225 SCDO:0000660
 property_value: HIO:0000226 SCDO:0000660 xsd:string
 property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Suggest update to description in SCDO\nSCDO to suggest inclusion of property into RO. Update annotations at a later stage if necessary." xsd:string
@@ -5320,7 +5320,7 @@ creation_date: 2019-08-20T20:01:55.913699Z
 [Typedef]
 id: HIO:0000406
 name: has causal or contributing genetic variation
-property_value: HIO:0000225 HIO:1000210
+property_value: HIO:0000225 SCDO:1000210
 property_value: HIO:0000226 SCDO:1000210 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a condition (disease or phenotype) or an entity (molecular phenotype) and a genetic variation (e.g. mutation or genetic recombination), where the genetic variation has some causal or contributing role that influences the condition or entity." xsd:string
@@ -5331,7 +5331,7 @@ creation_date: 2019-08-20T20:01:55.915005Z
 [Typedef]
 id: HIO:0000407
 name: has causal genotype
-property_value: HIO:0000225 HIO:1000172
+property_value: HIO:0000225 SCDO:1000172
 property_value: HIO:0000226 SCDO:1000172 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a condition (hemoglobinopathy) and the genotype that causes the condition." xsd:string
@@ -5343,7 +5343,7 @@ creation_date: 2019-08-20T20:01:55.916229Z
 [Typedef]
 id: HIO:0000408
 name: has causal molecular phenotype
-property_value: HIO:0000225 HIO:1000223
+property_value: HIO:0000225 SCDO:1000223
 property_value: HIO:0000226 SCDO:1000223 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a condition (disease such as a Hemoglobinopathy) and a molecular phenotype, where the molecular phenotype is evidence of the condition." xsd:string
@@ -5354,7 +5354,7 @@ creation_date: 2019-08-20T20:01:55.917563Z
 [Typedef]
 id: HIO:0000409
 name: causes or contributes to molecular phenotype
-property_value: HIO:0000225 HIO:1000217
+property_value: HIO:0000225 SCDO:1000217
 property_value: HIO:0000226 SCDO:1000217 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between an entity (genotype) and a molecular phenotype, where the entity has some causal or contributing role that influences the molecular phenotype." xsd:string
@@ -5366,7 +5366,7 @@ creation_date: 2019-08-20T20:01:55.918893Z
 [Typedef]
 id: HIO:0000410
 name: causes molecular phenotype
-property_value: HIO:0000225 HIO:1000222
+property_value: HIO:0000225 SCDO:1000222
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000229 "SCDO to suggest inclusion of property into RO. Update annotations at a later stage if necessary." xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a genotype and a molecular phenotype, where the genotype has a causal role for the molecular phenotype." xsd:string
@@ -5377,7 +5377,7 @@ creation_date: 2019-08-20T20:01:55.920058Z
 [Typedef]
 id: HIO:0000411
 name: contributes to genotype
-property_value: HIO:0000225 HIO:1000184
+property_value: HIO:0000225 SCDO:1000184
 property_value: HIO:0000226 SCDO:1000184 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship between an entity (e.g. genetic variation such as mutation or specific allele) and a genotype, where the entity contributes to the genotype." xsd:string
@@ -5399,7 +5399,7 @@ creation_date: 2019-08-20T20:01:55.922404Z
 [Typedef]
 id: HIO:0000413
 name: induced by
-property_value: HIO:0000225 HIO:1000199
+property_value: HIO:0000225 SCDO:1000199
 property_value: HIO:0000226 SCDO:1000199 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A condition (phenotype or disease) or event (adverse event) induced by an entity (e.g. a drug) or activity (e.g. exercise)." xsd:string
@@ -5409,7 +5409,7 @@ creation_date: 2019-08-20T20:01:55.923583Z
 [Typedef]
 id: HIO:0000414
 name: has risk factor
-property_value: HIO:0000225 HIO:1000203
+property_value: HIO:0000225 SCDO:1000203
 property_value: HIO:0000226 SCDO:1000203 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a condition (disease or phenotype) and an aspect of an individual's life (personal attribute), behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of the condition." xsd:string
@@ -5431,7 +5431,7 @@ creation_date: 2019-08-20T20:01:55.925969Z
 [Typedef]
 id: HIO:0000416
 name: has mode of inheritance
-property_value: HIO:0000225 HIO:0001364
+property_value: HIO:0000225 SCDO:0001364
 property_value: HIO:0000226 SCDO:0001364 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a particular genotype or disorder and the pattern in which the particular genotype or disorder is passed from one generation to the next." xsd:string
@@ -5441,7 +5441,7 @@ creation_date: 2019-08-20T20:01:55.927171Z
 [Typedef]
 id: HIO:0000417
 name: diagnosed using tool
-property_value: HIO:0000225 HIO:0000663
+property_value: HIO:0000225 SCDO:0000663
 property_value: HIO:0000226 SCDO:0000663 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a phenotype that is a diagnosis and a diagnostic tool used in making the diagnosis." xsd:string
@@ -5451,7 +5451,7 @@ creation_date: 2019-08-20T20:01:55.928349Z
 [Typedef]
 id: HIO:0000418
 name: diagnosed using measurement
-property_value: HIO:0000225 HIO:1000220
+property_value: HIO:0000225 SCDO:1000220
 property_value: HIO:0000226 SCDO:1000220 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a condition that is a diagnosis and a phenotype used in making the diagnosis." xsd:string
@@ -5461,7 +5461,7 @@ creation_date: 2019-08-20T20:01:55.92955Z
 [Typedef]
 id: HIO:0000419
 name: measures
-property_value: HIO:0000225 HIO:1000194
+property_value: HIO:0000225 SCDO:1000194
 property_value: HIO:0000226 SCDO:1000194 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a diagnostic tool and the diagnostic measurement that it measures." xsd:string
@@ -5472,7 +5472,7 @@ creation_date: 2019-08-20T20:01:55.930712Z
 [Typedef]
 id: HIO:0000420
 name: uses diagnostic device
-property_value: HIO:0000225 HIO:1000192
+property_value: HIO:0000225 SCDO:1000192
 property_value: HIO:0000226 SCDO:1000192 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a diagnostic tool (test, method, assay, etc.) and a diagnostic device, where the diagnostic device is used in the application of the diagnostic tool." xsd:string
@@ -5483,7 +5483,7 @@ creation_date: 2019-08-20T20:01:55.931852Z
 [Typedef]
 id: HIO:0000421
 name: has output measurement
-property_value: HIO:0000225 HIO:0000474
+property_value: HIO:0000225 SCDO:0000474
 property_value: HIO:0000226 SCDO:0000474 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a device (diagnostic device) and the recording of the output (diagnostic measurement) of the device." xsd:string
@@ -5494,7 +5494,7 @@ creation_date: 2019-08-20T20:01:55.93301Z
 [Typedef]
 id: HIO:0000422
 name: treated with
-property_value: HIO:0000225 HIO:0000664
+property_value: HIO:0000225 SCDO:0000664
 property_value: HIO:0000226 SCDO:0000664 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a condition (phenotype or disease) and a type of treatment or a specific treatment, where the condition can be treated with the treatment." xsd:string
@@ -5505,7 +5505,7 @@ creation_date: 2019-08-20T20:01:55.934158Z
 [Typedef]
 id: HIO:0000423
 name: uses medical device
-property_value: HIO:0000225 HIO:0000475
+property_value: HIO:0000225 SCDO:0000475
 property_value: HIO:0000226 SCDO:0000475 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a process (e.g. a form of therapy) and a medical device, where the medical device is used in the process." xsd:string
@@ -5515,7 +5515,7 @@ creation_date: 2019-08-20T20:01:55.935311Z
 [Typedef]
 id: HIO:0000424
 name: manifestation of
-property_value: HIO:0000225 HIO:1000180
+property_value: HIO:0000225 SCDO:1000180
 property_value: HIO:0000226 SCDO:1000180 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship that holds between a phenotype (i.e. manifestation) and a condition such as a disease (hemoglobinopathy), wherein the phenotype is evidence of the condition." xsd:string
@@ -5539,7 +5539,7 @@ property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Needs additional reviewing before change suggested to RO.\nSuggest update to description in RO." xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship between a gene product and a gene where the gene participates in some gene expression process (GO:0010467) where the output of that process is the gene product." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source HIO:0002204
+property_value: http://purl.org/dc/elements/1.1/source RO:0002204
 created_by: Jade Hotchkiss
 creation_date: 2019-08-20T20:01:55.938818Z
 
@@ -5556,7 +5556,7 @@ creation_date: 2019-08-20T20:01:55.939946Z
 [Typedef]
 id: HIO:0000428
 name: causes or contributes to condition
-property_value: HIO:0000225 HIO:0003302
+property_value: HIO:0000225 RO:0003302
 property_value: HIO:0000226 RO:0003302 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship between an entity (e.g. a genotype, genetic variation, chemical, or environmental exposure) and a condition (a phenotype or disease), where the entity has some causal or contributing role that influences the condition." xsd:string
@@ -5569,7 +5569,7 @@ creation_date: 2019-08-20T20:01:55.941098Z
 id: HIO:0000429
 name: causes condition
 property_value: HIO:0000088 "results_in" xsd:string
-property_value: HIO:0000225 HIO:0003303
+property_value: HIO:0000225 RO:0003303
 property_value: HIO:0000226 RO:0003303 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship between an entity (e.g. a genotype, genetic variation, chemical, or environmental exposure) and a condition (a phenotype or disease), where the entity has some causal role for the condition." xsd:string
@@ -5580,7 +5580,7 @@ creation_date: 2019-08-20T20:01:55.942235Z
 [Typedef]
 id: HIO:0000430
 name: has contributing genetic variation
-property_value: HIO:0000225 HIO:1000196
+property_value: HIO:0000225 SCDO:1000196
 property_value: HIO:0000226 SCDO:1000196 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a genotype and a genetic variation (e.g. mutation or genetic recombination), where the genetic variation contributes to the genotype." xsd:string
@@ -5591,7 +5591,7 @@ creation_date: 2019-08-20T20:01:55.943399Z
 [Typedef]
 id: HIO:0000431
 name: risk factor for
-property_value: HIO:0000225 HIO:1000204
+property_value: HIO:0000225 SCDO:1000204
 property_value: HIO:0000226 SCDO:1000204 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between an aspect of an individual's life (personal attribute), behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a condition and the condition (disease or phenotype) that it increases the likelihood of." xsd:string
@@ -5601,7 +5601,7 @@ creation_date: 2019-08-20T20:01:55.944551Z
 [Typedef]
 id: HIO:0000432
 name: obtained via diagnostic tool
-property_value: HIO:0000225 HIO:1000190
+property_value: HIO:0000225 SCDO:1000190
 property_value: HIO:0000226 SCDO:1000190 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship between a diagnostic measurement and the diagnostic tool used to produce the measurement." xsd:string
@@ -5611,7 +5611,7 @@ creation_date: 2019-08-20T20:01:55.94568Z
 [Typedef]
 id: HIO:0000433
 name: used by diagnostic tool
-property_value: HIO:0000225 HIO:1000191
+property_value: HIO:0000225 SCDO:1000191
 property_value: HIO:0000226 SCDO:1000191 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship between a diagnostic device and the diagnostic tool by which the device is used." xsd:string
@@ -5621,7 +5621,7 @@ creation_date: 2019-08-20T20:01:55.94681Z
 [Typedef]
 id: HIO:0000434
 name: output by diagnostic device
-property_value: HIO:0000225 HIO:1000193
+property_value: HIO:0000225 SCDO:1000193
 property_value: HIO:0000226 SCDO:1000193 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a diagnostic measurement and a diagnostic device, where the diagnostic measurement is the output of the diagnostic device." xsd:string
@@ -5631,7 +5631,7 @@ creation_date: 2019-08-20T20:01:55.94795Z
 [Typedef]
 id: HIO:0000435
 name: treats
-property_value: HIO:0000225 HIO:1000018
+property_value: HIO:0000225 SCDO:1000018
 property_value: HIO:0000226 "SCDO_1000018" xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation between a type of treatment or a specific treatment and a condition (phenotype or disease), where the type of treatment or specific treatment treat the condition." xsd:string
@@ -5641,7 +5641,7 @@ creation_date: 2019-08-20T20:01:55.949136Z
 [Typedef]
 id: HIO:0000436
 name: causes or contributes to
-property_value: HIO:0000225 HIO:1000183
+property_value: HIO:0000225 SCDO:1000183
 property_value: HIO:0000226 SCDO:1000183 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship between 'a' and 'b', where 'a' has some causal role for 'b'." xsd:string
@@ -5651,7 +5651,7 @@ creation_date: 2019-08-21T19:27:50.52577Z
 [Typedef]
 id: HIO:0000437
 name: modified by
-property_value: HIO:0000225 HIO:1000005
+property_value: HIO:0000225 SCDO:1000005
 property_value: HIO:0000226 SCDO:1000005 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relationship between a condition (phenotype or disease), contributing cause of condition, entity (aspect of quality of life) or process (therapy) and a modifier, where the condition, contributing cause of condition, entity, or process is modified by the modifier in some way." xsd:string
@@ -5662,7 +5662,7 @@ creation_date: 2019-08-22T08:18:39.73081Z
 [Typedef]
 id: HIO:0000438
 name: modifies
-property_value: HIO:0000225 HIO:1000015
+property_value: HIO:0000225 SCDO:1000015
 property_value: HIO:0000226 SCDO:1000015 xsd:string
 property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Suggest update to description in SCDO" xsd:string
@@ -5673,7 +5673,7 @@ creation_date: 2019-08-22T08:18:39.732033Z
 [Typedef]
 id: HIO:0000439
 name: has age of onset
-property_value: HIO:0000225 HIO:0000468
+property_value: HIO:0000225 SCDO:0000468
 property_value: HIO:0000226 SCDO:0000468 xsd:string
 property_value: HIO:0000227 "Suggest update in SCDO" xsd:string
 property_value: HIO:0000229 "Used as annotation property in SCDO. Suggest inclusion of \"Age of Onset\" class and use of this property as an object property." xsd:string
@@ -5694,7 +5694,7 @@ creation_date: 2019-08-22T09:01:48.76434Z
 id: HIO:0000441
 name: has qualifier
 property_value: HIO:0000088 "has_qualifying_context" xsd:string
-property_value: HIO:0000225 HIO:0000580
+property_value: HIO:0000225 GENO:0000580
 property_value: HIO:0000226 GENO:0000580 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A relation used to describe a context or conditions that define and/or identify an entity." xsd:string
