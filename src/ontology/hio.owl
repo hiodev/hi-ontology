@@ -11,7 +11,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/hio_">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hio/releases/2019-08-27/hio.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hio/releases/2019-09-06/hio.owl"/>
     </owl:Ontology>
     
 
@@ -1037,7 +1037,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
     <!-- http://purl.obolibrary.org/obo/HIO_0000009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000465"/>
         <obo:HIO_0000088>Non-Syndromic Hearing Impairment</obo:HIO_0000088>
         <obo:HIO_0000088>Non-Syndromic Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Nonsyndromic Hearing Loss</obo:HIO_0000088>
@@ -1057,7 +1057,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
     <!-- http://purl.obolibrary.org/obo/HIO_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000465"/>
         <obo:HIO_0000088>Hearing Loss Associated with Syndrome</obo:HIO_0000088>
         <obo:HIO_0000088>SHL</obo:HIO_0000088>
         <obo:HIO_0000088>Syndromic Genetic Deafness</obo:HIO_0000088>
@@ -1321,7 +1321,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <!-- http://purl.obolibrary.org/obo/HIO_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
         <obo:HIO_0000088>ANSD</obo:HIO_0000088>
         <obo:HIO_0000088>Auditory Dys-synchrony</obo:HIO_0000088>
         <obo:HIO_0000088>Auditory Neuropathy Spectrum Disorder</obo:HIO_0000088>
@@ -1558,14 +1558,14 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000084"/>
-        <obo:HIO_0000088>Syndrome or Disease Associated with Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000088>Disease, Disorder, or Syndrome  Associated with Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000227>None</obo:HIO_0000227>
-        <obo:HIO_0000229>Term too specific to HLO to be irequested for nclusion in other ontologies.</obo:HIO_0000229>
-        <dc:creator>HLO (Jade Hotchkiss)</dc:creator>
-        <dc:description>A group of signs, symptoms, and clinicopathological characteristics that may or may not have a genetic basis and collectively define an abnormal condition (a syndrome), or a definite pathologic process with a characteristic set of signs and symptomsa (a disease) that&apos;s presence has been associated with the occurrence of hearing impairment.</dc:description>
+        <obo:HIO_0000229>Term too specific to HIO to be requested for inclusion in other ontologies.</obo:HIO_0000229>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>A group of signs, symptoms, and clinicopathological characteristics that may or may not have a genetic basis and collectively define an abnormal condition (a syndrome) or a material entity which is clinically abnormal and part of an extended organism (disorder), or a definite pathologic process with a characteristic set of signs and symptomsa (a disease) that&apos;s presence has been associated with the occurrence of hearing impairment.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-30T08:58:46.772723Z</oboInOwl:creation_date>
-        <rdfs:label>Syndrome or Disease Associated with Hearing Impairment</rdfs:label>
+        <rdfs:label>Disease, Disorder or Syndrome Associated with Hearing Impairment</rdfs:label>
     </owl:Class>
     
 
@@ -1639,7 +1639,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <!-- http://purl.obolibrary.org/obo/HIO_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000050"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
         <obo:HIO_0000088>Meniere Disease</obo:HIO_0000088>
         <obo:HIO_0000088>Meniere Vertigo</obo:HIO_0000088>
         <obo:HIO_0000088>Otogenic Vertigo</obo:HIO_0000088>
@@ -1658,11 +1658,11 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <!-- http://purl.obolibrary.org/obo/HIO_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000050"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000293"/>
         <obo:HIO_0000088>CMT</obo:HIO_0000088>
         <obo:HIO_0000088>Hereditary Motor and Sensory Neuropathy</obo:HIO_0000088>
         <obo:HIO_0000088>Hereditary Sensorimotor Neuropathy</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C75467"/>
+        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C75467"/>
         <obo:HIO_0000226>NCIT:C75467</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000238>Friedreich&apos;s Ataxia</obo:HIO_0000238>
@@ -1678,11 +1678,11 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <!-- http://purl.obolibrary.org/obo/HIO_0000039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000050"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000470"/>
         <obo:HIO_0000088>Classic RTA</obo:HIO_0000088>
         <obo:HIO_0000088>Familial Distal Primary Acidosis</obo:HIO_0000088>
         <obo:HIO_0000088>Renal Tubular Acidosis Type 1</obo:HIO_0000088>
-        <obo:HIO_0000088>dRTA,</obo:HIO_0000088>
+        <obo:HIO_0000088>dRTA</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="http://www.orpha.net/ORDO/Orphanet_18"/>
         <obo:HIO_0000226>ORPHA:18</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
@@ -1848,7 +1848,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <!-- http://purl.obolibrary.org/obo/HIO_0000046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000049"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000010"/>
         <obo:HIO_0000088>Autosomal Dominant Keratitis-Ichthyosis-Deafness Syndrome</obo:HIO_0000088>
         <obo:HIO_0000088>KID Syndrome</obo:HIO_0000088>
         <obo:HIO_0000088>Keratitis Ichthyosis and Deafness Syndrome</obo:HIO_0000088>
@@ -1892,7 +1892,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000466"/>
         <obo:HIO_0000088>Hearing Loss, Noise-Induced</obo:HIO_0000088>
         <obo:HIO_0000088>NIHL</obo:HIO_0000088>
         <obo:HIO_0000088>Noise Induced Deafness</obo:HIO_0000088>
@@ -1916,8 +1916,8 @@ Positioning of this term still up for discussion...perhaps should be moved below
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000032"/>
         <obo:HIO_0000088>Syndrome Associated with Hearing Impairment</obo:HIO_0000088>
         <obo:HIO_0000227>None</obo:HIO_0000227>
-        <obo:HIO_0000229>Term too specific to HLO to be irequested for nclusion in other ontologies.</obo:HIO_0000229>
-        <dc:creator>HLO (Jade Hotchkiss)</dc:creator>
+        <obo:HIO_0000229>Term too specific to HIO to be requested for inclusion in other ontologies.</obo:HIO_0000229>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
         <dc:description>A group of signs, symptoms, and clinicopathological characteristics that may or may not have a genetic basis and collectively define an abnormal condition (a syndrome) that&apos;s presence has been associated with the occurrence of hearing impairment.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-31T09:40:21.835799Z</oboInOwl:creation_date>
@@ -1930,14 +1930,15 @@ Positioning of this term still up for discussion...perhaps should be moved below
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000032"/>
-        <obo:HIO_0000088>Disease Associated with Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000088>Disease or Disorder Associated with Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000227>None</obo:HIO_0000227>
         <obo:HIO_0000229>Term too specific to HLO to be irequested for nclusion in other ontologies.</obo:HIO_0000229>
-        <dc:creator>HLO (Jade Hotchkiss)</dc:creator>
-        <dc:description>A definite pathologic process with a characteristic set of signs and symptomsa (a disease) that&apos;s presence has been associated with the occurrence of hearing impairment.</dc:description>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>A definite pathologic process with a characteristic set of signs and symptoms (a disease) or a material entity which is clinically abnormal and part of an extended organism (disorder) that&apos;s presence has been associated with the occurrence of hearing impairment.</dc:description>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/OGMS_http://purl.obolibrary.org/obo/HIO_0000045"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-31T09:40:21.836524Z</oboInOwl:creation_date>
-        <rdfs:label>Disease Associated with Hearing Impairment</rdfs:label>
+        <rdfs:label>Disease or Disorder Associated with Hearing Impairment</rdfs:label>
     </owl:Class>
     
 
@@ -2261,6 +2262,10 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000033"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000083"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D005838"/>
+        <obo:HIO_0000226>MESH:D005838</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>The genetic constitution of the individual, comprising the alleles present at each genetic locus.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-06T08:03:46.503564Z</oboInOwl:creation_date>
         <rdfs:label>Genotype</rdfs:label>
@@ -2452,7 +2457,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <dc:description>The manner in which a disease first manifests.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-14T08:48:53.204899Z</oboInOwl:creation_date>
-        <rdfs:label>Nature of Onset</rdfs:label>
+        <rdfs:label>Mode of Onset</rdfs:label>
     </owl:Class>
     
 
@@ -2462,8 +2467,8 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000077"/>
         <obo:HIO_0000088>Acquired Disease Cause</obo:HIO_0000088>
-        <obo:HIO_0000088>Environmental Disease Cause</obo:HIO_0000088>
         <obo:HIO_0000088>External Disease Cause</obo:HIO_0000088>
+        <obo:HIO_0000088>Extrinsic Disease Cause</obo:HIO_0000088>
         <obo:HIO_0000088>Extrinsic Disease Etiology</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="https://study.com/academy/lesson/etiology-of-disease-definition-example.html"/>
         <obo:HIO_0000227>Negligable</obo:HIO_0000227>
@@ -2472,7 +2477,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <dc:description>A cause of disease that is (at least initially) external to the organism. This includes exposure to a toxic or infectious agent, physical factors in the environment, or an event that causes injury.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-06T09:31:09.947612Z</oboInOwl:creation_date>
-        <rdfs:label>Extrinsic Disease Cause</rdfs:label>
+        <rdfs:label>Environmental Disease Cause</rdfs:label>
     </owl:Class>
     
 
@@ -2515,7 +2520,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000082"/>
         <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/IDO_http://purl.obolibrary.org/obo/HIO_0000586"/>
         <obo:HIO_0000226>IDO:0000586</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
@@ -2533,12 +2538,13 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000002"/>
         <obo:HIO_0000088>Hearing Impairment by Region of Auditory System</obo:HIO_0000088>
         <obo:HIO_0000088>Hearing Impairment by Region of Ear</obo:HIO_0000088>
+        <obo:HIO_0000088>Hearing Impairment by Site</obo:HIO_0000088>
         <obo:HIO_0000227>None</obo:HIO_0000227>
         <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>The classification of hearing impairments according to the ear or anatomic site of the ear that is involved in the hearing impairment.</dc:description>
+        <dc:description>The classification of hearing impairments according to the region of the auditory system that is affected.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-06T10:53:43.33207Z</oboInOwl:creation_date>
-        <rdfs:label>Hearing Impairment by Site</rdfs:label>
+        <rdfs:label>Hearing Impairment by Physiopathology Mechanism</rdfs:label>
     </owl:Class>
     
 
@@ -2546,14 +2552,15 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000466"/>
         <obo:HIO_0000088>Drug Induced Hearing Impairment</obo:HIO_0000088>
         <obo:HIO_0000088>Drug Induced Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Drug-Induced Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0070310"/>
         <obo:HIO_0000226>DOID:0070310</obo:HIO_0000226>
-        <obo:HIO_0000227>Suffcient</obo:HIO_0000227>
-        <dc:description>A nonsyndromic deafness that is characterized by cochlear or vestibular dysfunction resulting in loss of hearing caused by drug ototoxicity.</dc:description>
+        <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
+        <obo:HIO_0000229>Suggest update to description in DO</obo:HIO_0000229>
+        <dc:description>A hearing impairment that is characterized by cochlear or vestibular dysfunction resulting in loss of hearing caused by drug ototoxicity.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-14T08:27:30.974668Z</oboInOwl:creation_date>
         <rdfs:label>Drug-Induced Hearing Impairment</rdfs:label>
@@ -2612,14 +2619,15 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000084"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000005"/>
         <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/OGMS_http://purl.obolibrary.org/obo/HIO_0000045"/>
         <obo:HIO_0000226>OGMS:0000045</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-06T11:27:13.692977Z</oboInOwl:creation_date>
-        <rdfs:label>Disorder</rdfs:label>
+        <rdfs:label>deprecated - Disorder</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -2627,7 +2635,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000082"/>
         <obo:HIO_0000088>Trauma</obo:HIO_0000088>
         <obo:HIO_0000088>Wound</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C3671"/>
@@ -2706,14 +2714,14 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000098 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000098">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000095"/>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT/?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C35013"/>
-        <obo:HIO_0000226>NCIT:C35013</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Degenerative changes of the cornea related to aging that are highly influenced by changes in the corneal endothelium. Changes include corneal topography, increased density, decreased hydration of the corneal stroma, and epithelial basement membrane dystrophy; The stroma appears hazier than in younger eyes and reduces light transmission. Changes may also include age-related stromal degeneration and deposition.</dc:description>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000472"/>
+        <obo:HIO_0000088>Hearing Loss by Stage of Language Development</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Hearing loss according to when it first occurs with relation to the stage of language development.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
-        <oboInOwl:creation_date>2019-06-06T11:52:32.474078Z</oboInOwl:creation_date>
-        <rdfs:label>Senile Corneal Change</rdfs:label>
+        <oboInOwl:creation_date>2019-09-04T08:47:06.548209Z</oboInOwl:creation_date>
+        <rdfs:label>Hearing Impairment by Stage of Language Development</rdfs:label>
     </owl:Class>
     
 
@@ -4086,7 +4094,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000198 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000198">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000095"/>
         <obo:HIO_0000088>Age-Related Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Senile Deafness</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D011304"/>
@@ -4218,7 +4226,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000204 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000204">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000205"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000450"/>
         <obo:HIO_0000088>E818K</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="https://omim.org/entry/182350#0014"/>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
@@ -4619,15 +4627,14 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
-        <obo:HIO_0000088>Nonsyndromic Genetic Hearing Impairment</obo:HIO_0000088>
-        <obo:HIO_0000088>Nonsyndromic Hearing Impairment by Genetic Changes</obo:HIO_0000088>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000002"/>
+        <obo:HIO_0000088>Hearing Impairment by Ear</obo:HIO_0000088>
         <obo:HIO_0000227>None</obo:HIO_0000227>
         <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>A form of hearing impairment that is not associated with visible abnormalities of the external ear or other signs and symptoms, that can be associated with abnormalities of the middle ear and/or inner ear, and that has been shown to be caused by a genetic factor.</dc:description>
+        <dc:description>The classification of hearing impairments according to the ear that is involved in the hearing impairment.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
-        <oboInOwl:creation_date>2019-07-18T08:26:28.562898Z</oboInOwl:creation_date>
-        <rdfs:label>Nonsyndromic Hearing Impairment, Genetic</rdfs:label>
+        <oboInOwl:creation_date>2019-09-02T09:17:42.281181Z</oboInOwl:creation_date>
+        <rdfs:label>Hearing Impairment by Ear Affected</rdfs:label>
     </owl:Class>
     
 
@@ -4635,7 +4642,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000234">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
         <obo:HIO_0000088>Autosomal Dominant Nonsyndromic Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Nonsyndromic Deafness, Autosomal Dominant</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050564"/>
@@ -4654,7 +4661,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000235">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
         <obo:HIO_0000088>Autosomal Recessive Nonsyndromic Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Nonsyndromic Deafness, Autosomal Recessive</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050565"/>
@@ -4673,7 +4680,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000236 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000236">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
         <obo:HIO_0000088>Nonsyndromic Deafness, X-Linked</obo:HIO_0000088>
         <obo:HIO_0000088>X-linked Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>X-linked Nonsyndromic Deafness</obo:HIO_0000088>
@@ -4691,7 +4698,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000237 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000237">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-07-18T08:36:58.126777Z</oboInOwl:creation_date>
         <rdfs:label>Nonsyndromic Hearing Impairment, Mitochondrial</rdfs:label>
@@ -4767,7 +4774,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000243 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000243">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000466"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HIO_0000442"/>
@@ -4953,7 +4960,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000253">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
         <obo:HIO_0000088>Abnormal Auditory/ Vestibular System Morphology</obo:HIO_0000088>
         <obo:HIO_0000088>Abnormal Ear Development/ Ear Malformation</obo:HIO_0000088>
         <obo:HIO_0000088>Auditory/ Vestibular System Abnormalities;</obo:HIO_0000088>
@@ -5634,12 +5641,12 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000292">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000293"/>
         <obo:HIO_0000088>Acoustic Neurilemmoma</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D009464"/>
         <obo:HIO_0000226>MESH:D009464</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>A benign SCHWANNOMA of the eighth cranial nerve (VESTIBULOCOCHLEAR NERVE), mostly arising from the vestibular branch (VESTIBULAR NERVE) during the fifth or sixth decade of life. Clinical manifestations include HEARING LOSS; HEADACHE; VERTIGO; TINNITUS; and FACIAL PAIN. Bilateral acoustic neuromas are associated with NEUROFIBROMATOSIS 2.</dc:description>
+        <dc:description>A benign schwannoma of the eighth cranial nerve (vestibulocochlear nerve), mostly arising from the vestibular branch (vestibular nerve) during the fifth or sixth decade of life. Clinical manifestations include hearing loss; headache; vertigo; tinnitus; and facial pain. Bilateral acoustic neuromas are associated with neurofibromatosis 2.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-01T09:25:38.285706Z</oboInOwl:creation_date>
         <rdfs:label>Acoustic Neuroma</rdfs:label>
@@ -5651,15 +5658,13 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000050"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
-        <obo:HIO_0000226>DOID:178</obo:HIO_0000226>
+        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000618"/>
+        <obo:HIO_0000226>EFO:0000618</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <obo:HIO_0000229>Include as sub-classes: sickle cell disease, diabetes, leukemia, polycythemia, and diseases in which excessive blood clotting occurs. (see dc:source)</obo:HIO_0000229>
-        <dc:description>A cardiovascular system disease that primarily affects the blood vessels which includes the arteries, veins and capillaries that carry blood to and from the heart.</dc:description>
-        <dc:source rdf:resource="https://www.emedicinehealth.com/hearing_loss/article_em.htm#what_causes_hearing_loss"/>
+        <dc:description>A non-neoplastic or neoplastic disorder that affects the brain, spinal cord, or peripheral nerves. a general class of medical conditions affecting the nervous system.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
-        <oboInOwl:creation_date>2019-08-01T09:30:11.770061Z</oboInOwl:creation_date>
-        <rdfs:label>Vascular Disease</rdfs:label>
+        <oboInOwl:creation_date>2019-09-02T12:03:42.215364Z</oboInOwl:creation_date>
+        <rdfs:label>Nervous System Disease</rdfs:label>
     </owl:Class>
     
 
@@ -5667,7 +5672,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000294 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000294">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000293"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000469"/>
         <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000106"/>
         <obo:HIO_0000226>SCDO:1000106</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
@@ -5682,8 +5687,8 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000295 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000295">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000293"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000819"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000468"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0000819"/>
         <obo:HIO_0000226>HP:0000819</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A group of abnormalities characterized by hyperglycemia and glucose intolerance.</dc:description>
@@ -5697,7 +5702,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000296 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000296">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000293"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000469"/>
         <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_1240"/>
         <obo:HIO_0000226>DOID:1240</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
@@ -5712,7 +5717,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000297">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000293"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000469"/>
         <obo:HIO_0000088>Erythrocytosis</obo:HIO_0000088>
         <obo:HIO_0000088>Increased Red Blood Cells</obo:HIO_0000088>
         <obo:HIO_0000088>Polycythaemia</obo:HIO_0000088>
@@ -6035,7 +6040,8 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000316 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000316">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000475"/>
         <obo:HIO_0000088>Isolated Postlingual Genetic Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Postlingual Non-Syndromic Genetic Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Postlingual Non-Syndromic Genetic Hearing Impairment</obo:HIO_0000088>
@@ -6055,7 +6061,8 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000317">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000476"/>
         <obo:HIO_0000088>Isolated Prelingual Genetic Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Prelingual Non-Syndromic Genetic Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Prelingual Non-Syndromic Genetic Hearing Impairment</obo:HIO_0000088>
@@ -6155,6 +6162,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000479"/>
         <obo:HIO_0000088>Sensorineural Hearing Impairment with Childhood Onset</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0011474"/>
         <obo:HIO_0000226>HP:0011474</obo:HIO_0000226>
@@ -6641,6 +6649,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000352"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000451"/>
         <obo:HIO_0000225 rdf:resource="https://www.omim.org/entry/615762#0001"/>
         <obo:HIO_0000227>Negligable (nothing useful/outdated ontology)</obo:HIO_0000227>
         <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
@@ -6898,7 +6907,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <!-- http://purl.obolibrary.org/obo/HIO_0000363 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000363">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000233"/>
         <obo:HIO_0000088>Bilateral HI</obo:HIO_0000088>
         <obo:HIO_0000088>Bilateral HL</obo:HIO_0000088>
         <obo:HIO_0000088>Bilateral Hearing Loss</obo:HIO_0000088>
@@ -6921,7 +6930,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <!-- http://purl.obolibrary.org/obo/HIO_0000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000364">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000233"/>
         <obo:HIO_0000088>Hearing Loss, Bilateral</obo:HIO_0000088>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
         <obo:HIO_0000229>Suggest update to &quot;Hearing Loss, Bilateral&quot; in MESH</obo:HIO_0000229>
@@ -7007,7 +7016,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <!-- http://purl.obolibrary.org/obo/HIO_0000369 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000369">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000467"/>
         <obo:HIO_0000088>FHL</obo:HIO_0000088>
         <obo:HIO_0000088>Functional Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Hearing Impairment, Functional</obo:HIO_0000088>
@@ -7542,6 +7551,611 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-20T11:08:54.110281Z</oboInOwl:creation_date>
         <rdfs:label>Duration of Therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000205"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62200"/>
+        <obo:HIO_0000226>NCIT:C62200</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>A small scale mutation caused by the substitution of a single nucleotide for another nucleotide.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T20:57:03.81501Z</oboInOwl:creation_date>
+        <rdfs:label>Point Mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000447">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000205"/>
+        <obo:HIO_0000088>Deletion Abnormality</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19296"/>
+        <obo:HIO_0000226>NCIT:C19296</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>Any rearrangement to the genomic content that results in the loss of one or more nucleotides of DNA. Deletions are generally irreversible rearrangements. They may alter the reading frame of a gene, or may result in loss of large chromosomal regions.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T20:57:03.816649Z</oboInOwl:creation_date>
+        <rdfs:label>Deletion Mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000205"/>
+        <obo:HIO_0000088>Insertion-Deletion Mutation</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D054643"/>
+        <obo:HIO_0000226>MeSH:D054643</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>A mutation named with the blend of insertion and deletion. It refers to a length difference between two alleles where it is unknowable if the difference was originally caused by a sequence insertion or by a sequence deletion. If the number of nucleotides in the insertion/deletion is not divisible by three, and it occurs in a protein coding region, it is also a frameshift mutation.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T20:57:03.81824Z</oboInOwl:creation_date>
+        <rdfs:label>Indel Mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000449">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000205"/>
+        <obo:HIO_0000088>Gene Insertion</obo:HIO_0000088>
+        <obo:HIO_0000088>Insertion Mutation</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D016254"/>
+        <obo:HIO_0000226>MESH:D016254</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>Mutagenesis where the mutation is caused by the introduction of foreign DNA sequences into a gene or extragenic sequence. This may occur spontaneously in vivo or be experimentally induced in vivo or in vitro. Proviral DNA insertions into or adjacent to a cellular proto-oncogene can interrupt genetic translation of the coding sequences or interfere with recognition of regulatory elements and cause unregulated expression of the proto-oncogene resulting in tumor formation.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T20:57:03.819768Z</oboInOwl:creation_date>
+        <rdfs:label>Insertion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000450">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000446"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18133"/>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>A single base pair substitution that alters the genetic code in a way that produces an amino acid that is different from the usual amino acid at that position. Some missense mutations will alter the function of the protein.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T20:57:51.889183Z</oboInOwl:creation_date>
+        <rdfs:label>Missense Mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000451 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000451">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000446"/>
+        <obo:HIO_0000088>Premature Termination Abnormality</obo:HIO_0000088>
+        <obo:HIO_0000088>Premature Termination Mutation</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62198"/>
+        <obo:HIO_0000226>NCIT:C62198</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>A point mutation occurring within the protein-coding region of a gene, and which codes for a stop that can truncate the protein.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T20:57:51.890709Z</oboInOwl:creation_date>
+        <rdfs:label>Nonsense Mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000452">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000446"/>
+        <obo:HIO_0000088>Exon Synonymous Mutation</obo:HIO_0000088>
+        <obo:HIO_0000088>Exonic Synonymous Mutation</obo:HIO_0000088>
+        <obo:HIO_0000088>Synonymous Mutation</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20629"/>
+        <obo:HIO_0000226>NCIT:C20629</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>A point mutation occurring within the protein-coding region of a gene, and which codes for the same amino acid as expected.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T20:57:51.891872Z</oboInOwl:creation_date>
+        <rdfs:label>Silent Mutation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000453 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000453">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000034"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17004"/>
+        <obo:HIO_0000226>NCIT:C17004</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>The regular and simultaneous occurrence in a single interbreeding population of two or more discontinuous genotypes. The concept includes differences in genotypes ranging in size from a single nucleotide site to large nucleotide sequences visible at a chromosomal level.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:13:46.258595Z</oboInOwl:creation_date>
+        <rdfs:label>Genetic Polymorphism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000454">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000034"/>
+        <obo:HIO_0000088>Recombination</obo:HIO_0000088>
+        <obo:HIO_0000088>Recombination, Genetic</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D011995"/>
+        <obo:HIO_0000226>MESH:D011995</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>Production of new arrangements of DNA by various mechanisms such as assortment and segregation, crossing over; gene conversion; genetic transformation; genetic conjugation; genetic transduction; or mixed infection of viruses.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:14:37.964076Z</oboInOwl:creation_date>
+        <rdfs:label>Genetic Recombination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000455 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000455">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000453"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D000071184"/>
+        <obo:HIO_0000226>MESH:D000071184</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>Naturally occurring genetic variations associated with drug response. While these variants are not markers for genetic predisposition to disease, they influence pharmacokinetics and pharmacodynamics and often occur on genes encoding drug metabolism enzymes and transporters (e.g., angiotensin converting enzyme; cytochrome P-450 CYP2D6).</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:15:44.992069Z</oboInOwl:creation_date>
+        <rdfs:label>Pharmacogenomic Variants</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000453"/>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:15:44.993678Z</oboInOwl:creation_date>
+        <rdfs:label>Single Nucleotide Polymorphism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000454"/>
+        <obo:HIO_0000088>Homologous Recombinations</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D059765"/>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>An exchange of DNA between matching or similar sequences.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:19:01.40354Z</oboInOwl:creation_date>
+        <rdfs:label>Homologous Recombination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000457"/>
+        <obo:HIO_0000088>Crossing Over, Genetic</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D003434"/>
+        <obo:HIO_0000226>MESH:D003434</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>The reciprocal exchange of segments at corresponding positions along pairs of homologous chromosomes by symmetrical breakage and crosswise rejoining forming cross-over sites (Holliday junctions) that are resolved during chromosome segregation. Crossing-over typically occurs during meiosis but it may also occur in the absence of meiosis, for example, with bacterial chromosomes, organelle chromosomes, or somatic cell nuclear chromosomes.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:20:11.774261Z</oboInOwl:creation_date>
+        <rdfs:label>Genetic Crossing Over</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000459">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000071"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D005815"/>
+        <obo:HIO_0000226>MESH:D005815</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>The meaning ascribed to the base sequence with respect to how it is translated into amino acid sequence. The start, stop, and order of amino acids of a protein is specified by consecutive triplets of nucleotides called codons.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:26:41.455347Z</oboInOwl:creation_date>
+        <rdfs:label>Genetic Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000460">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000459"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D000926"/>
+        <obo:HIO_0000226>MESH:D000926</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>The sequential set of three nucleotides in transfer RNA that interacts with its complement in messenger RNA, the Codon, during translation in the ribosome.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:28:01.774846Z</oboInOwl:creation_date>
+        <rdfs:label>Anticodon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000461">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000459"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D003062"/>
+        <obo:HIO_0000226>MESH:D003062</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>Also known as sense codon, a set of three nucleotides in a protein coding sequence that specifies individual amino acids or a termination signal (terminator codon). Most codons are universal, but some organisms do not produce the transfer RNAs complementary to all codons. These codons are referred to as unassigned codons (nonsense codons).</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:28:01.775789Z</oboInOwl:creation_date>
+        <rdfs:label>Codon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000461"/>
+        <obo:HIO_0000088>Codon, Initiation</obo:HIO_0000088>
+        <obo:HIO_0000088>Codon, Initiator</obo:HIO_0000088>
+        <obo:HIO_0000088>Initiation Codon</obo:HIO_0000088>
+        <obo:HIO_0000088>Initiation Codons</obo:HIO_0000088>
+        <obo:HIO_0000088>Initiator Codons</obo:HIO_0000088>
+        <obo:HIO_0000088>Start Codon</obo:HIO_0000088>
+        <obo:HIO_0000088>Start Codons</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D018387"/>
+        <obo:HIO_0000226>MESH:D018387</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>A codon that directs initiation of protein translation (Translation, Genetic) by stimulating the binding of initiator tRNA (RNA, TRANSFER, MET). In prokaryotes, the codons AUG or GUG can act as initiators while in eukaryotes, AUG is the only initiator codon.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:30:00.005587Z</oboInOwl:creation_date>
+        <rdfs:label>Initiator Codon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000461"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D018389"/>
+        <obo:HIO_0000226>MESH:D018389</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>An amino acid-specifying codon that has been converted to a stop codon by mutation. Its occurance is abnormal causing premature termination of protein translation and results in production of truncated and non-functional proteins. A nonsense mutation is one that converts an amino acid-specific codon to a stop codon.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-08-29T21:30:00.006643Z</oboInOwl:creation_date>
+        <rdfs:label>Nonsense Codon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000002"/>
+        <obo:HIO_0000088>HI by Cause</obo:HIO_0000088>
+        <obo:HIO_0000088>HL by Cause</obo:HIO_0000088>
+        <obo:HIO_0000088>Hearing Loss by Cause</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>The classification of hearing impairments according to the agent, event, condition or characteristic which play an essential role in producing the hearing impairments.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-02T09:21:12.841508Z</oboInOwl:creation_date>
+        <rdfs:label>Hearing Impairment by Cause</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000464"/>
+        <obo:HIO_0000088>Hearing Loss of Genetic Origin</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>A hearing impairment in which a disease causing genetic factor plays an essential role in producing the hearing impairment.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-02T09:23:38.61916Z</oboInOwl:creation_date>
+        <rdfs:label>Hearing Impairment of Genetic Origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000464"/>
+        <obo:HIO_0000088>Hearing Loss of Environmental Aetiology</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>A hearing impairment in which an environmental disease cause plays an essential role in producing the hearing impairment.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-02T09:25:39.53984Z</oboInOwl:creation_date>
+        <rdfs:label>Hearing Impairment of Environmental Aetiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000467 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000467">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000464"/>
+        <obo:HIO_0000088>Hearing Impairment of Unknown Cause</obo:HIO_0000088>
+        <obo:HIO_0000088>Hearing Loss of Unknown Cause</obo:HIO_0000088>
+        <obo:HIO_0000088>Hearing Loss of Unknown Etiology</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>A hearing impairment for which the cause(s) (agents, events, conditions or characteristics that play an essential role in producing the hearing impairment) is/are unknown.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-02T10:26:28.139829Z</oboInOwl:creation_date>
+        <rdfs:label>Hearing Impairment of Unknown Etiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000050"/>
+        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000589"/>
+        <obo:HIO_0000226>EFO:0000589</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>Generic term for diseases caused by an abnormal metabolic process.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-02T10:33:12.638375Z</oboInOwl:creation_date>
+        <rdfs:label>Metabolic Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000050"/>
+        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C26323"/>
+        <obo:HIO_0000226>NCIT:C26323</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>A neoplastic or non-neoplastic disorder that affects the production and proliferation of the hematopoietic cells including lymphoid cells, the synthesis of hemoglobin, and/or the mechanisms of coagulation.</dc:description>
+        <oboInOwl:created_by>Jade Hothckiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-02T11:05:27.054751Z</oboInOwl:creation_date>
+        <rdfs:label>Hematologic and Lymphocytic Disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000050"/>
+        <obo:HIO_0000088>Disorder of Urinary System</obo:HIO_0000088>
+        <obo:HIO_0000088>Renal Disease</obo:HIO_0000088>
+        <obo:HIO_0000088>Urinary Tract Disease</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0009690"/>
+        <obo:HIO_0000226>EFO:0009690</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>A disease involving the renal system.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-02T12:17:22.623521Z</oboInOwl:creation_date>
+        <rdfs:label>Urinary System Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000471 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000471">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000050"/>
+        <obo:HIO_0000088>Disease or Disorder of Auditory System</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_1001455"/>
+        <obo:HIO_0000226>EFO:1001455</obo:HIO_0000226>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>Pathological processes of the ear, the hearing, and the equilibrium system of the body.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-02T12:22:57.205261Z</oboInOwl:creation_date>
+        <rdfs:label>Auditory System Disease or Disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000472 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000472">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000002"/>
+        <obo:HIO_0000088>HI by Onset</obo:HIO_0000088>
+        <obo:HIO_0000088>HL by Onset</obo:HIO_0000088>
+        <obo:HIO_0000088>Hearing Loss by Onset</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Hearing loss according to when it first occurs.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T16:15:09.845773Z</oboInOwl:creation_date>
+        <rdfs:label>Hearing Impairment by Onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000472"/>
+        <obo:HIO_0000088>Acquired HI</obo:HIO_0000088>
+        <obo:HIO_0000088>Acquired HL</obo:HIO_0000088>
+        <obo:HIO_0000088>Acquired Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="https://www.asha.org/public/hearing/Acquired-Hearing-Loss/"/>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Hearing loss that occurs any time after birth.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T16:57:59.324538Z</oboInOwl:creation_date>
+        <rdfs:label>Acquired Hearing Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000474">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000472"/>
+        <obo:HIO_0000088>Congenital HI</obo:HIO_0000088>
+        <obo:HIO_0000088>Congenital HL</obo:HIO_0000088>
+        <obo:HIO_0000088>Congenital Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="https://www.asha.org/public/hearing/Congenital-Hearing-Loss/"/>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Hearing loss that is present at birth.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T16:57:59.325573Z</oboInOwl:creation_date>
+        <rdfs:label>Congenital Hearing Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000475 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000475">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000473"/>
+        <obo:HIO_0000088>Postlingual Deafness</obo:HIO_0000088>
+        <obo:HIO_0000088>Postlingual Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="https://en.wikipedia.org/wiki/Post-lingual_deafness"/>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Hearing impairment which develops after the acquisition of speech and language, usually after the age of six.</dc:description>
+        <dc:source rdf:resource="https://en.wikipedia.org/wiki/Post-lingual_deafness"/>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T17:01:14.593854Z</oboInOwl:creation_date>
+        <rdfs:comment>Post-lingual hearing impairments are far more common than prelingual deafness</rdfs:comment>
+        <rdfs:label>Postlingual Hearing Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000476 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000476">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000478"/>
+        <obo:HIO_0000088>Prelingual Deafness</obo:HIO_0000088>
+        <obo:HIO_0000088>Prelingual Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="https://en.wikipedia.org/wiki/Prelingual_deafness"/>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:description>Hearing impairment which is either congenital or develops before the acquisition of speech and language, usually before the age of 6.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T17:01:14.594964Z</oboInOwl:creation_date>
+        <rdfs:label>Prelingual Hearing Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000477">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000473"/>
+        <obo:HIO_0000088>Adult Onset Deafness</obo:HIO_0000088>
+        <obo:HIO_0000088>Adult Onset Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Hearing impairment that begins manifesting during adulthood (at the age of 16 years or later).</dc:description>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_0003581"/>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T17:08:03.165385Z</oboInOwl:creation_date>
+        <rdfs:label>Adult Onset Hearing Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000478">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000473"/>
+        <obo:HIO_0000088>Paediatric Onset Deafness</obo:HIO_0000088>
+        <obo:HIO_0000088>Paediatric Onset Hearing Impairment</obo:HIO_0000088>
+        <obo:HIO_0000088>Paediatric Onset Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Suggest update to description in HPO</dc:description>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_0410280"/>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T17:08:03.166355Z</oboInOwl:creation_date>
+        <rdfs:label>Pediatric Onset Hearing Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000479">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000478"/>
+        <obo:HIO_0000088>Childhood Onset Deafness</obo:HIO_0000088>
+        <obo:HIO_0000088>Childhood Onset Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000088>Hearing Impairment with Onset in Childhood</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Hearing impairment that begins manifesting at the age of between 1 and 5 years (not including the fifth birthday).</dc:description>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_0011463"/>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T17:08:03.16738Z</oboInOwl:creation_date>
+        <rdfs:label>Childhood Onset Hearing Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000480">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000478"/>
+        <obo:HIO_0000088>Hearing Impairment with Onset in Infancy</obo:HIO_0000088>
+        <obo:HIO_0000088>Infantile Onset Deafness</obo:HIO_0000088>
+        <obo:HIO_0000088>Infantile Onset Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Hearing impairment that begins manifesting between 28 days to one year of life.</dc:description>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_0003593"/>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T17:08:03.168358Z</oboInOwl:creation_date>
+        <rdfs:label>Infantile Onset Hearing Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000481">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000477"/>
+        <obo:HIO_0000088>Sensorineural Deafness, Late-Onset</obo:HIO_0000088>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0008615"/>
+        <obo:HIO_0000226>HP:0008615</obo:HIO_0000226>
+        <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
+        <obo:HIO_0000229>Suggest update to description in HPO</obo:HIO_0000229>
+        <dc:description>Sensorineural hearing impairment that begins manifesting during adulthood (at the age of 16 years or later).</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T17:12:14.921893Z</oboInOwl:creation_date>
+        <rdfs:label>Adult Onset Sensorineural Hearing Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HIO_0000482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000482">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000473"/>
+        <obo:HIO_0000088>Neonatal Onset Hearing Loss</obo:HIO_0000088>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
+        <dc:description>Hearing impairment that begins manifesting within the first 28 days of life.</dc:description>
+        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:creation_date>2019-09-03T17:57:00.494767Z</oboInOwl:creation_date>
+        <rdfs:label>Neonatal Onset Hearing Impairment</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

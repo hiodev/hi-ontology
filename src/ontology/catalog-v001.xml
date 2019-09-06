@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1566923139238" name="duplicate:http://webprotege.stanford.edu/project/hio_" uri="hio-edit.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1566923139238" name="duplicate:http://webprotege.stanford.edu/project/hio_" uri="hio.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567764330465" name="duplicate:http://webprotege.stanford.edu/project/hio_" uri="hio_edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567764330465" name="duplicate:http://webprotege.stanford.edu/project/hio_" uri="hio-edit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1567764330465" name="duplicate:http://webprotege.stanford.edu/project/hio_" uri="hio.owl"/>
     </group>
 </catalog>

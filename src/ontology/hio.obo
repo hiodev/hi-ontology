@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hio/releases/2019-08-27/hio.owl
+data-version: hio/releases/2019-09-06/hio.owl
 ontology: http://webprotege.stanford.edu/project/hio_
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/HIO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/HIO_0000005>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/HIO_0000001> (HIO)\n\nSubClassOf(<http://purl.obolibrary.org/obo/HIO_0000001> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/HIO_0000005> (deprecated terms)\n\nSubClassOf(<http://purl.obolibrary.org/obo/HIO_0000005> owl:Thing)\n\n\n)
 
@@ -64,7 +64,7 @@ creation_date: 2019-05-24T09:54:51.10188Z
 [Term]
 id: HIO:0000006
 name: Sensorineural Hearing Impairment
-is_a: HIO:0000086 ! Hearing Impairment by Site
+is_a: HIO:0000086 ! Hearing Impairment by Physiopathology Mechanism
 property_value: HIO:0000088 "Central Hearing Loss" xsd:string
 property_value: HIO:0000088 "High Frequency Hearing Loss" xsd:string
 property_value: HIO:0000088 "High-Frequency Hearing Loss" xsd:string
@@ -88,7 +88,7 @@ creation_date: 2019-05-24T09:58:12.272446Z
 [Term]
 id: HIO:0000007
 name: Conductive Hearing Impairment
-is_a: HIO:0000086 ! Hearing Impairment by Site
+is_a: HIO:0000086 ! Hearing Impairment by Physiopathology Mechanism
 relationship: HIO:0000422 HIO:0000120 ! treated with Otologic Surgery
 property_value: HIO:0000088 "Conduction Deafness" xsd:string
 property_value: HIO:0000088 "Conductive Deafness" xsd:string
@@ -106,7 +106,7 @@ creation_date: 2019-05-24T09:58:12.273093Z
 [Term]
 id: HIO:0000008
 name: Mixed Hearing Impairment
-is_a: HIO:0000086 ! Hearing Impairment by Site
+is_a: HIO:0000086 ! Hearing Impairment by Physiopathology Mechanism
 property_value: HIO:0000088 "Inner and Outer or Middle Ear Hearing Impairment" xsd:string
 property_value: HIO:0000088 "Mixed Hearing Loss" xsd:string
 property_value: HIO:0000225 HIO:0000410
@@ -119,7 +119,7 @@ creation_date: 2019-05-24T09:58:12.273764Z
 [Term]
 id: HIO:0000009
 name: Nonsyndromic Hearing Impairment
-is_a: HIO:0000002 ! Hearing Impairment
+is_a: HIO:0000465 ! Hearing Impairment of Genetic Origin
 property_value: HIO:0000088 "Non-Syndromic Hearing Impairment" xsd:string
 property_value: HIO:0000088 "Non-Syndromic Hearing Loss" xsd:string
 property_value: HIO:0000088 "Nonsyndromic Hearing Loss" xsd:string
@@ -135,7 +135,7 @@ creation_date: 2019-05-24T09:58:12.274397Z
 [Term]
 id: HIO:0000010
 name: Syndromic Hearing Impairment
-is_a: HIO:0000002 ! Hearing Impairment
+is_a: HIO:0000465 ! Hearing Impairment of Genetic Origin
 property_value: HIO:0000088 "Hearing Loss Associated with Syndrome" xsd:string
 property_value: HIO:0000088 "SHL" xsd:string
 property_value: HIO:0000088 "Syndromic Genetic Deafness" xsd:string
@@ -305,7 +305,7 @@ creation_date: 2019-05-24T10:46:46.481915Z
 [Term]
 id: HIO:0000022
 name: Auditory Neuropathy
-is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
+is_a: HIO:0000471 ! Auditory System Disease or Disorder
 property_value: HIO:0000088 "ANSD" xsd:string
 property_value: HIO:0000088 "Auditory Dys-synchrony" xsd:string
 property_value: HIO:0000088 "Auditory Neuropathy Spectrum Disorder" xsd:string
@@ -460,13 +460,13 @@ creation_date: 2019-05-27T19:24:49.818667Z
 
 [Term]
 id: HIO:0000032
-name: Syndrome or Disease Associated with Hearing Impairment
+name: Disease, Disorder or Syndrome Associated with Hearing Impairment
 is_a: HIO:0000084 ! Intrinsic Disease Cause
-property_value: HIO:0000088 "Syndrome or Disease Associated with Hearing Loss" xsd:string
+property_value: HIO:0000088 "Disease, Disorder, or Syndrome  Associated with Hearing Loss" xsd:string
 property_value: HIO:0000227 "None" xsd:string
-property_value: HIO:0000229 "Term too specific to HLO to be irequested for nclusion in other ontologies." xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "HLO (Jade Hotchkiss)" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "A group of signs, symptoms, and clinicopathological characteristics that may or may not have a genetic basis and collectively define an abnormal condition (a syndrome), or a definite pathologic process with a characteristic set of signs and symptomsa (a disease) that's presence has been associated with the occurrence of hearing impairment." xsd:string
+property_value: HIO:0000229 "Term too specific to HIO to be requested for inclusion in other ontologies." xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A group of signs, symptoms, and clinicopathological characteristics that may or may not have a genetic basis and collectively define an abnormal condition (a syndrome) or a material entity which is clinically abnormal and part of an extended organism (disorder), or a definite pathologic process with a characteristic set of signs and symptomsa (a disease) that's presence has been associated with the occurrence of hearing impairment." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-05-30T08:58:46.772723Z
 
@@ -523,7 +523,7 @@ creation_date: 2019-05-31T07:22:43.208574Z
 [Term]
 id: HIO:0000037
 name: Meniere's Disease
-is_a: HIO:0000050 ! Disease Associated with Hearing Impairment
+is_a: HIO:0000471 ! Auditory System Disease or Disorder
 property_value: HIO:0000088 "Meniere Disease" xsd:string
 property_value: HIO:0000088 "Meniere Vertigo" xsd:string
 property_value: HIO:0000088 "Otogenic Vertigo" xsd:string
@@ -538,11 +538,11 @@ creation_date: 2019-05-31T07:28:23.969246Z
 [Term]
 id: HIO:0000038
 name: Charcot-Marie-Tooth Disease
-is_a: HIO:0000050 ! Disease Associated with Hearing Impairment
+is_a: HIO:0000293 ! Nervous System Disease
 property_value: HIO:0000088 "CMT" xsd:string
 property_value: HIO:0000088 "Hereditary Motor and Sensory Neuropathy" xsd:string
 property_value: HIO:0000088 "Hereditary Sensorimotor Neuropathy" xsd:string
-property_value: HIO:0000225 NCIT:C75467
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C75467
 property_value: HIO:0000226 NCIT:C75467 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: HIO:0000238 "Friedreich's Ataxia" xsd:string
@@ -554,9 +554,9 @@ creation_date: 2019-05-31T07:28:23.969977Z
 [Term]
 id: HIO:0000039
 name: Distal Renal Tubular Acidosis (dRTA)
-is_a: HIO:0000050 ! Disease Associated with Hearing Impairment
+is_a: HIO:0000470 ! Urinary System Disease
 property_value: HIO:0000088 "Classic RTA" xsd:string
-property_value: HIO:0000088 "dRTA," xsd:string
+property_value: HIO:0000088 "dRTA" xsd:string
 property_value: HIO:0000088 "Familial Distal Primary Acidosis" xsd:string
 property_value: HIO:0000088 "Renal Tubular Acidosis Type 1" xsd:string
 property_value: HIO:0000225 Orphanet:18
@@ -664,7 +664,7 @@ creation_date: 2019-05-31T07:46:18.526683Z
 [Term]
 id: HIO:0000046
 name: Keratitis-Ichthyosis-Deafness (KID) Syndrome
-is_a: HIO:0000049 ! Syndrome Associated with Hearing Impairment
+is_a: HIO:0000010 ! Syndromic Hearing Impairment
 property_value: HIO:0000088 "Autosomal Dominant Keratitis-Ichthyosis-Deafness Syndrome" xsd:string
 property_value: HIO:0000088 "Keratitis Ichthyosis and Deafness Syndrome" xsd:string
 property_value: HIO:0000088 "Keratitis, Ichthyosis, and Deafness (KID) Syndrome" xsd:string
@@ -700,7 +700,7 @@ creation_date: 2019-05-31T07:55:48.14987Z
 id: HIO:0000048
 name: Noise-Induced Hearing Impairment
 is_a: HIO:0000006 ! Sensorineural Hearing Impairment
-is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
+is_a: HIO:0000466 ! Hearing Impairment of Environmental Aetiology
 property_value: HIO:0000088 "Hearing Loss, Noise-Induced" xsd:string
 property_value: HIO:0000088 "NIHL" xsd:string
 property_value: HIO:0000088 "Noise Induced Deafness" xsd:string
@@ -717,24 +717,25 @@ creation_date: 2019-06-06T18:55:55.160836Z
 [Term]
 id: HIO:0000049
 name: Syndrome Associated with Hearing Impairment
-is_a: HIO:0000032 ! Syndrome or Disease Associated with Hearing Impairment
+is_a: HIO:0000032 ! Disease, Disorder or Syndrome Associated with Hearing Impairment
 property_value: HIO:0000088 "Syndrome Associated with Hearing Impairment" xsd:string
 property_value: HIO:0000227 "None" xsd:string
-property_value: HIO:0000229 "Term too specific to HLO to be irequested for nclusion in other ontologies." xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "HLO (Jade Hotchkiss)" xsd:string
+property_value: HIO:0000229 "Term too specific to HIO to be requested for inclusion in other ontologies." xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A group of signs, symptoms, and clinicopathological characteristics that may or may not have a genetic basis and collectively define an abnormal condition (a syndrome) that's presence has been associated with the occurrence of hearing impairment." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-05-31T09:40:21.835799Z
 
 [Term]
 id: HIO:0000050
-name: Disease Associated with Hearing Impairment
-is_a: HIO:0000032 ! Syndrome or Disease Associated with Hearing Impairment
-property_value: HIO:0000088 "Disease Associated with Hearing Loss" xsd:string
+name: Disease or Disorder Associated with Hearing Impairment
+is_a: HIO:0000032 ! Disease, Disorder or Syndrome Associated with Hearing Impairment
+property_value: HIO:0000088 "Disease or Disorder Associated with Hearing Loss" xsd:string
 property_value: HIO:0000227 "None" xsd:string
 property_value: HIO:0000229 "Term too specific to HLO to be irequested for nclusion in other ontologies." xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "HLO (Jade Hotchkiss)" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "A definite pathologic process with a characteristic set of signs and symptomsa (a disease) that's presence has been associated with the occurrence of hearing impairment." xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A definite pathologic process with a characteristic set of signs and symptoms (a disease) or a material entity which is clinically abnormal and part of an extended organism (disorder) that's presence has been associated with the occurrence of hearing impairment." xsd:string
+property_value: http://purl.org/dc/elements/1.1/source HIO:0000045
 created_by: Jade Hotchkiss
 creation_date: 2019-05-31T09:40:21.836524Z
 
@@ -981,6 +982,10 @@ id: HIO:0000070
 name: Genotype
 is_a: HIO:0000033 ! Genetic Phenomena
 is_a: HIO:0000083 ! Genetic Disease Cause
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D005838
+property_value: HIO:0000226 MESH:D005838 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The genetic constitution of the individual, comprising the alleles present at each genetic locus." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-06T08:03:46.503564Z
 
@@ -1119,7 +1124,7 @@ creation_date: 2019-08-14T08:48:53.204079Z
 
 [Term]
 id: HIO:0000081
-name: Nature of Onset
+name: Mode of Onset
 is_a: HIO:0000079 ! Disease Attribute
 property_value: HIO:0000227 "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
@@ -1129,11 +1134,11 @@ creation_date: 2019-08-14T08:48:53.204899Z
 
 [Term]
 id: HIO:0000082
-name: Extrinsic Disease Cause
+name: Environmental Disease Cause
 is_a: HIO:0000077 ! Disease Cause
 property_value: HIO:0000088 "Acquired Disease Cause" xsd:string
-property_value: HIO:0000088 "Environmental Disease Cause" xsd:string
 property_value: HIO:0000088 "External Disease Cause" xsd:string
+property_value: HIO:0000088 "Extrinsic Disease Cause" xsd:string
 property_value: HIO:0000088 "Extrinsic Disease Etiology" xsd:string
 property_value: HIO:0000225 https://study.com/academy/lesson/etiology-of-disease-definition-example.html
 property_value: HIO:0000227 "Negligable" xsd:string
@@ -1173,7 +1178,7 @@ creation_date: 2019-06-06T09:34:44.913232Z
 [Term]
 id: HIO:0000085
 name: Infection
-is_a: HIO:0000092 ! Disorder
+is_a: HIO:0000082 ! Environmental Disease Cause
 property_value: HIO:0000225 HIO:0000586
 property_value: HIO:0000226 IDO:0000586 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
@@ -1183,27 +1188,29 @@ creation_date: 2019-06-06T09:39:20.15818Z
 
 [Term]
 id: HIO:0000086
-name: Hearing Impairment by Site
+name: Hearing Impairment by Physiopathology Mechanism
 is_a: HIO:0000002 ! Hearing Impairment
 property_value: HIO:0000088 "Hearing Impairment by Region of Auditory System" xsd:string
 property_value: HIO:0000088 "Hearing Impairment by Region of Ear" xsd:string
+property_value: HIO:0000088 "Hearing Impairment by Site" xsd:string
 property_value: HIO:0000227 "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "The classification of hearing impairments according to the ear or anatomic site of the ear that is involved in the hearing impairment." xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The classification of hearing impairments according to the region of the auditory system that is affected." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-06T10:53:43.33207Z
 
 [Term]
 id: HIO:0000087
 name: Drug-Induced Hearing Impairment
-is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
+is_a: HIO:0000466 ! Hearing Impairment of Environmental Aetiology
 property_value: HIO:0000088 "Drug Induced Hearing Impairment" xsd:string
 property_value: HIO:0000088 "Drug Induced Hearing Loss" xsd:string
 property_value: HIO:0000088 "Drug-Induced Hearing Loss" xsd:string
 property_value: HIO:0000225 HIO:0070310
 property_value: HIO:0000226 DOID:0070310 xsd:string
-property_value: HIO:0000227 "Suffcient" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "A nonsyndromic deafness that is characterized by cochlear or vestibular dysfunction resulting in loss of hearing caused by drug ototoxicity." xsd:string
+property_value: HIO:0000227 "Suggest update to description" xsd:string
+property_value: HIO:0000229 "Suggest update to description in DO" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A hearing impairment that is characterized by cochlear or vestibular dysfunction resulting in loss of hearing caused by drug ototoxicity." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-08-14T08:27:30.974668Z
 
@@ -1221,7 +1228,7 @@ creation_date: 2019-08-16T12:20:26.659395Z
 [Term]
 id: HIO:0000090
 name: Insidious Onset
-is_a: HIO:0000081 ! Nature of Onset
+is_a: HIO:0000081 ! Mode of Onset
 property_value: HIO:0000088 "Gradual Onset" xsd:string
 property_value: HIO:0000088 "Slow Onset" xsd:string
 property_value: HIO:0000225 HIO:0003587
@@ -1234,7 +1241,7 @@ creation_date: 2019-08-14T08:59:51.948119Z
 [Term]
 id: HIO:0000091
 name: Acute Onset
-is_a: HIO:0000081 ! Nature of Onset
+is_a: HIO:0000081 ! Mode of Onset
 property_value: HIO:0000088 "Sudden Onset" xsd:string
 property_value: HIO:0000225 HIO:0011009
 property_value: HIO:0000226 HP:0011009 xsd:string
@@ -1245,19 +1252,20 @@ creation_date: 2019-08-14T09:02:35.402622Z
 
 [Term]
 id: HIO:0000092
-name: Disorder
-is_a: HIO:0000084 ! Intrinsic Disease Cause
+name: deprecated - Disorder
+is_a: HIO:0000005 ! deprecated terms
 property_value: HIO:0000225 HIO:0000045
 property_value: HIO:0000226 OGMS:0000045 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease." xsd:string
+is_obsolete: true
 created_by: Jade Hotchkiss
 creation_date: 2019-06-06T11:27:13.692977Z
 
 [Term]
 id: HIO:0000093
 name: Injury
-is_a: HIO:0000092 ! Disorder
+is_a: HIO:0000082 ! Environmental Disease Cause
 property_value: HIO:0000088 "Trauma" xsd:string
 property_value: HIO:0000088 "Wound" xsd:string
 property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C3671
@@ -1271,7 +1279,7 @@ creation_date: 2019-06-06T11:27:27.276161Z
 [Term]
 id: HIO:0000094
 name: Accident
-is_a: HIO:0000082 ! Extrinsic Disease Cause
+is_a: HIO:0000082 ! Environmental Disease Cause
 property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C34340
 property_value: HIO:0000226 NCIT:C34340 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
@@ -1315,19 +1323,19 @@ creation_date: 2019-06-06T11:52:32.473371Z
 
 [Term]
 id: HIO:0000098
-name: Senile Corneal Change
-is_a: HIO:0000095 ! Aging-Related Process
-property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C35013
-property_value: HIO:0000226 NCIT:C35013 xsd:string
-property_value: HIO:0000227 "Sufficient" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "Degenerative changes of the cornea related to aging that are highly influenced by changes in the corneal endothelium. Changes include corneal topography, increased density, decreased hydration of the corneal stroma, and epithelial basement membrane dystrophy; The stroma appears hazier than in younger eyes and reduces light transmission. Changes may also include age-related stromal degeneration and deposition." xsd:string
+name: Hearing Impairment by Stage of Language Development
+is_a: HIO:0000472 ! Hearing Impairment by Onset
+property_value: HIO:0000088 "Hearing Loss by Stage of Language Development" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing loss according to when it first occurs with relation to the stage of language development." xsd:string
 created_by: Jade Hotchkiss
-creation_date: 2019-06-06T11:52:32.474078Z
+creation_date: 2019-09-04T08:47:06.548209Z
 
 [Term]
 id: HIO:0000099
 name: Exposure to Loud Noise
-is_a: HIO:0000082 ! Extrinsic Disease Cause
+is_a: HIO:0000082 ! Environmental Disease Cause
 property_value: HIO:0000225 https://www.nidcd.nih.gov/health/noise-induced-hearing-loss
 property_value: HIO:0000227 "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
@@ -2286,7 +2294,7 @@ creation_date: 2019-06-14T11:27:29.480154Z
 [Term]
 id: HIO:0000198
 name: Presbycusis
-is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
+is_a: HIO:0000095 ! Aging-Related Process
 property_value: HIO:0000088 "Age-Related Hearing Loss" xsd:string
 property_value: HIO:0000088 "Senile Deafness" xsd:string
 property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D011304
@@ -2370,7 +2378,7 @@ creation_date: 2019-06-14T12:22:52.239701Z
 id: HIO:0000204
 name: ATP1A3, GLU818LYS
 comment: Not clear whether this is a loss or gain of function mutation.
-is_a: HIO:0000205 ! Mutation
+is_a: HIO:0000450 ! Missense Mutation
 property_value: HIO:0000088 "E818K" xsd:string
 property_value: HIO:0000225 "0014"
 property_value: HIO:0000227 "Suggest update to description" xsd:string
@@ -2481,7 +2489,7 @@ creation_date: 2019-06-14T12:45:56.239569Z
 [Term]
 id: HIO:0000216
 name: Therapeutic Disease Cause
-is_a: HIO:0000082 ! Extrinsic Disease Cause
+is_a: HIO:0000082 ! Environmental Disease Cause
 property_value: HIO:0000227 "None" xsd:string
 property_value: HIO:0000229 "Request inclusion into existing ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A cause of disease that is (at least initially) external to the organism and is part of a form of therapy." xsd:string
@@ -2639,20 +2647,19 @@ creation_date: 2019-07-18T08:18:44.749515Z
 
 [Term]
 id: HIO:0000233
-name: Nonsyndromic Hearing Impairment, Genetic
-is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
-property_value: HIO:0000088 "Nonsyndromic Genetic Hearing Impairment" xsd:string
-property_value: HIO:0000088 "Nonsyndromic Hearing Impairment by Genetic Changes" xsd:string
+name: Hearing Impairment by Ear Affected
+is_a: HIO:0000002 ! Hearing Impairment
+property_value: HIO:0000088 "Hearing Impairment by Ear" xsd:string
 property_value: HIO:0000227 "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "A form of hearing impairment that is not associated with visible abnormalities of the external ear or other signs and symptoms, that can be associated with abnormalities of the middle ear and/or inner ear, and that has been shown to be caused by a genetic factor." xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The classification of hearing impairments according to the ear that is involved in the hearing impairment." xsd:string
 created_by: Jade Hotchkiss
-creation_date: 2019-07-18T08:26:28.562898Z
+creation_date: 2019-09-02T09:17:42.281181Z
 
 [Term]
 id: HIO:0000234
 name: Nonsyndromic Hearing Impairment, Autosomal Dominant
-is_a: HIO:0000233 ! Nonsyndromic Hearing Impairment, Genetic
+is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
 property_value: HIO:0000088 "Autosomal Dominant Nonsyndromic Deafness" xsd:string
 property_value: HIO:0000088 "Nonsyndromic Deafness, Autosomal Dominant" xsd:string
 property_value: HIO:0000225 HIO:0050564
@@ -2667,7 +2674,7 @@ creation_date: 2019-07-18T08:28:01.474936Z
 [Term]
 id: HIO:0000235
 name: Nonsyndromic Hearing Impairment, Autosomal Recessive
-is_a: HIO:0000233 ! Nonsyndromic Hearing Impairment, Genetic
+is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
 property_value: HIO:0000088 "Autosomal Recessive Nonsyndromic Deafness" xsd:string
 property_value: HIO:0000088 "Nonsyndromic Deafness, Autosomal Recessive" xsd:string
 property_value: HIO:0000225 HIO:0050565
@@ -2682,7 +2689,7 @@ creation_date: 2019-07-18T08:32:40.345823Z
 [Term]
 id: HIO:0000236
 name: Nonsyndromic Hearing Impairment, X-Linked
-is_a: HIO:0000233 ! Nonsyndromic Hearing Impairment, Genetic
+is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
 property_value: HIO:0000088 "Nonsyndromic Deafness, X-Linked" xsd:string
 property_value: HIO:0000088 "X-linked Deafness" xsd:string
 property_value: HIO:0000088 "X-linked Nonsyndromic Deafness" xsd:string
@@ -2696,7 +2703,7 @@ creation_date: 2019-07-18T08:36:58.125429Z
 [Term]
 id: HIO:0000237
 name: Nonsyndromic Hearing Impairment, Mitochondrial
-is_a: HIO:0000233 ! Nonsyndromic Hearing Impairment, Genetic
+is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
 created_by: Jade Hotchkiss
 creation_date: 2019-07-18T08:36:58.126777Z
 
@@ -2747,7 +2754,7 @@ creation_date: 2019-07-19T08:09:44.480177Z
 [Term]
 id: HIO:0000243
 name: Rubella Syndrome
-is_a: HIO:0000010 ! Syndromic Hearing Impairment
+is_a: HIO:0000466 ! Hearing Impairment of Environmental Aetiology
 relationship: HIO:0000442 HIO:0000244 ! condition caused or contributed to by Rubella Infection
 property_value: HIO:0000088 "Rubella Syndrome, Congenital" xsd:string
 property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D012410
@@ -2878,7 +2885,7 @@ creation_date: 2019-07-30T09:13:13.960072Z
 [Term]
 id: HIO:0000253
 name: Abnormal Ear Morphology
-is_a: HIO:0000092 ! Disorder
+is_a: HIO:0000471 ! Auditory System Disease or Disorder
 property_value: HIO:0000088 "Abnormal Auditory/ Vestibular System Morphology" xsd:string
 property_value: HIO:0000088 "Abnormal Ear Development/ Ear Malformation" xsd:string
 property_value: HIO:0000088 "Auditory/ Vestibular System Abnormalities;" xsd:string
@@ -3023,7 +3030,7 @@ creation_date: 2019-08-14T11:47:47.823533Z
 [Term]
 id: HIO:0000263
 name: Ear Obstruction
-is_a: HIO:0000082 ! Extrinsic Disease Cause
+is_a: HIO:0000082 ! Environmental Disease Cause
 property_value: HIO:0000088 "Ear Blockage" xsd:string
 property_value: HIO:0000227 "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
@@ -3398,32 +3405,30 @@ creation_date: 2019-08-01T09:13:35.819811Z
 [Term]
 id: HIO:0000292
 name: Acoustic Neuroma
-is_a: HIO:0000092 ! Disorder
+is_a: HIO:0000293 ! Nervous System Disease
 property_value: HIO:0000088 "Acoustic Neurilemmoma" xsd:string
 property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D009464
 property_value: HIO:0000226 MESH:D009464 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "A benign SCHWANNOMA of the eighth cranial nerve (VESTIBULOCOCHLEAR NERVE), mostly arising from the vestibular branch (VESTIBULAR NERVE) during the fifth or sixth decade of life. Clinical manifestations include HEARING LOSS; HEADACHE; VERTIGO; TINNITUS; and FACIAL PAIN. Bilateral acoustic neuromas are associated with NEUROFIBROMATOSIS 2." xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A benign schwannoma of the eighth cranial nerve (vestibulocochlear nerve), mostly arising from the vestibular branch (vestibular nerve) during the fifth or sixth decade of life. Clinical manifestations include hearing loss; headache; vertigo; tinnitus; and facial pain. Bilateral acoustic neuromas are associated with neurofibromatosis 2." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-08-01T09:25:38.285706Z
 
 [Term]
 id: HIO:0000293
-name: Vascular Disease
-is_a: HIO:0000050 ! Disease Associated with Hearing Impairment
-property_value: HIO:0000225 DOID:178
-property_value: HIO:0000226 DOID:178 xsd:string
+name: Nervous System Disease
+is_a: HIO:0000050 ! Disease or Disorder Associated with Hearing Impairment
+property_value: HIO:0000225 EFO:0000618
+property_value: HIO:0000226 EFO:0000618 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
-property_value: HIO:0000229 "Include as sub-classes: sickle cell disease, diabetes, leukemia, polycythemia, and diseases in which excessive blood clotting occurs. (see dc:source)" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "A cardiovascular system disease that primarily affects the blood vessels which includes the arteries, veins and capillaries that carry blood to and from the heart." xsd:string
-property_value: http://purl.org/dc/elements/1.1/source "what_causes_hearing_loss"
+property_value: http://purl.org/dc/elements/1.1/description "A non-neoplastic or neoplastic disorder that affects the brain, spinal cord, or peripheral nerves. a general class of medical conditions affecting the nervous system." xsd:string
 created_by: Jade Hotchkiss
-creation_date: 2019-08-01T09:30:11.770061Z
+creation_date: 2019-09-02T12:03:42.215364Z
 
 [Term]
 id: HIO:0000294
 name: Sickle Cell Disease
-is_a: HIO:0000293 ! Vascular Disease
+is_a: HIO:0000469 ! Hematologic and Lymphocytic Disorder
 property_value: HIO:0000225 HIO:1000106
 property_value: HIO:0000226 SCDO:1000106 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
@@ -3434,8 +3439,8 @@ creation_date: 2019-08-02T09:42:04.30967Z
 [Term]
 id: HIO:0000295
 name: Diabetes Mellitus
-is_a: HIO:0000293 ! Vascular Disease
-property_value: HIO:0000225 HIO:0000819
+is_a: HIO:0000468 ! Metabolic Disease
+property_value: HIO:0000225 HP:0000819
 property_value: HIO:0000226 HP:0000819 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "A group of abnormalities characterized by hyperglycemia and glucose intolerance." xsd:string
@@ -3445,7 +3450,7 @@ creation_date: 2019-08-02T09:42:04.310992Z
 [Term]
 id: HIO:0000296
 name: Leukemia
-is_a: HIO:0000293 ! Vascular Disease
+is_a: HIO:0000469 ! Hematologic and Lymphocytic Disorder
 property_value: HIO:0000225 DOID:1240
 property_value: HIO:0000226 DOID:1240 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
@@ -3456,7 +3461,7 @@ creation_date: 2019-08-02T09:42:04.312244Z
 [Term]
 id: HIO:0000297
 name: Polycythemia
-is_a: HIO:0000293 ! Vascular Disease
+is_a: HIO:0000469 ! Hematologic and Lymphocytic Disorder
 property_value: HIO:0000088 "Erythrocytosis" xsd:string
 property_value: HIO:0000088 "Increased Red Blood Cells" xsd:string
 property_value: HIO:0000088 "Polycythaemia" xsd:string
@@ -3672,7 +3677,8 @@ creation_date: 2019-08-14T11:24:50.273217Z
 [Term]
 id: HIO:0000316
 name: Postlingual Nonsyndromic Genetic Hearing Impairment
-is_a: HIO:0000233 ! Nonsyndromic Hearing Impairment, Genetic
+is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
+is_a: HIO:0000475 ! Postlingual Hearing Impairment
 property_value: HIO:0000088 "Isolated Postlingual Genetic Deafness" xsd:string
 property_value: HIO:0000088 "Postlingual Non-Syndromic Genetic Deafness" xsd:string
 property_value: HIO:0000088 "Postlingual Non-Syndromic Genetic Hearing Impairment" xsd:string
@@ -3688,7 +3694,8 @@ creation_date: 2019-08-06T18:52:11.316103Z
 [Term]
 id: HIO:0000317
 name: Prelingual Nonsyndromic Genetic Hearing Impairment
-is_a: HIO:0000233 ! Nonsyndromic Hearing Impairment, Genetic
+is_a: HIO:0000009 ! Nonsyndromic Hearing Impairment
+is_a: HIO:0000476 ! Prelingual Hearing Impairment
 property_value: HIO:0000088 "Isolated Prelingual Genetic Deafness" xsd:string
 property_value: HIO:0000088 "Prelingual Non-Syndromic Genetic Deafness" xsd:string
 property_value: HIO:0000088 "Prelingual Non-Syndromic Genetic Hearing Impairment" xsd:string
@@ -3764,6 +3771,7 @@ creation_date: 2019-08-16T12:28:18.545472Z
 id: HIO:0000323
 name: Childhood Onset Sensorineural Hearing Impairment
 is_a: HIO:0000006 ! Sensorineural Hearing Impairment
+is_a: HIO:0000479 ! Childhood Onset Hearing Impairment
 property_value: HIO:0000088 "Sensorineural Hearing Impairment with Childhood Onset" xsd:string
 property_value: HIO:0000225 HIO:0011474
 property_value: HIO:0000226 HP:0011474 xsd:string
@@ -4113,6 +4121,7 @@ creation_date: 2019-08-10T19:18:06.654765Z
 id: HIO:0000349
 name: GRXCR2, 1-BP DUP, 714T
 is_a: HIO:0000352 ! Loss of Function Mutation
+is_a: HIO:0000451 ! Nonsense Mutation
 property_value: HIO:0000225 "0001"
 property_value: HIO:0000227 "Negligable (nothing useful/outdated ontology)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
@@ -4304,7 +4313,7 @@ creation_date: 2019-08-16T12:37:20.934315Z
 [Term]
 id: HIO:0000363
 name: Unilateral Hearing Impairment
-is_a: HIO:0000086 ! Hearing Impairment by Site
+is_a: HIO:0000233 ! Hearing Impairment by Ear Affected
 property_value: HIO:0000088 "Bilateral Hearing Loss" xsd:string
 property_value: HIO:0000088 "Bilateral HI" xsd:string
 property_value: HIO:0000088 "Bilateral HL" xsd:string
@@ -4323,7 +4332,7 @@ creation_date: 2019-08-13T13:16:08.017786Z
 [Term]
 id: HIO:0000364
 name: Bilateral Hearing Impairment
-is_a: HIO:0000086 ! Hearing Impairment by Site
+is_a: HIO:0000233 ! Hearing Impairment by Ear Affected
 property_value: HIO:0000088 "Hearing Loss, Bilateral" xsd:string
 property_value: HIO:0000227 "Suggest update to description" xsd:string
 property_value: HIO:0000229 "Suggest update to \"Hearing Loss, Bilateral\" in MESH" xsd:string
@@ -4389,7 +4398,7 @@ creation_date: 2019-08-13T13:59:46.304824Z
 [Term]
 id: HIO:0000369
 name: Functional Hearing Impairment
-is_a: HIO:0000002 ! Hearing Impairment
+is_a: HIO:0000467 ! Hearing Impairment of Unknown Etiology
 property_value: HIO:0000088 "FHL" xsd:string
 property_value: HIO:0000088 "Functional Hearing Loss" xsd:string
 property_value: HIO:0000088 "Hearing Impairment, Functional" xsd:string
@@ -4795,6 +4804,463 @@ property_value: HIO:0000229 "Suggest CRISP removes \"coordinate indexing with th
 property_value: http://purl.org/dc/elements/1.1/description "Period of time a disease or treatment regimen occurs; includes therapies, education, interventions, prevention programs." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-08-20T11:08:54.110281Z
+
+[Term]
+id: HIO:0000446
+name: Point Mutation
+is_a: HIO:0000205 ! Mutation
+property_value: HIO:0000225 NCIT:C62200
+property_value: HIO:0000226 NCIT:C62200 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A small scale mutation caused by the substitution of a single nucleotide for another nucleotide." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T20:57:03.81501Z
+
+[Term]
+id: HIO:0000447
+name: Deletion Mutation
+is_a: HIO:0000205 ! Mutation
+property_value: HIO:0000088 "Deletion Abnormality" xsd:string
+property_value: HIO:0000225 NCIT:C19296
+property_value: HIO:0000226 NCIT:C19296 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Any rearrangement to the genomic content that results in the loss of one or more nucleotides of DNA. Deletions are generally irreversible rearrangements. They may alter the reading frame of a gene, or may result in loss of large chromosomal regions." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T20:57:03.816649Z
+
+[Term]
+id: HIO:0000448
+name: Indel Mutation
+is_a: HIO:0000205 ! Mutation
+property_value: HIO:0000088 "Insertion-Deletion Mutation" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D054643
+property_value: HIO:0000226 MeSH:D054643 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A mutation named with the blend of insertion and deletion. It refers to a length difference between two alleles where it is unknowable if the difference was originally caused by a sequence insertion or by a sequence deletion. If the number of nucleotides in the insertion/deletion is not divisible by three, and it occurs in a protein coding region, it is also a frameshift mutation." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T20:57:03.81824Z
+
+[Term]
+id: HIO:0000449
+name: Insertion
+is_a: HIO:0000205 ! Mutation
+property_value: HIO:0000088 "Gene Insertion" xsd:string
+property_value: HIO:0000088 "Insertion Mutation" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D016254
+property_value: HIO:0000226 MESH:D016254 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Mutagenesis where the mutation is caused by the introduction of foreign DNA sequences into a gene or extragenic sequence. This may occur spontaneously in vivo or be experimentally induced in vivo or in vitro. Proviral DNA insertions into or adjacent to a cellular proto-oncogene can interrupt genetic translation of the coding sequences or interfere with recognition of regulatory elements and cause unregulated expression of the proto-oncogene resulting in tumor formation." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T20:57:03.819768Z
+
+[Term]
+id: HIO:0000450
+name: Missense Mutation
+is_a: HIO:0000446 ! Point Mutation
+property_value: HIO:0000225 NCIT:C18133
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A single base pair substitution that alters the genetic code in a way that produces an amino acid that is different from the usual amino acid at that position. Some missense mutations will alter the function of the protein." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T20:57:51.889183Z
+
+[Term]
+id: HIO:0000451
+name: Nonsense Mutation
+is_a: HIO:0000446 ! Point Mutation
+property_value: HIO:0000088 "Premature Termination Abnormality" xsd:string
+property_value: HIO:0000088 "Premature Termination Mutation" xsd:string
+property_value: HIO:0000225 NCIT:C62198
+property_value: HIO:0000226 NCIT:C62198 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A point mutation occurring within the protein-coding region of a gene, and which codes for a stop that can truncate the protein." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T20:57:51.890709Z
+
+[Term]
+id: HIO:0000452
+name: Silent Mutation
+is_a: HIO:0000446 ! Point Mutation
+property_value: HIO:0000088 "Exon Synonymous Mutation" xsd:string
+property_value: HIO:0000088 "Exonic Synonymous Mutation" xsd:string
+property_value: HIO:0000088 "Synonymous Mutation" xsd:string
+property_value: HIO:0000225 NCIT:C20629
+property_value: HIO:0000226 NCIT:C20629 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A point mutation occurring within the protein-coding region of a gene, and which codes for the same amino acid as expected." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T20:57:51.891872Z
+
+[Term]
+id: HIO:0000453
+name: Genetic Polymorphism
+is_a: HIO:0000034 ! Genetic Variation
+property_value: HIO:0000225 NCIT:C17004
+property_value: HIO:0000226 NCIT:C17004 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The regular and simultaneous occurrence in a single interbreeding population of two or more discontinuous genotypes. The concept includes differences in genotypes ranging in size from a single nucleotide site to large nucleotide sequences visible at a chromosomal level." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:13:46.258595Z
+
+[Term]
+id: HIO:0000454
+name: Genetic Recombination
+is_a: HIO:0000034 ! Genetic Variation
+property_value: HIO:0000088 "Recombination" xsd:string
+property_value: HIO:0000088 "Recombination, Genetic" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D011995
+property_value: HIO:0000226 MESH:D011995 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Production of new arrangements of DNA by various mechanisms such as assortment and segregation, crossing over; gene conversion; genetic transformation; genetic conjugation; genetic transduction; or mixed infection of viruses." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:14:37.964076Z
+
+[Term]
+id: HIO:0000455
+name: Pharmacogenomic Variants
+is_a: HIO:0000453 ! Genetic Polymorphism
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D000071184
+property_value: HIO:0000226 MESH:D000071184 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Naturally occurring genetic variations associated with drug response. While these variants are not markers for genetic predisposition to disease, they influence pharmacokinetics and pharmacodynamics and often occur on genes encoding drug metabolism enzymes and transporters (e.g., angiotensin converting enzyme; cytochrome P-450 CYP2D6)." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:15:44.992069Z
+
+[Term]
+id: HIO:0000456
+name: Single Nucleotide Polymorphism
+is_a: HIO:0000453 ! Genetic Polymorphism
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:15:44.993678Z
+
+[Term]
+id: HIO:0000457
+name: Homologous Recombination
+is_a: HIO:0000454 ! Genetic Recombination
+property_value: HIO:0000088 "Homologous Recombinations" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D059765
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "An exchange of DNA between matching or similar sequences." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:19:01.40354Z
+
+[Term]
+id: HIO:0000458
+name: Genetic Crossing Over
+is_a: HIO:0000457 ! Homologous Recombination
+property_value: HIO:0000088 "Crossing Over, Genetic" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D003434
+property_value: HIO:0000226 MESH:D003434 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The reciprocal exchange of segments at corresponding positions along pairs of homologous chromosomes by symmetrical breakage and crosswise rejoining forming cross-over sites (Holliday junctions) that are resolved during chromosome segregation. Crossing-over typically occurs during meiosis but it may also occur in the absence of meiosis, for example, with bacterial chromosomes, organelle chromosomes, or somatic cell nuclear chromosomes." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:20:11.774261Z
+
+[Term]
+id: HIO:0000459
+name: Genetic Code
+is_a: HIO:0000071 ! Genetic Structure
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D005815
+property_value: HIO:0000226 MESH:D005815 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The meaning ascribed to the base sequence with respect to how it is translated into amino acid sequence. The start, stop, and order of amino acids of a protein is specified by consecutive triplets of nucleotides called codons." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:26:41.455347Z
+
+[Term]
+id: HIO:0000460
+name: Anticodon
+is_a: HIO:0000459 ! Genetic Code
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D000926
+property_value: HIO:0000226 MESH:D000926 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The sequential set of three nucleotides in transfer RNA that interacts with its complement in messenger RNA, the Codon, during translation in the ribosome." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:28:01.774846Z
+
+[Term]
+id: HIO:0000461
+name: Codon
+is_a: HIO:0000459 ! Genetic Code
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D003062
+property_value: HIO:0000226 MESH:D003062 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Also known as sense codon, a set of three nucleotides in a protein coding sequence that specifies individual amino acids or a termination signal (terminator codon). Most codons are universal, but some organisms do not produce the transfer RNAs complementary to all codons. These codons are referred to as unassigned codons (nonsense codons)." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:28:01.775789Z
+
+[Term]
+id: HIO:0000462
+name: Initiator Codon
+is_a: HIO:0000461 ! Codon
+property_value: HIO:0000088 "Codon, Initiation" xsd:string
+property_value: HIO:0000088 "Codon, Initiator" xsd:string
+property_value: HIO:0000088 "Initiation Codon" xsd:string
+property_value: HIO:0000088 "Initiation Codons" xsd:string
+property_value: HIO:0000088 "Initiator Codons" xsd:string
+property_value: HIO:0000088 "Start Codon" xsd:string
+property_value: HIO:0000088 "Start Codons" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D018387
+property_value: HIO:0000226 MESH:D018387 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A codon that directs initiation of protein translation (Translation, Genetic) by stimulating the binding of initiator tRNA (RNA, TRANSFER, MET). In prokaryotes, the codons AUG or GUG can act as initiators while in eukaryotes, AUG is the only initiator codon." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:30:00.005587Z
+
+[Term]
+id: HIO:0000463
+name: Nonsense Codon
+is_a: HIO:0000461 ! Codon
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D018389
+property_value: HIO:0000226 MESH:D018389 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "An amino acid-specifying codon that has been converted to a stop codon by mutation. Its occurance is abnormal causing premature termination of protein translation and results in production of truncated and non-functional proteins. A nonsense mutation is one that converts an amino acid-specific codon to a stop codon." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-08-29T21:30:00.006643Z
+
+[Term]
+id: HIO:0000464
+name: Hearing Impairment by Cause
+is_a: HIO:0000002 ! Hearing Impairment
+property_value: HIO:0000088 "Hearing Loss by Cause" xsd:string
+property_value: HIO:0000088 "HI by Cause" xsd:string
+property_value: HIO:0000088 "HL by Cause" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The classification of hearing impairments according to the agent, event, condition or characteristic which play an essential role in producing the hearing impairments." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-02T09:21:12.841508Z
+
+[Term]
+id: HIO:0000465
+name: Hearing Impairment of Genetic Origin
+is_a: HIO:0000464 ! Hearing Impairment by Cause
+property_value: HIO:0000088 "Hearing Loss of Genetic Origin" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A hearing impairment in which a disease causing genetic factor plays an essential role in producing the hearing impairment." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-02T09:23:38.61916Z
+
+[Term]
+id: HIO:0000466
+name: Hearing Impairment of Environmental Aetiology
+is_a: HIO:0000464 ! Hearing Impairment by Cause
+property_value: HIO:0000088 "Hearing Loss of Environmental Aetiology" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A hearing impairment in which an environmental disease cause plays an essential role in producing the hearing impairment." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-02T09:25:39.53984Z
+
+[Term]
+id: HIO:0000467
+name: Hearing Impairment of Unknown Etiology
+is_a: HIO:0000464 ! Hearing Impairment by Cause
+property_value: HIO:0000088 "Hearing Impairment of Unknown Cause" xsd:string
+property_value: HIO:0000088 "Hearing Loss of Unknown Cause" xsd:string
+property_value: HIO:0000088 "Hearing Loss of Unknown Etiology" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A hearing impairment for which the cause(s) (agents, events, conditions or characteristics that play an essential role in producing the hearing impairment) is/are unknown." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-02T10:26:28.139829Z
+
+[Term]
+id: HIO:0000468
+name: Metabolic Disease
+is_a: HIO:0000050 ! Disease or Disorder Associated with Hearing Impairment
+property_value: HIO:0000225 EFO:0000589
+property_value: HIO:0000226 EFO:0000589 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Generic term for diseases caused by an abnormal metabolic process." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-02T10:33:12.638375Z
+
+[Term]
+id: HIO:0000469
+name: Hematologic and Lymphocytic Disorder
+is_a: HIO:0000050 ! Disease or Disorder Associated with Hearing Impairment
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C26323
+property_value: HIO:0000226 NCIT:C26323 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A neoplastic or non-neoplastic disorder that affects the production and proliferation of the hematopoietic cells including lymphoid cells, the synthesis of hemoglobin, and/or the mechanisms of coagulation." xsd:string
+created_by: Jade Hothckiss
+creation_date: 2019-09-02T11:05:27.054751Z
+
+[Term]
+id: HIO:0000470
+name: Urinary System Disease
+is_a: HIO:0000050 ! Disease or Disorder Associated with Hearing Impairment
+property_value: HIO:0000088 "Disorder of Urinary System" xsd:string
+property_value: HIO:0000088 "Renal Disease" xsd:string
+property_value: HIO:0000088 "Urinary Tract Disease" xsd:string
+property_value: HIO:0000225 EFO:0009690
+property_value: HIO:0000226 EFO:0009690 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A disease involving the renal system." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-02T12:17:22.623521Z
+
+[Term]
+id: HIO:0000471
+name: Auditory System Disease or Disorder
+is_a: HIO:0000050 ! Disease or Disorder Associated with Hearing Impairment
+property_value: HIO:0000088 "Disease or Disorder of Auditory System" xsd:string
+property_value: HIO:0000225 EFO:1001455
+property_value: HIO:0000226 EFO:1001455 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Pathological processes of the ear, the hearing, and the equilibrium system of the body." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-02T12:22:57.205261Z
+
+[Term]
+id: HIO:0000472
+name: Hearing Impairment by Onset
+is_a: HIO:0000002 ! Hearing Impairment
+property_value: HIO:0000088 "Hearing Loss by Onset" xsd:string
+property_value: HIO:0000088 "HI by Onset" xsd:string
+property_value: HIO:0000088 "HL by Onset" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing loss according to when it first occurs." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T16:15:09.845773Z
+
+[Term]
+id: HIO:0000473
+name: Acquired Hearing Impairment
+is_a: HIO:0000472 ! Hearing Impairment by Onset
+property_value: HIO:0000088 "Acquired Hearing Loss" xsd:string
+property_value: HIO:0000088 "Acquired HI" xsd:string
+property_value: HIO:0000088 "Acquired HL" xsd:string
+property_value: HIO:0000225 https://www.asha.org/public/hearing/Acquired-Hearing-Loss/
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing loss that occurs any time after birth." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T16:57:59.324538Z
+
+[Term]
+id: HIO:0000474
+name: Congenital Hearing Impairment
+is_a: HIO:0000472 ! Hearing Impairment by Onset
+property_value: HIO:0000088 "Congenital Hearing Loss" xsd:string
+property_value: HIO:0000088 "Congenital HI" xsd:string
+property_value: HIO:0000088 "Congenital HL" xsd:string
+property_value: HIO:0000225 https://www.asha.org/public/hearing/Congenital-Hearing-Loss/
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing loss that is present at birth." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T16:57:59.325573Z
+
+[Term]
+id: HIO:0000475
+name: Postlingual Hearing Impairment
+comment: Post-lingual hearing impairments are far more common than prelingual deafness
+is_a: HIO:0000098 ! Hearing Impairment by Stage of Language Development
+is_a: HIO:0000473 ! Acquired Hearing Impairment
+property_value: HIO:0000088 "Postlingual Deafness" xsd:string
+property_value: HIO:0000088 "Postlingual Hearing Loss" xsd:string
+property_value: HIO:0000225 Post-lingual:deafness
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing impairment which develops after the acquisition of speech and language, usually after the age of six." xsd:string
+property_value: http://purl.org/dc/elements/1.1/source Post-lingual:deafness
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T17:01:14.593854Z
+
+[Term]
+id: HIO:0000476
+name: Prelingual Hearing Impairment
+is_a: HIO:0000098 ! Hearing Impairment by Stage of Language Development
+is_a: HIO:0000478 ! Pediatric Onset Hearing Impairment
+property_value: HIO:0000088 "Prelingual Deafness" xsd:string
+property_value: HIO:0000088 "Prelingual Hearing Loss" xsd:string
+property_value: HIO:0000225 Prelingual:deafness
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing impairment which is either congenital or develops before the acquisition of speech and language, usually before the age of 6." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T17:01:14.594964Z
+
+[Term]
+id: HIO:0000477
+name: Adult Onset Hearing Impairment
+is_a: HIO:0000473 ! Acquired Hearing Impairment
+property_value: HIO:0000088 "Adult Onset Deafness" xsd:string
+property_value: HIO:0000088 "Adult Onset Hearing Loss" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing impairment that begins manifesting during adulthood (at the age of 16 years or later)." xsd:string
+property_value: http://purl.org/dc/elements/1.1/source HP:0003581
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T17:08:03.165385Z
+
+[Term]
+id: HIO:0000478
+name: Pediatric Onset Hearing Impairment
+is_a: HIO:0000473 ! Acquired Hearing Impairment
+property_value: HIO:0000088 "Paediatric Onset Deafness" xsd:string
+property_value: HIO:0000088 "Paediatric Onset Hearing Impairment" xsd:string
+property_value: HIO:0000088 "Paediatric Onset Hearing Loss" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Suggest update to description in HPO" xsd:string
+property_value: http://purl.org/dc/elements/1.1/source HP:0410280
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T17:08:03.166355Z
+
+[Term]
+id: HIO:0000479
+name: Childhood Onset Hearing Impairment
+is_a: HIO:0000478 ! Pediatric Onset Hearing Impairment
+property_value: HIO:0000088 "Childhood Onset Deafness" xsd:string
+property_value: HIO:0000088 "Childhood Onset Hearing Loss" xsd:string
+property_value: HIO:0000088 "Hearing Impairment with Onset in Childhood" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing impairment that begins manifesting at the age of between 1 and 5 years (not including the fifth birthday)." xsd:string
+property_value: http://purl.org/dc/elements/1.1/source HP:0011463
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T17:08:03.16738Z
+
+[Term]
+id: HIO:0000480
+name: Infantile Onset Hearing Impairment
+is_a: HIO:0000478 ! Pediatric Onset Hearing Impairment
+property_value: HIO:0000088 "Hearing Impairment with Onset in Infancy" xsd:string
+property_value: HIO:0000088 "Infantile Onset Deafness" xsd:string
+property_value: HIO:0000088 "Infantile Onset Hearing Loss" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing impairment that begins manifesting between 28 days to one year of life." xsd:string
+property_value: http://purl.org/dc/elements/1.1/source HP:0003593
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T17:08:03.168358Z
+
+[Term]
+id: HIO:0000481
+name: Adult Onset Sensorineural Hearing Impairment
+is_a: HIO:0000477 ! Adult Onset Hearing Impairment
+property_value: HIO:0000088 "Sensorineural Deafness, Late-Onset" xsd:string
+property_value: HIO:0000225 HP:0008615
+property_value: HIO:0000226 HP:0008615 xsd:string
+property_value: HIO:0000227 "Suggest update to description" xsd:string
+property_value: HIO:0000229 "Suggest update to description in HPO" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Sensorineural hearing impairment that begins manifesting during adulthood (at the age of 16 years or later)." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T17:12:14.921893Z
+
+[Term]
+id: HIO:0000482
+name: Neonatal Onset Hearing Impairment
+is_a: HIO:0000473 ! Acquired Hearing Impairment
+property_value: HIO:0000088 "Neonatal Onset Hearing Loss" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing impairment that begins manifesting within the first 28 days of life." xsd:string
+created_by: Jade Hotchkiss
+creation_date: 2019-09-03T17:57:00.494767Z
 
 [Typedef]
 id: HIO:0000314
