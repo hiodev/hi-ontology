@@ -42,7 +42,7 @@
     <!-- http://purl.obolibrary.org/obo/HIO_0000225 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000225">
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/IAO_http://purl.obolibrary.org/obo/HIO_0000119"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000119"/>
         <dc:description>A source from where the formal description was derived. This can be in the form of a link to a relevant webpage, the IRI of a term in an existing ontology, a reference to specific literature, etc.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-07-17T14:29:18.44134Z</oboInOwl:creation_date>
@@ -91,7 +91,7 @@ None</rdfs:comment>
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000229">
         <obo:HIO_0000088>editor_notes</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/IAO_http://purl.obolibrary.org/obo/HIO_0000232"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000232"/>
         <obo:HIO_0000226>IAO:0000232</obo:HIO_0000226>
         <dc:description>An administrative note of use for a curator but of no use for a user.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
@@ -178,7 +178,7 @@ None</rdfs:comment>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000314">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000424"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000218"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000218"/>
         <obo:HIO_0000226>SCDO:1000218</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relationship that holds between a condition such as a disease (hemoglobinopathy) and a phenotype (i.e. manifestation), where the phenotype is evidence of the condition.</dc:description>
@@ -214,7 +214,7 @@ None</rdfs:comment>
         <obo:HIO_0000229>Suggest update of description in RO.</obo:HIO_0000229>
         <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
         <dc:description>A relationship between a gene and a gene product where the gene participates in some gene expression process (GO:0010467) where the output of that process is the gene product.</dc:description>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/RO_http://purl.obolibrary.org/obo/HIO_0002205"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-20T20:01:55.911337Z</oboInOwl:creation_date>
         <rdfs:label>has gene product</rdfs:label>
@@ -241,7 +241,7 @@ None</rdfs:comment>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000405">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000660"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000660"/>
         <obo:HIO_0000226>SCDO:0000660</obo:HIO_0000226>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
         <obo:HIO_0000229>Suggest update to description in SCDO
@@ -258,7 +258,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000406">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000405"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000210"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000210"/>
         <obo:HIO_0000226>SCDO:1000210</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a condition (disease or phenotype) or an entity (molecular phenotype) and a genetic variation (e.g. mutation or genetic recombination), where the genetic variation has some causal or contributing role that influences the condition or entity.</dc:description>
@@ -274,7 +274,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000407">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000405"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000429"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000172"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000172"/>
         <obo:HIO_0000226>SCDO:1000172</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a condition (hemoglobinopathy) and the genotype that causes the condition.</dc:description>
@@ -289,7 +289,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000408">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000405"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000223"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000223"/>
         <obo:HIO_0000226>SCDO:1000223</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a condition (disease such as a Hemoglobinopathy) and a molecular phenotype, where the molecular phenotype is evidence of the condition.</dc:description>
@@ -305,7 +305,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000409">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000436"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000444"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000217"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000217"/>
         <obo:HIO_0000226>SCDO:1000217</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between an entity (genotype) and a molecular phenotype, where the entity has some causal or contributing role that influences the molecular phenotype.</dc:description>
@@ -320,7 +320,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000410">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000436"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000222"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000222"/>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to suggest inclusion of property into RO. Update annotations at a later stage if necessary.</obo:HIO_0000229>
         <dc:description>A relation between a genotype and a molecular phenotype, where the genotype has a causal role for the molecular phenotype.</dc:description>
@@ -336,7 +336,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000411">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000436"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000430"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000184"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000184"/>
         <obo:HIO_0000226>SCDO:1000184</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relationship between an entity (e.g. genetic variation such as mutation or specific allele) and a genotype, where the entity contributes to the genotype.</dc:description>
@@ -366,7 +366,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000413">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000199"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000199"/>
         <obo:HIO_0000226>SCDO:1000199</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A condition (phenotype or disease) or event (adverse event) induced by an entity (e.g. a drug) or activity (e.g. exercise).</dc:description>
@@ -382,7 +382,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000414">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000431"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000203"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000203"/>
         <obo:HIO_0000226>SCDO:1000203</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a condition (disease or phenotype) and an aspect of an individual&apos;s life (personal attribute), behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of the condition.</dc:description>
@@ -413,7 +413,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000416">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001364"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001364"/>
         <obo:HIO_0000226>SCDO:0001364</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a particular genotype or disorder and the pattern in which the particular genotype or disorder is passed from one generation to the next.</dc:description>
@@ -428,7 +428,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000417">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000663"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000663"/>
         <obo:HIO_0000226>SCDO:0000663</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a phenotype that is a diagnosis and a diagnostic tool used in making the diagnosis.</dc:description>
@@ -443,7 +443,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000418">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000220"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000220"/>
         <obo:HIO_0000226>SCDO:1000220</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a condition that is a diagnosis and a phenotype used in making the diagnosis.</dc:description>
@@ -459,7 +459,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000419">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000432"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000194"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000194"/>
         <obo:HIO_0000226>SCDO:1000194</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a diagnostic tool and the diagnostic measurement that it measures.</dc:description>
@@ -475,7 +475,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000420">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000433"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000192"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000192"/>
         <obo:HIO_0000226>SCDO:1000192</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a diagnostic tool (test, method, assay, etc.) and a diagnostic device, where the diagnostic device is used in the application of the diagnostic tool.</dc:description>
@@ -491,7 +491,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000421">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000434"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000474"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000474"/>
         <obo:HIO_0000226>SCDO:0000474</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a device (diagnostic device) and the recording of the output (diagnostic measurement) of the device.</dc:description>
@@ -507,7 +507,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000422">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000435"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000664"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000664"/>
         <obo:HIO_0000226>SCDO:0000664</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a condition (phenotype or disease) and a type of treatment or a specific treatment, where the condition can be treated with the treatment.</dc:description>
@@ -522,7 +522,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000423">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000475"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000475"/>
         <obo:HIO_0000226>SCDO:0000475</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a process (e.g. a form of therapy) and a medical device, where the medical device is used in the process.</dc:description>
@@ -537,7 +537,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000424">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000180"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000180"/>
         <obo:HIO_0000226>SCDO:1000180</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relationship that holds between a phenotype (i.e. manifestation) and a condition such as a disease (hemoglobinopathy), wherein the phenotype is evidence of the condition.</dc:description>
@@ -572,7 +572,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
 Suggest update to description in RO.</obo:HIO_0000229>
         <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
         <dc:description>A relationship between a gene product and a gene where the gene participates in some gene expression process (GO:0010467) where the output of that process is the gene product.</dc:description>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/RO_http://purl.obolibrary.org/obo/HIO_0002204"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-20T20:01:55.938818Z</oboInOwl:creation_date>
         <rdfs:label>gene product of</rdfs:label>
@@ -600,7 +600,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000428">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000436"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000442"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/RO_http://purl.obolibrary.org/obo/HIO_0003302"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
         <obo:HIO_0000226>RO:0003302</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relationship between an entity (e.g. a genotype, genetic variation, chemical, or environmental exposure) and a condition (a phenotype or disease), where the entity has some causal or contributing role that influences the condition.</dc:description>
@@ -616,7 +616,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000429">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000436"/>
         <obo:HIO_0000088>results_in</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/RO_http://purl.obolibrary.org/obo/HIO_0003303"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/RO_0003303"/>
         <obo:HIO_0000226>RO:0003303</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relationship between an entity (e.g. a genotype, genetic variation, chemical, or environmental exposure) and a condition (a phenotype or disease), where the entity has some causal role for the condition.</dc:description>
@@ -631,7 +631,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000430">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000405"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000196"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000196"/>
         <obo:HIO_0000226>SCDO:1000196</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a genotype and a genetic variation (e.g. mutation or genetic recombination), where the genetic variation contributes to the genotype.</dc:description>
@@ -646,7 +646,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000431">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000204"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000204"/>
         <obo:HIO_0000226>SCDO:1000204</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between an aspect of an individual&apos;s life (personal attribute), behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a condition and the condition (disease or phenotype) that it increases the likelihood of.</dc:description>
@@ -661,7 +661,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000432">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000190"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000190"/>
         <obo:HIO_0000226>SCDO:1000190</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relationship between a diagnostic measurement and the diagnostic tool used to produce the measurement.</dc:description>
@@ -676,7 +676,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000433">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000191"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000191"/>
         <obo:HIO_0000226>SCDO:1000191</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relationship between a diagnostic device and the diagnostic tool by which the device is used.</dc:description>
@@ -691,7 +691,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000434">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000193"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000193"/>
         <obo:HIO_0000226>SCDO:1000193</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a diagnostic measurement and a diagnostic device, where the diagnostic measurement is the output of the diagnostic device.</dc:description>
@@ -706,7 +706,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000435">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000018"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000018"/>
         <obo:HIO_0000226>SCDO_1000018</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation between a type of treatment or a specific treatment and a condition (phenotype or disease), where the type of treatment or specific treatment treat the condition.</dc:description>
@@ -721,7 +721,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000436">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000183"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000183"/>
         <obo:HIO_0000226>SCDO:1000183</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relationship between &apos;a&apos; and &apos;b&apos;, where &apos;a&apos; has some causal role for &apos;b&apos;.</dc:description>
@@ -737,7 +737,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000437">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000438"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000005"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000005"/>
         <obo:HIO_0000226>SCDO:1000005</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relationship between a condition (phenotype or disease), contributing cause of condition, entity (aspect of quality of life) or process (therapy) and a modifier, where the condition, contributing cause of condition, entity, or process is modified by the modifier in some way.</dc:description>
@@ -752,7 +752,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000438">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000015"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000015"/>
         <obo:HIO_0000226>SCDO:1000015</obo:HIO_0000226>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
         <obo:HIO_0000229>Suggest update to description in SCDO</obo:HIO_0000229>
@@ -768,7 +768,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000439">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000468"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000468"/>
         <obo:HIO_0000226>SCDO:0000468</obo:HIO_0000226>
         <obo:HIO_0000227>Suggest update in SCDO</obo:HIO_0000227>
         <obo:HIO_0000229>Used as annotation property in SCDO. Suggest inclusion of &quot;Age of Onset&quot; class and use of this property as an object property.</obo:HIO_0000229>
@@ -799,7 +799,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000441">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:HIO_0000088>has_qualifying_context</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/GENO_http://purl.obolibrary.org/obo/HIO_0000580"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/GENO_0000580"/>
         <obo:HIO_0000226>GENO:0000580</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A relation used to describe a context or conditions that define and/or identify an entity.</dc:description>
@@ -904,12 +904,12 @@ Suggest update to description in RO.</obo:HIO_0000229>
         <obo:HIO_0000088>Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Hearing Defect</obo:HIO_0000088>
         <obo:HIO_0000088>Hearing Loss</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000365"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0000365"/>
         <obo:HIO_0000226>HP:0000365</obo:HIO_0000226>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
         <obo:HIO_0000229>Suggest update to description in the HPO. The new description also encompasses conductive hearing impairment whereby the problem is not the perception of sound but the transmission of sound from the outer environment to the inner ear.</obo:HIO_0000229>
         <dc:description>A decreased perception and/or transmission of sound.</dc:description>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000365"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_0000365"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-24T09:51:09.421966Z</oboInOwl:creation_date>
         <rdfs:comment>Hearing loss can be categorized by which part of the auditory system is damaged, as conductive hearing loss, sensorineural hearing loss, and mixed hearing loss. Another axis of classification uses the degree of hearing impairment. The degree of hearing loss is computed by using a three frequency average taken at 500 Hz, 1,000 Hz and 2,000 Hz. The average of these three frequencies is called the Pure Tone Average (PTA). 0-20 dB is considered normal, 21-40 dB mild loss, 41-60 dB moderate loss, 61-70 dB moderately severe loss,71-90 dB severe loss, and greater than 90 dB profound loss. Note that the word deafness is occasionally used to describe partial hearing loss. The World Health Organization uses the word deafness to refer to complete loss of the ability to hear, and hearing impairment to refer to any degree of reduced hearing.</rdfs:comment>
@@ -922,7 +922,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000001"/>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/OGMS?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOGMS_http://purl.obolibrary.org/obo/HIO_0000023"/>
+        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/OGMS?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOGMS_0000023"/>
         <obo:HIO_0000226>OGMS:0000023</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A (combination of) quality(ies) of an organism determined by the interaction of its genetic make-up and environment that differentiates specific instances of a species from other instances of the same species.</dc:description>
@@ -952,7 +952,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000005">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000359"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000359"/>
         <obo:HIO_0000226>SCDO_0000359</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
@@ -978,11 +978,11 @@ Suggest update to description in RO.</obo:HIO_0000229>
         <obo:HIO_0000088>Sensorineural Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Sensorineural Hearing Loss Disorder</obo:HIO_0000088>
         <obo:HIO_0000088>Sensory Hearing Loss</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_1001176"/>
+        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_1001176"/>
         <obo:HIO_0000226>EFO:1001176</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Hearing loss due to disease of the auditory pathways (in the central nervous system) which originate in the cochlear nuclei of the pons and then ascend bilaterally to the midbrain, the thalamus, and then the auditory cortex in the temporal lobe. Bilateral lesions of the auditory pathways are usually required to cause central hearing loss. Cortical deafness refers to loss of hearing due to bilateral auditory cortex lesions. Unilateral brain stem lesions involving the cochlear nuclei may result in unilateral hearing loss.</dc:description>
-        <dc:source rdf:resource="http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_1001176"/>
+        <dc:source rdf:resource="http://www.ebi.ac.uk/efo/EFO_1001176"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-24T09:58:12.272446Z</oboInOwl:creation_date>
         <rdfs:label>Sensorineural Hearing Impairment</rdfs:label>
@@ -1005,11 +1005,11 @@ Suggest update to description in RO.</obo:HIO_0000229>
         <obo:HIO_0000088>Conductive Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Hearing Loss, Conductive</obo:HIO_0000088>
         <obo:HIO_0000088>Outer or Middle Ear Hearing Impairment</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000405"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0000405"/>
         <obo:HIO_0000226>HP:0000405</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>An abnormality of vibrational conductance of sound to the inner ear leading to impairment of sensory perception of sound.</dc:description>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000405"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_0000405"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-24T09:58:12.273093Z</oboInOwl:creation_date>
         <rdfs:label>Conductive Hearing Impairment</rdfs:label>
@@ -1023,7 +1023,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000086"/>
         <obo:HIO_0000088>Inner and Outer or Middle Ear Hearing Impairment</obo:HIO_0000088>
         <obo:HIO_0000088>Mixed Hearing Loss</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000410"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0000410"/>
         <obo:HIO_0000226>HP:0000410</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A type of hearing loss resulting from a combination of conductive hearing impairment and sensorineural hearing impairment.</dc:description>
@@ -1041,12 +1041,12 @@ Suggest update to description in RO.</obo:HIO_0000229>
         <obo:HIO_0000088>Non-Syndromic Hearing Impairment</obo:HIO_0000088>
         <obo:HIO_0000088>Non-Syndromic Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Nonsyndromic Hearing Loss</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0006328"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0006328"/>
         <obo:HIO_0000226>MP:0006328</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>Populate with sub-classes of &quot;nonsyndromic deafness&quot; in DO. See dc:source. but use Uniprot, Human Diseases, to write appropriate descriptions.</obo:HIO_0000229>
         <dc:description>A form of hearing impairment that is not associated with visible abnormalities of the external ear or other signs and symptoms and can be associated with abnormalities of the middle ear and/or inner ear</dc:description>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050563"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/DOID_0050563"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-24T09:58:12.274397Z</oboInOwl:creation_date>
         <rdfs:label>Nonsyndromic Hearing Impairment</rdfs:label>
@@ -1062,7 +1062,7 @@ Suggest update to description in RO.</obo:HIO_0000229>
         <obo:HIO_0000088>SHL</obo:HIO_0000088>
         <obo:HIO_0000088>Syndromic Genetic Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Syndromic Hearing Loss</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0006330"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0006330"/>
         <obo:HIO_0000226>MP:0006330</obo:HIO_0000226>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
         <obo:HIO_0000229>Suggest update to description in MP</obo:HIO_0000229>
@@ -1349,7 +1349,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
         <obo:HIO_0000088>Gonodal Dysgenesis, XX Type, with Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>XX Gonodal Dysgenesis - Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>XX Gonodal Dysgenesis-Deafness Syndrome</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050857"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_0050857"/>
         <obo:HIO_0000226>DOID:0050857c</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>An autosomal recessive disease that is characterized by sensorineural hearing loss and ovarian failure.</dc:description>
@@ -1477,7 +1477,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
         <obo:HIO_0000088>WFS</obo:HIO_0000088>
         <obo:HIO_0000088>WFS1</obo:HIO_0000088>
         <obo:HIO_0000088>WS1</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0110629"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_0110629"/>
         <obo:HIO_0000226>DOID:0110629</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>An autosomal recessive disease that is characterized by diabetes mellitus, optic atrophy, and deafness as well as various other possible disorders and has_material_basis_in autosomal recessive inheritance of homozygous or compound heterozygous mutation in the WFS1 gene on chromosome 4p16.1.</dc:description>
@@ -1500,7 +1500,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
         </rdfs:subClassOf>
         <obo:HIO_0000088>WFS2</obo:HIO_0000088>
         <obo:HIO_0000088>WS2</obo:HIO_0000088>
-        <obo:HIO_0000226 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0110630"/>
+        <obo:HIO_0000226 rdf:resource="http://purl.obolibrary.org/obo/DOID_0110630"/>
         <obo:HIO_0000226>DOID:0110630</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>An autosomal recessive neurodegenerative disorder characterized by diabetes mellitus, high frequency sensorineural hearing loss, optic atrophy or neuropathy, and defective platelet aggregation resulting in peptic ulcer bleeding. It has_material_basis_in autosomal recessive inheritance of homozygous or compound heterozygous mutation in the CISD2 gene on chromosome 4q24.</dc:description>
@@ -1591,7 +1591,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000033"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000083"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001369"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001369"/>
         <obo:HIO_0000226>SCDO:0001369</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request update to description in NCIT. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -1607,7 +1607,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000001"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000379"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000379"/>
         <obo:HIO_0000226>SCDO:0000379</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -1718,14 +1718,14 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
         <obo:HIO_0000088>Neurosensory Hearing Loss with Dilated Cardiomyopathy</obo:HIO_0000088>
         <obo:HIO_0000088>Sensorineural Deafness with Dilated Cardiomyopathy</obo:HIO_0000088>
         <obo:HIO_0000088>Sensorineural Hearing Loss with Dilated Cardiomyopathy</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0011541"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011541"/>
         <obo:HIO_0000226>MONDO:0011541</obo:HIO_0000226>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
         <obo:HIO_0000229>Suggest update to description in MONDO, by removing the name of the term from the start of the description.
 
 Positioning of this term still up for discussion...perhaps should be moved below &quot;Syndromic Hearing Impairment&quot;?</obo:HIO_0000229>
         <dc:description>An extremely rare autosomal dominant syndrome described in two families to date and characterized by moderate to severe sensorineural hearing loss manifesting during childhood, and associated with late-onset dilated cardiomyopathy that generally progresses to heart failure.</dc:description>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0110440"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/DOID_0110440"/>
         <dc:source rdf:resource="https://www.uniprot.org/diseases/DI-00217"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-31T07:30:50.301074Z</oboInOwl:creation_date>
@@ -1935,7 +1935,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
         <obo:HIO_0000229>Term too specific to HLO to be irequested for nclusion in other ontologies.</obo:HIO_0000229>
         <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
         <dc:description>A definite pathologic process with a characteristic set of signs and symptoms (a disease) or a material entity which is clinically abnormal and part of an extended organism (disorder) that&apos;s presence has been associated with the occurrence of hearing impairment.</dc:description>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/OGMS_http://purl.obolibrary.org/obo/HIO_0000045"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-31T09:40:21.836524Z</oboInOwl:creation_date>
         <rdfs:label>Disease or Disorder Associated with Hearing Impairment</rdfs:label>
@@ -2041,7 +2041,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000035"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ERO_http://purl.obolibrary.org/obo/HIO_0001448"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ERO_0001448"/>
         <obo:HIO_0000226>ERO:0001448</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A medical device used to diagnose medical conditions.</dc:description>
@@ -2056,7 +2056,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000036"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001150"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001150"/>
         <obo:HIO_0000226>SCDO:0001150</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -2100,7 +2100,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000003"/>
         <obo:HIO_0000088>Phenotypic Abnormality</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/FYPO_http://purl.obolibrary.org/obo/HIO_0001985"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/FYPO_0001985"/>
         <obo:HIO_0000226>FYPO:0001985</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A phenotype that shows detectable differences from normal.</dc:description>
@@ -2116,7 +2116,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000036"/>
         <obo:HIO_0000088>Symptomatic Treatment</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001133"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001133"/>
         <obo:HIO_0000226>SCDO:0001133</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Therapeutics that ease the symptoms without addressing the basic cause of the disease.</dc:description>
@@ -2150,7 +2150,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000036"/>
         <obo:HIO_0000088>Preventive Therapeutics</obo:HIO_0000088>
         <obo:HIO_0000088>Prophylactic Therapeutics</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000922"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000922"/>
         <obo:HIO_0000226>SCDO:0000922</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Activities to prevent a disease or its complications.</dc:description>
@@ -2195,7 +2195,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000036"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000301"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000301"/>
         <obo:HIO_0000226>SCDO:0000301</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -2212,7 +2212,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000035"/>
         <obo:HIO_0000088>Diagnostic Quantitative Measurement</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000728"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000728"/>
         <obo:HIO_0000226>SCDO:0000728</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -2229,7 +2229,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000035"/>
         <obo:HIO_0000088>Visual Output of a Diagnostic Device</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000313"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000313"/>
         <obo:HIO_0000226>SCDO:1000313</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -2245,7 +2245,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000035"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000032"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000032"/>
         <obo:HIO_0000226>SCDO:1000032</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -2294,7 +2294,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000072">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000069"/>
         <obo:HIO_0000088>Diagnostic Questionnaire</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000033"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000033"/>
         <obo:HIO_0000226>SCDO:1000033</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -2314,7 +2314,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
         <obo:HIO_0000088>Diagnostic Method</obo:HIO_0000088>
         <obo:HIO_0000088>Diagnostic Technique</obo:HIO_0000088>
         <obo:HIO_0000088>Diagnostic Test</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000082"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000082"/>
         <obo:HIO_0000226>SCDO:0000082</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -2331,7 +2331,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000001"/>
         <obo:HIO_0000088>Inheritance</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000005"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0000005"/>
         <obo:HIO_0000226>HP:0000005</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>The pattern in which a particular genetic trait or disorder is passed from one generation to the next.</dc:description>
@@ -2349,7 +2349,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
         <obo:HIO_0000088>Autosomal Recessive Form</obo:HIO_0000088>
         <obo:HIO_0000088>Autosomal Recessive Inheritance</obo:HIO_0000088>
         <obo:HIO_0000088>Autosomal Recessive Predisposition</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000007"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0000007"/>
         <obo:HIO_0000226>HP:0000007</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in individuals with two pathogenic alleles, either homozygous (two copies of the same mutant allele) or compound heterozygous (whereby each copy of a gene has a distinct mutant allele).</dc:description>
@@ -2367,7 +2367,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
         <obo:HIO_0000088>Autosomal Dominant Form</obo:HIO_0000088>
         <obo:HIO_0000088>Autosomal Dominant Inheritance</obo:HIO_0000088>
         <obo:HIO_0000088>Autosomal Dominant Predisposition</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000006"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0000006"/>
         <obo:HIO_0000226>HP:0000006</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A mode of inheritance that is observed for traits related to a gene encoded on one of the autosomes (i.e., the human chromosomes 1-22) in which a trait manifests in heterozygotes.  An autosomal dominant disorder is caused when a single copy of the mutant allele is present. Males and females are affected equally, and can both transmit the disorder with a risk of 50% for each child of inheriting the mutant allele.</dc:description>
@@ -2406,7 +2406,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Antidepressant Induced Hearing Impairment</obo:HIO_0000088>
         <obo:HIO_0000088>Antidepressant Induced Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Antidepressant-Induced Hearing Loss</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_0006324"/>
+        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0006324"/>
         <obo:HIO_0000226>EFO:0006324</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Hearing impairment such as ringing in the ears that is the direct result of treatment with antidepressant medication.</dc:description>
@@ -2437,7 +2437,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000079"/>
         <obo:HIO_0000088>Age Symptoms Begin</obo:HIO_0000088>
         <obo:HIO_0000088>Onset</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003674"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
         <obo:HIO_0000226>HP:0003674</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>The age group in which disease manifestations appear.</dc:description>
@@ -2521,7 +2521,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000082"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/IDO_http://purl.obolibrary.org/obo/HIO_0000586"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/IDO_0000586"/>
         <obo:HIO_0000226>IDO:0000586</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A part of an extended organism that itself has as part a population of one or more infectious agents and that (1) exists as a result of processes initiated by members of the infectious agent population and is (2) clinically abnormal in virtue of the presence of this infectious agent population, or (3) has a disposition to bring clinical abnormality to immunocompetent organisms of the same Species as the host (the organism corresponding to the extended organism) through transmission of a member or offspring of a member of the infectious agent population.</dc:description>
@@ -2556,7 +2556,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Drug Induced Hearing Impairment</obo:HIO_0000088>
         <obo:HIO_0000088>Drug Induced Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Drug-Induced Hearing Loss</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0070310"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_0070310"/>
         <obo:HIO_0000226>DOID:0070310</obo:HIO_0000226>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
         <obo:HIO_0000229>Suggest update to description in DO</obo:HIO_0000229>
@@ -2589,7 +2589,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000081"/>
         <obo:HIO_0000088>Gradual Onset</obo:HIO_0000088>
         <obo:HIO_0000088>Slow Onset</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003587"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0003587"/>
         <obo:HIO_0000226>HP:0003587</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Gradual, very slow onset of disease manifestations.</dc:description>
@@ -2605,7 +2605,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000081"/>
         <obo:HIO_0000088>Sudden Onset</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0011009"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0011009"/>
         <obo:HIO_0000226>HP:0011009</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Sudden appearance of disease manifestations over a short period of time. The word acute is applied to different time scales depending on the disease or manifestation and does not have an exact definition in minutes, hours, or days.</dc:description>
@@ -2620,7 +2620,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000005"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/OGMS_http://purl.obolibrary.org/obo/HIO_0000045"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:HIO_0000226>OGMS:0000045</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease.</dc:description>
@@ -2642,7 +2642,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000226>NCIT:C3671</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity.</dc:description>
-        <dc:source rdf:resource="http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_0000546"/>
+        <dc:source rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000546"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-06T11:27:27.276161Z</oboInOwl:creation_date>
         <rdfs:label>Injury</rdfs:label>
@@ -2748,7 +2748,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Management of Precipitating Factors</obo:HIO_0000088>
         <obo:HIO_0000088>Management of Underlying Cause</obo:HIO_0000088>
         <obo:HIO_0000088>Treatment of Underlying Cause</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000020"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000020"/>
         <obo:HIO_0000226>SCDO:1000020</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -2801,7 +2801,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000091"/>
         <obo:HIO_0000088>Acute Emergence Over Minutes</obo:HIO_0000088>
         <obo:HIO_0000088>Sudden Onset over Minutes</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0025306"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0025306"/>
         <obo:HIO_0000226>HP:0025306</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Acute appearance of disease manifestations in a period of minutes.</dc:description>
@@ -2818,7 +2818,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000091"/>
         <obo:HIO_0000088>Acute Emergence Over Hours</obo:HIO_0000088>
         <obo:HIO_0000088>Sudden Onset over Hours</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0025307"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0025307"/>
         <obo:HIO_0000226>HP:0025307</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Acute appearance of disease manifestations in a period of hours.</dc:description>
@@ -2835,7 +2835,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000091"/>
         <obo:HIO_0000088>Acute Emergence Over Days</obo:HIO_0000088>
         <obo:HIO_0000088>Sudden Onset over Days</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0025308"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0025308"/>
         <obo:HIO_0000226>HP:0025308</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Acute appearance of disease manifestations in a period of hours.</dc:description>
@@ -2869,7 +2869,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000080"/>
         <obo:HIO_0000088>Onset in Adulthood</obo:HIO_0000088>
         <obo:HIO_0000088>Symptoms Begin in Adulthood</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003581"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0003581"/>
         <obo:HIO_0000226>HP:0003581</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Onset of disease manifestations in adulthood, defined here as at the age of 16 years or later.</dc:description>
@@ -2884,8 +2884,8 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000003"/>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/BAO?p=classes&amp;conceptid=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_http://purl.obolibrary.org/obo/HIO_0170001"/>
-        <obo:HIO_0000225 rdf:resource="http://www.bioassayontology.org/bao#BAO_http://purl.obolibrary.org/obo/HIO_0170001"/>
+        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/BAO?p=classes&amp;conceptid=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0170001"/>
+        <obo:HIO_0000225 rdf:resource="http://www.bioassayontology.org/bao#BAO_0170001"/>
         <obo:HIO_0000226>BAO:0170001</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>The molecular characteristics of a cell of tissue including expressed coding and non-coding RNAs, proteins and their post-translational modifications, lipids, carbohydrates and small molecules that characterize the state in a cell or tissue and that result from the interaction of its genotype and the environment.</dc:description>
@@ -2900,7 +2900,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000108"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0009613"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0009613"/>
         <obo:HIO_0000226>SCDO:0009613</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into BioAssayontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -3027,7 +3027,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000061"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ERO_http://purl.obolibrary.org/obo/HIO_0000378"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000378"/>
         <obo:HIO_0000226>ERO:0000378</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A material processing technique that uses operative manual and instrumental techniques on a patient to investigate and/or treat a pathological condition such as disease or injury or to help improve bodily function or appearance.</dc:description>
@@ -3519,7 +3519,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000133"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000908"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000908"/>
         <obo:HIO_0000226>SCDO:0000908</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -4006,11 +4006,11 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:HIO_0000088>Craniofacial Dysostosis</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0004439"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0004439"/>
         <obo:HIO_0000226>HP:0004439</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A characteristic appearance resulting from defective ossification of craniofacial bones.</dc:description>
-        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0004439"/>
+        <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_0004439"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-14T10:39:55.08973Z</oboInOwl:creation_date>
         <rdfs:comment>Note: This term is used in the medical literature to describe an appearance of the face of patients with Crouzon syndrome (also called craniofacial dysostosis), which is characterized by acrocephaly, exophthalmos, hypertelorism, strabismus, parrot-beaked nose, and hypoplastic maxilla. This is thus probably mainly used as a bundled term and should be replaced by better descriptions in the future. A characteristic appearance resulting from defective ossification of craniofacial bones.</rdfs:comment>
@@ -4023,7 +4023,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000222"/>
-        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_0006951"/>
+        <obo:HIO_0000225 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0006951"/>
         <obo:HIO_0000226>NCIT:C66929</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Damage to the ear, specifically the cochlea or auditory nerve as a result of some toxic stimulus, eg from a drug. Ototoxicity can result in hearing loss.</dc:description>
@@ -4056,7 +4056,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000060"/>
         <obo:HIO_0000088>Ear Anomaly</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0031704"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0031704"/>
         <obo:HIO_0000226>HP:0031704</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Either a morphological abnormality or hearing deficit. This should be split more cleanly in the future. An abnormality of the ear.</dc:description>
@@ -4245,7 +4245,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000034"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_http://purl.obolibrary.org/obo/HIO_50000026"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/IDOMAL_50000026"/>
         <obo:HIO_0000226>IDOMAL:50000026</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A permanent change in the DNA sequence of a gene that alters the genetic message carried by that gene.</dc:description>
@@ -4361,7 +4361,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000214">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000080"/>
         <obo:HIO_0000088>Onset Before Adulthood</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0410280"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0410280"/>
         <obo:HIO_0000226>HP:0410280</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Onset of disease manifestations before adulthood, defined here as before the age of 16 years, but excluding neonatal or congenital onset.</dc:description>
@@ -4427,7 +4427,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000074"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0001427"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0001427"/>
         <obo:HIO_0000226>HP:0001427</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A mode of inheritance that is observed for traits related to a gene encoded on the mitochondrial genome. Because the mitochondrial genome is essentially always maternally inherited, a mitochondrial condition can only be transmitted by females, although the condition can affect both sexes. The proportion of mutant mitochondria can vary, this is known as heteroplasmy.</dc:description>
@@ -4443,7 +4443,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000074"/>
         <obo:HIO_0000088>Gonosomal Inheritance</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0010985"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0010985"/>
         <obo:HIO_0000226>HP:0010985</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A mode of inheritance that is observed for traits related to a gene encoded on the sex chromosomes (X and Y).</dc:description>
@@ -4575,7 +4575,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000230">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000074"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0001426"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0001426"/>
         <obo:HIO_0000226>HP:0001426</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A mode of inheritance that depends on a mixture of major and minor genetic determinants possibly together with environmental factors. Diseases inherited in this manner are termed complex diseases.</dc:description>
@@ -4597,7 +4597,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:HIO_0000088>KCNQ1 Gene</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://www.drugtargetontology.org/dto/DTO_http://purl.obolibrary.org/obo/HIO_01200232"/>
+        <obo:HIO_0000225 rdf:resource="http://www.drugtargetontology.org/dto/DTO_01200232"/>
         <obo:HIO_0000226>DTO:01200232</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>This gene encodes a voltage-gated potassium channel required for repolarization phase of the cardiac action potential. This protein can form heteromultimers with two other potassium channel proteins, KCNE1 and KCNE3. Mutations in this gene are associated with hereditary long QT syndrome 1 (also known as Romano-Ward syndrome), Jervell and Lange-Nielsen syndrome, and familial atrial fibrillation. This gene exhibits tissue-specific imprinting, with preferential expression from the maternal allele in some tissues, and biallelic expression in others. This gene is located in a region of chromosome 11 amongst other imprinted genes that are associated with Beckwith-Wiedemann syndrome (BWS), and itself has been shown to be disrupted by chromosomal rearrangements in patients with BWS. Alternatively spliced transcript variants have been found for this gene.</dc:description>
@@ -4613,7 +4613,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000004"/>
         <obo:HIO_0000088>KCNE1 Gene</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://www.drugtargetontology.org/dto/DTO_http://purl.obolibrary.org/obo/HIO_01200196"/>
+        <obo:HIO_0000225 rdf:resource="http://www.drugtargetontology.org/dto/DTO_01200196"/>
         <obo:HIO_0000226>DTO:01200196</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>The product of this gene belongs to the potassium channel KCNE family. Potassium ion channels are essential to many cellular functions and show a high degree of diversity, varying in their electrophysiologic and pharmacologic properties. This gene encodes a transmembrane protein known to associate with the product of the KVLQT1 gene to form the delayed rectifier potassium channel. Mutation in this gene are associated with both Jervell and Lange-Nielsen and Romano-Ward forms of long-QT syndrome. Alternatively spliced transcript variants encoding the same protein have been identified.</dc:description>
@@ -4645,12 +4645,12 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
         <obo:HIO_0000088>Autosomal Dominant Nonsyndromic Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Nonsyndromic Deafness, Autosomal Dominant</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050564"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_0050564"/>
         <obo:HIO_0000226>DOID:0050564</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>Add synonyms and sub-classes of &quot;autosomal dominant nonsyndromic deafness&quot; from MONDO (see dc:source)</obo:HIO_0000229>
         <dc:description>A nonsyndromic deafness characterized by an autosomal dominant inheritance mode.</dc:description>
-        <dc:source rdf:resource="http://bioportal.bioontology.org/ontologies/MONDO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO_http://purl.obolibrary.org/obo/HIO_0019587"/>
+        <dc:source rdf:resource="http://bioportal.bioontology.org/ontologies/MONDO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO_0019587"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-07-18T08:28:01.474936Z</oboInOwl:creation_date>
         <rdfs:label>Nonsyndromic Hearing Impairment, Autosomal Dominant</rdfs:label>
@@ -4664,12 +4664,12 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000009"/>
         <obo:HIO_0000088>Autosomal Recessive Nonsyndromic Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>Nonsyndromic Deafness, Autosomal Recessive</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050565"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_0050565"/>
         <obo:HIO_0000226>DOID:0050565</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>Add synonyms and sub-classes of &quot;autosomal recessive nonsyndromic deafness&quot; from MONDO (see dc:source)</obo:HIO_0000229>
         <dc:description>A nonsyndromic deafness characterized by an autosomal recessive inheritance mode.</dc:description>
-        <dc:source rdf:resource="http://bioportal.bioontology.org/ontologies/MONDO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO_http://purl.obolibrary.org/obo/HIO_0019588"/>
+        <dc:source rdf:resource="http://bioportal.bioontology.org/ontologies/MONDO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO_0019588"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-07-18T08:32:40.345823Z</oboInOwl:creation_date>
         <rdfs:label>Nonsyndromic Hearing Impairment, Autosomal Recessive</rdfs:label>
@@ -4684,7 +4684,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Nonsyndromic Deafness, X-Linked</obo:HIO_0000088>
         <obo:HIO_0000088>X-linked Deafness</obo:HIO_0000088>
         <obo:HIO_0000088>X-linked Nonsyndromic Deafness</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050566"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_0050566"/>
         <obo:HIO_0000226>DOID:0050566</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A nonsyndromic deafness characterized by an X-linked inheritance mode.</dc:description>
@@ -4719,7 +4719,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Aminoglycoside Induced Hearing Impairment</obo:HIO_0000088>
         <obo:HIO_0000088>Aminoglycoside Induced Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000088>Aminoglycoside-Induced Hearing Loss</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0011975"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0011975"/>
         <obo:HIO_0000226>HP:0011975</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Partial or complete loss of hearing following ingestion of aminoglycoside antibiotics. The ototoxicity of aminoglycoside antibiotics is related to the destruction of sensory hair cells in the cochlea and vestibular labyrinth.</dc:description>
@@ -4967,7 +4967,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Auditory/ Vestibular System Defects</obo:HIO_0000088>
         <obo:HIO_0000088>Ear Dysplasia</obo:HIO_0000088>
         <obo:HIO_0000088>Ears: Dysmorphology</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0002102"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0002102"/>
         <obo:HIO_0000226>MP:0002102</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Any structural anomaly of any of the structures involved in the ear or vestibular system.</dc:description>
@@ -4983,7 +4983,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000254">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000253"/>
         <obo:HIO_0000088>Middle Ear Dysplasia</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0000049"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0000049"/>
         <obo:HIO_0000226>MP:0000049</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Any structural anomaly of any components of the tympanic cavity or its ossicles.</dc:description>
@@ -5003,7 +5003,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Abnormal Membrane Tympani Morphology</obo:HIO_0000088>
         <obo:HIO_0000088>Abnormal Myringa Morphology</obo:HIO_0000088>
         <obo:HIO_0000088>Abnormal Myrinx Morphology</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0006018"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0006018"/>
         <obo:HIO_0000226>MP:0006018</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Any structural anomaly of the thin, tense membrane forming the greater part of the lateral wall of the tympanic cavity and separating it from the external acoustic meatus; the tympanic membrane constitutes the boundary between the external and middle ear.</dc:description>
@@ -5023,7 +5023,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Perforated Tympanic Membrane</obo:HIO_0000088>
         <obo:HIO_0000088>Ruptured Eardrum</obo:HIO_0000088>
         <obo:HIO_0000088>Tympanic Membrane Rupture</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0030414"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0030414"/>
         <obo:HIO_0000226>MP:0030414</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Presence of a hole or tear in the tympanic membrane (eardrum).</dc:description>
@@ -5041,7 +5041,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Abnormal Pinna Morphology</obo:HIO_0000088>
         <obo:HIO_0000088>Dysplastic Pinna</obo:HIO_0000088>
         <obo:HIO_0000088>Outer Ear Dysplasia</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0002177"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0002177"/>
         <obo:HIO_0000226>MP:0002177</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Any structural anomaly of any components of the auricles or external acoustic meatus.</dc:description>
@@ -5057,7 +5057,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000258">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000257"/>
         <obo:HIO_0000088>Abnormal External Meatus</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0006033"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0006033"/>
         <obo:HIO_0000226>MP:0006033</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Any structural anomaly of the canal that connects the outer and middle ear.</dc:description>
@@ -5081,7 +5081,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Excessive Cerumen</obo:HIO_0000088>
         <obo:HIO_0000088>Excessive Ear Wax</obo:HIO_0000088>
         <obo:HIO_0000088>Excessive Earwax</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0030419"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0030419"/>
         <obo:HIO_0000226>MP:0030419</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Excess buildup of cerumen, a yellowish waxy substance (earwax), in the external auditory canal.</dc:description>
@@ -5207,7 +5207,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000214"/>
         <obo:HIO_0000088>Symptoms Begin in Childhood</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0011463"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0011463"/>
         <obo:HIO_0000226>HP:0011463</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Onset of disease at the age of between 1 and 5 years. This term refers to ages up to but not including the fifth birthday (see Juvenile onset).</dc:description>
@@ -5255,7 +5255,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Dislocation of Ear Ossicle</obo:HIO_0000088>
         <obo:HIO_0000088>Ossicular Chain Discontinuity</obo:HIO_0000088>
         <obo:HIO_0000088>Ossicular Chain Dislocation</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0001199"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001199"/>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
         <obo:HIO_0000229>Suggest update to description in MONDO</obo:HIO_0000229>
         <dc:description>A separation of the middle ear bones. It results in a hearing loss due to sound not being transmitted properly (conductive hearing loss).</dc:description>
@@ -5271,7 +5271,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000271">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000085"/>
         <obo:HIO_0000088>Middle Ear Infection</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000388"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0000388"/>
         <obo:HIO_0000226>HP:0000388</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>Possibly include sub-classes from HPO</obo:HIO_0000229>
@@ -5287,7 +5287,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000272">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000085"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0410017"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0410017"/>
         <obo:HIO_0000226>HP:0410017</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Inflammation or infection of the external auditory canal (EAC), the auricle, or both.</dc:description>
@@ -5467,7 +5467,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Erythromycine</obo:HIO_0000088>
         <obo:HIO_0000088>Erythromycinum</obo:HIO_0000088>
         <obo:HIO_0000088>N-methylerythromycin A</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ARO_http://purl.obolibrary.org/obo/HIO_0000006"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ARO_0000006"/>
         <obo:HIO_0000226>ARO:0000006</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Erythromycin is a macrolide antibiotic with a 14-carbon ring that has an antimicrobial spectrum similar to or slightly wider than that of penicillin, and is often used for people that have an allergy to penicillins. Erythromycin may possess bacteriocidal activity, particularly at higher concentrations by binding to the 50S subunit of the bacterial 70S rRNA complex, inhibiting peptidyl-tRNA translocation. Thus, protein synthesis and subsequently structure/function processes critical for life or replication are inhibited.</dc:description>
@@ -5673,7 +5673,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000469"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000106"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_1000106"/>
         <obo:HIO_0000226>SCDO:1000106</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Sickle cell disease (SCD) is a pleiotropic inherited disorder of the blood, characterised by the appearance of sickle-shaped red blood cells and anemia. It results from homozygosity for the sickle beta-globin gene mutation at position 6 (glu &gt; val), or double heterozygosity for the sickle gene and another mutation for a different hemoglobin variant or one of numerous beta-thalassemia mutations.</dc:description>
@@ -5722,7 +5722,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Increased Red Blood Cells</obo:HIO_0000088>
         <obo:HIO_0000088>Polycythaemia</obo:HIO_0000088>
         <obo:HIO_0000088>Polyglobulia</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0001901"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0001901"/>
         <obo:HIO_0000226>HP:0001901</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Polycythemia is diagnosed if the red blood cell count, the hemoglobin level, and the red blood cell volume all exceed the upper limits of normal.</dc:description>
@@ -5918,7 +5918,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         </rdfs:subClassOf>
         <obo:HIO_0000088>AUNA1</obo:HIO_0000088>
         <obo:HIO_0000088>Autosomal Dominant Auditory Neuropathy 1</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0060690"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/DOID_0060690"/>
         <obo:HIO_0000226>DOID:0060690</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>An autosomal dominant nonsyndromic deafness characterized by preservation of outer hair cell function and abnormal or absent auditory brainstem responses that has_material_basis_in heterozygous mutation in the DIAPH3 gene on chromosome 13q.</dc:description>
@@ -6087,7 +6087,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Familial</obo:HIO_0000088>
         <obo:HIO_0000088>Genetic</obo:HIO_0000088>
         <obo:HIO_0000088>Hereditary</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0021152"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021152"/>
         <obo:HIO_0000226>MONDO:0021152</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A characteristic of a disease in which the cause of the disease is a genetic problem inherited from either or both parents.</dc:description>
@@ -6102,7 +6102,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000319">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000395"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0021136"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021136"/>
         <obo:HIO_0000226>MONDO:0021136</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A disease or disorder is defined as rare in Europe when it affects fewer than 1 in 2000. A disease or disorder is defined as rare in the USA when it affects fewer than 200,000 Americans at any given time. Here we take the European definition to be consistent with Orphanet.</dc:description>
@@ -6164,7 +6164,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000006"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000479"/>
         <obo:HIO_0000088>Sensorineural Hearing Impairment with Childhood Onset</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0011474"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0011474"/>
         <obo:HIO_0000226>HP:0011474</obo:HIO_0000226>
         <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
         <obo:HIO_0000229>Suggest update to description in HPO</obo:HIO_0000229>
@@ -6230,7 +6230,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000088>Deafness, Autosomal Recessive Type 101</obo:HIO_0000088>
         <obo:HIO_0000088>Deafness, Autosomal Recessive, 101</obo:HIO_0000088>
         <obo:HIO_0000088>GRXCR2 Autosomal Recessive Nonsyndromic Deafness</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0014363"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_0014363"/>
         <obo:HIO_0000226>MONDO:0014363</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Any autosomal recessive nonsyndromic deafness in which the cause of the disease is a mutation in the GRXCR2 gene.</dc:description>
@@ -6264,7 +6264,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000101"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000376"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000056"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000056"/>
         <obo:HIO_0000226>SCDO:0000056</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into MESH. Update at a later stage if necessary.
@@ -6284,7 +6284,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000329">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000101"/>
         <obo:HIO_0000088>Place of Birth</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000123"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000123"/>
         <obo:HIO_0000226>SCDO:0000123</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -6324,7 +6324,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000101"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000376"/>
         <obo:HIO_0000088>Educational Attainment</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000305"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000305"/>
         <obo:HIO_0000226>SCDO:0000305</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into MESH. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -6407,7 +6407,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000336">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000101"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000490"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000490"/>
         <obo:HIO_0000226>SCDO:0000490</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into MESH. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -6425,7 +6425,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000337">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000101"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000740"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000740"/>
         <obo:HIO_0000226>SCDO:0000740</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -6464,7 +6464,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000088>Employment</obo:HIO_0000088>
         <obo:HIO_0000088>Job</obo:HIO_0000088>
         <obo:HIO_0000088>Vocation</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ExO_http://purl.obolibrary.org/obo/HIO_0000034"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ExO_0000034"/>
         <obo:HIO_0000226>ExO:0000034</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>An individual attribute that is the usual or principal work or business of an individual.</dc:description>
@@ -6516,7 +6516,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000101"/>
         <obo:HIO_0000088>Study Participant Compensation</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0002243"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0002243"/>
         <obo:HIO_0000226>SCDO:0002243</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -6617,7 +6617,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000088>Peroxin-1</obo:HIO_0000088>
         <obo:HIO_0000088>Peroxisomal Biogenesis Factor 1</obo:HIO_0000088>
         <obo:HIO_0000088>Peroxisome Assembly Factor 1</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/PR_http://purl.obolibrary.org/obo/HIO_000012553"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/PR_000012553"/>
         <obo:HIO_0000226>PR:000012553</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A protein that is a translation product of the human PEX1 gene or a 1:1 ortholog thereof.</dc:description>
@@ -6634,7 +6634,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000252"/>
         <obo:HIO_0000088>GRXCR1-Like Protein</obo:HIO_0000088>
         <obo:HIO_0000088>Glutaredoxin Domain-Containing Cysteine-Rich Protein 1-Like Protein</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/PR_http://purl.obolibrary.org/obo/HIO_000031772"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/PR_000031772"/>
         <obo:HIO_0000226>PR:000031772</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A protein that is a translation product of the human GRXCR2 gene or a 1:1 ortholog thereof.</dc:description>
@@ -6670,7 +6670,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000088>Na(+)/K(+) ATPase Alpha(III) Subunit</obo:HIO_0000088>
         <obo:HIO_0000088>Na(+)/K(+) ATPase Alpha-3 Subunit</obo:HIO_0000088>
         <obo:HIO_0000088>Sodium Pump Subunit Alpha-3</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/PR_http://purl.obolibrary.org/obo/HIO_000004437"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/PR_000004437"/>
         <obo:HIO_0000225 rdf:resource="https://www.uniprot.org/uniprot/P13637"/>
         <obo:HIO_0000226>PR:000004437</obo:HIO_0000226>
         <obo:HIO_0000227>Suggest update to description in the Protein Ontology</obo:HIO_0000227>
@@ -6753,7 +6753,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000355">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000254"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0009797"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0009797"/>
         <obo:HIO_0000226>HP:0009797</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Cholesteatoma is a benign but potentially destructive growth consisting of keratinizing epithelium located in the middle ear and/or mastoid process. In cholesteatoma, a skin cyst grows into the middle ear and mastoid. The cyst is not cancerous but can erode tissue and cause destruction of the ear.</dc:description>
@@ -6780,7 +6780,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000088>KCNQ1 Jervell and Lange-Nielsen Syndrome</obo:HIO_0000088>
         <obo:HIO_0000088>Prolonged QT Interval in EKG and Sudden Death</obo:HIO_0000088>
         <obo:HIO_0000088>Surdo-Cardiac Syndrome</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0024540"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_0024540"/>
         <obo:HIO_0000226>MONDO:0024540</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Any Jervell and Lange-Nielsen syndrome in which the cause of the disease is a mutation in the KCNQ1 gene.</dc:description>
@@ -6805,7 +6805,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000088>Jervell and Lange-Nielsen Syndrome Caused by Mutation in KCNE1</obo:HIO_0000088>
         <obo:HIO_0000088>Jervell and Lange-Nielsen Syndrome Type 2</obo:HIO_0000088>
         <obo:HIO_0000088>KCNE1 Jervell and Lange-Nielsen Syndrome</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0012871"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_0012871"/>
         <obo:HIO_0000226>MONDO:0012871</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Any Jervell and Lange-Nielsen syndrome in which the cause of the disease is a mutation in the KCNE1 gene.</dc:description>
@@ -7062,7 +7062,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000371">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000388"/>
         <obo:HIO_0000088>Phenotypic Modifier</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000391"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000391"/>
         <obo:HIO_0000226>SCDO:0000391</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -7094,7 +7094,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000373">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000371"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000444"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000444"/>
         <obo:HIO_0000226>SCDO:0000444</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -7126,7 +7126,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000375">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000373"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/OGMS_http://purl.obolibrary.org/obo/HIO_0000047"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000047"/>
         <obo:HIO_0000226>OGMS:0000047</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A disorder whose etiology involves an abnormality in the nucleotide sequence of an organism&apos;s genome.</dc:description>
@@ -7201,7 +7201,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000380">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000371"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000435"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000435"/>
         <obo:HIO_0000226>SCDO:0000435</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -7251,7 +7251,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000383">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000380"/>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000897"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0000897"/>
         <obo:HIO_0000226>SCDO:0000897</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -7267,7 +7267,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000384">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000383"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ExO_http://purl.obolibrary.org/obo/HIO_0000048"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ExO_0000048"/>
         <obo:HIO_0000226>ExO:0000048</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficiet</obo:HIO_0000227>
         <dc:description>Human-made surroundings that provide the setting for human activity, ranging in scale from personal shelter and buildings to neighborhoods and cite, and can often include their supporting infrastructure, such as water supply or energy networks.</dc:description>
@@ -7283,7 +7283,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000385">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000383"/>
         <obo:HIO_0000088>Geographic Region</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/GAZ_http://purl.obolibrary.org/obo/HIO_00000448"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/GAZ_00000448"/>
         <obo:HIO_0000226>GAZ:00000448</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A reference to a place on the Earth, by its name or by its geographical location.</dc:description>
@@ -7301,7 +7301,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000088>Rural</obo:HIO_0000088>
         <obo:HIO_0000088>Rural Area</obo:HIO_0000088>
         <obo:HIO_0000088>Rural Setting</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001017"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001017"/>
         <obo:HIO_0000226>SCDO:0001017</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -7321,7 +7321,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000088>Urban Area</obo:HIO_0000088>
         <obo:HIO_0000088>Urban Environment</obo:HIO_0000088>
         <obo:HIO_0000088>Urban Setting</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001204"/>
+        <obo:HIO_0000225 rdf:resource="http://scdontology.h3abionet.org/ontology/SCDO_0001204"/>
         <obo:HIO_0000226>SCDO:0001204</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO to request inclusion into relevant ontology. Update at a later stage if necessary.</obo:HIO_0000229>
@@ -7369,7 +7369,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000214"/>
         <obo:HIO_0000088>Onset in First Year of Life</obo:HIO_0000088>
         <obo:HIO_0000088>Onset in Infancy</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003593"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0003593"/>
         <obo:HIO_0000226>HP:0003593</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Onset of signs or symptoms of disease between 28 days to one year of life.</dc:description>
@@ -7402,7 +7402,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000080"/>
         <obo:HIO_0000088>Onset in First Weeks of Life</obo:HIO_0000088>
         <obo:HIO_0000088>Onset in Neonatal Period</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003623"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0003623"/>
         <obo:HIO_0000226>HP:0003623</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Onset of signs or symptoms of disease within the first 28 days of life.</dc:description>
@@ -7418,7 +7418,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000393">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000214"/>
         <obo:HIO_0000088>Signs and Symptoms Begin Before 15 Years of Age</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003621"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0003621"/>
         <obo:HIO_0000226>HP:0003621</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>Onset of signs or symptoms of disease between the age of 5 and 15 years.</dc:description>
@@ -7465,7 +7465,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000395"/>
         <obo:HIO_0000088>Connatal</obo:HIO_0000088>
         <obo:HIO_0000088>Inborn</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0021140"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021140"/>
         <obo:HIO_0000226>MONDO:0021140</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A characteristic of a disease in which the disease is present at birth, regardless of cause.</dc:description>
@@ -7527,7 +7527,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000400">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000389"/>
         <obo:HIO_0000088>Genetic Predisposition</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/OGSF_http://purl.obolibrary.org/obo/HIO_0000000"/>
+        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/OGSF_0000000"/>
         <obo:HIO_0000226>OGSF:0000000</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>A disposition that is physically based on some genetic material, such as one or more gene mutations or variant, such that if the genome of an organism has the genetic material as its part, the organism may have an increased likelihood or chance to develop: 1) a particular disease; 2) a peculiar biological/bodily process.</dc:description>

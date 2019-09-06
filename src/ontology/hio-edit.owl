@@ -3656,7 +3656,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000002</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000365</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0000365</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -3681,7 +3681,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000002</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000365</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0000365</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -3706,7 +3706,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000003</IRI>
-        <IRI>http://bioportal.bioontology.org/ontologies/OGMS?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOGMS_http://purl.obolibrary.org/obo/HIO_0000023</IRI>
+        <IRI>http://bioportal.bioontology.org/ontologies/OGMS?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOGMS_0000023</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -3776,7 +3776,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000005</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000359</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000359</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -3866,7 +3866,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000006</IRI>
-        <IRI>http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_1001176</IRI>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_1001176</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -3886,7 +3886,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000006</IRI>
-        <IRI>http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_1001176</IRI>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_1001176</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -3931,7 +3931,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000007</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000405</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0000405</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -3951,7 +3951,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000007</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000405</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0000405</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -3981,7 +3981,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000008</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000410</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0000410</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -4031,7 +4031,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000009</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0006328</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MP_0006328</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -4056,7 +4056,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000009</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050563</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050563</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -4096,7 +4096,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000010</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0006330</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MP_0006330</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -4707,7 +4707,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000023</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050857</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050857</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -4997,7 +4997,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000028</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0110629</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0110629</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -5042,7 +5042,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000029</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0110630</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0110630</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -5262,7 +5262,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000034</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001369</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0001369</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -5302,7 +5302,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000035</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000379</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000379</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -5597,7 +5597,7 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000040</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0011541</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_0011541</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -5624,7 +5624,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000040</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0110440</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0110440</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
@@ -6149,7 +6149,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000050</IRI>
-        <IRI>http://purl.obolibrary.org/obo/OGMS_http://purl.obolibrary.org/obo/HIO_0000045</IRI>
+        <IRI>http://purl.obolibrary.org/obo/OGMS_0000045</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -6439,7 +6439,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000056</IRI>
-        <IRI>http://purl.obolibrary.org/obo/ERO_http://purl.obolibrary.org/obo/HIO_0001448</IRI>
+        <IRI>http://purl.obolibrary.org/obo/ERO_0001448</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -6474,7 +6474,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000057</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001150</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0001150</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -6574,7 +6574,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000060</IRI>
-        <IRI>http://purl.obolibrary.org/obo/FYPO_http://purl.obolibrary.org/obo/HIO_0001985</IRI>
+        <IRI>http://purl.obolibrary.org/obo/FYPO_0001985</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -6614,7 +6614,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000061</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001133</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0001133</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -6704,7 +6704,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000063</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000922</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000922</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -6809,7 +6809,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000066</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000301</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000301</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -6854,7 +6854,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000067</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000728</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000728</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -6899,7 +6899,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000068</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000313</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000313</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -6939,7 +6939,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000069</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000032</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000032</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7059,7 +7059,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000072</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000033</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000033</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7119,7 +7119,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000073</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000082</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000082</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7164,7 +7164,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000074</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000005</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0000005</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7214,7 +7214,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000075</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000007</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0000007</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7264,7 +7264,7 @@ Positioning of this term still up for discussion...perhaps should be moved below
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000076</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000006</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0000006</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7371,7 +7371,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000078</IRI>
-        <IRI>http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_0006324</IRI>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0006324</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7446,7 +7446,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000080</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003674</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0003674</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7666,7 +7666,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000085</IRI>
-        <IRI>http://purl.obolibrary.org/obo/IDO_http://purl.obolibrary.org/obo/HIO_0000586</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IDO_0000586</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7761,7 +7761,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000087</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0070310</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0070310</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7871,7 +7871,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000090</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003587</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0003587</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7911,7 +7911,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000091</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0011009</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0011009</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -7946,7 +7946,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000092</IRI>
-        <IRI>http://purl.obolibrary.org/obo/OGMS_http://purl.obolibrary.org/obo/HIO_0000045</IRI>
+        <IRI>http://purl.obolibrary.org/obo/OGMS_0000045</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -8016,7 +8016,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000093</IRI>
-        <IRI>http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_0000546</IRI>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0000546</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -8266,7 +8266,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000100</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000020</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000020</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -8411,7 +8411,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000103</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0025306</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0025306</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -8456,7 +8456,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000104</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0025307</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0025307</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -8501,7 +8501,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000105</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0025308</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0025308</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -8591,7 +8591,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000107</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003581</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0003581</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -8626,12 +8626,12 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000108</IRI>
-        <IRI>http://bioportal.bioontology.org/ontologies/BAO?p=classes&amp;conceptid=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_http://purl.obolibrary.org/obo/HIO_0170001</IRI>
+        <IRI>http://bioportal.bioontology.org/ontologies/BAO?p=classes&amp;conceptid=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0170001</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000108</IRI>
-        <IRI>http://www.bioassayontology.org/bao#BAO_http://purl.obolibrary.org/obo/HIO_0170001</IRI>
+        <IRI>http://www.bioassayontology.org/bao#BAO_0170001</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -8666,7 +8666,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000109</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0009613</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0009613</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -8891,7 +8891,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000119</IRI>
-        <IRI>http://purl.obolibrary.org/obo/ERO_http://purl.obolibrary.org/obo/HIO_0000378</IRI>
+        <IRI>http://purl.obolibrary.org/obo/ERO_0000378</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -9831,7 +9831,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000156</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000908</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000908</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -10731,7 +10731,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000193</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0004439</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0004439</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -10751,7 +10751,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000193</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0004439</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0004439</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -10776,7 +10776,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000194</IRI>
-        <IRI>http://www.ebi.ac.uk/efo/EFO_http://purl.obolibrary.org/obo/HIO_0006951</IRI>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0006951</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -10861,7 +10861,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000196</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0031704</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0031704</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -11256,7 +11256,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000205</IRI>
-        <IRI>http://purl.obolibrary.org/obo/IDOMAL_http://purl.obolibrary.org/obo/HIO_50000026</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IDOMAL_50000026</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -11416,7 +11416,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000214</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0410280</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0410280</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -11536,7 +11536,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000217</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0001427</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0001427</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -11576,7 +11576,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000218</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0010985</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0010985</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -11866,7 +11866,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000225</IRI>
-        <IRI>http://purl.obolibrary.org/obo/IAO_http://purl.obolibrary.org/obo/HIO_0000119</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000119</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
@@ -12032,7 +12032,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000229</IRI>
-        <IRI>http://purl.obolibrary.org/obo/IAO_http://purl.obolibrary.org/obo/HIO_0000232</IRI>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000232</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -12062,7 +12062,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000230</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0001426</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0001426</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -12102,7 +12102,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000231</IRI>
-        <IRI>http://www.drugtargetontology.org/dto/DTO_http://purl.obolibrary.org/obo/HIO_01200232</IRI>
+        <IRI>http://www.drugtargetontology.org/dto/DTO_01200232</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -12142,7 +12142,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000232</IRI>
-        <IRI>http://www.drugtargetontology.org/dto/DTO_http://purl.obolibrary.org/obo/HIO_01200196</IRI>
+        <IRI>http://www.drugtargetontology.org/dto/DTO_01200196</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -12222,7 +12222,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000234</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050564</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050564</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -12247,7 +12247,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000234</IRI>
-        <IRI>http://bioportal.bioontology.org/ontologies/MONDO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO_http://purl.obolibrary.org/obo/HIO_0019587</IRI>
+        <IRI>http://bioportal.bioontology.org/ontologies/MONDO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO_0019587</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -12277,7 +12277,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000235</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050565</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050565</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -12302,7 +12302,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000235</IRI>
-        <IRI>http://bioportal.bioontology.org/ontologies/MONDO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO_http://purl.obolibrary.org/obo/HIO_0019588</IRI>
+        <IRI>http://bioportal.bioontology.org/ontologies/MONDO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMONDO_0019588</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -12337,7 +12337,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000236</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0050566</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0050566</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -12427,7 +12427,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000239</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0011975</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0011975</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13002,7 +13002,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000253</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0002102</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MP_0002102</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13042,7 +13042,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000254</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0000049</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MP_0000049</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13102,7 +13102,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000255</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0006018</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MP_0006018</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13162,7 +13162,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000256</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0030414</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MP_0030414</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13212,7 +13212,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000257</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0002177</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MP_0002177</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13252,7 +13252,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000258</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0006033</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MP_0006033</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13327,7 +13327,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000259</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MP_http://purl.obolibrary.org/obo/HIO_0030419</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MP_0030419</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13637,7 +13637,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000267</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0011463</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0011463</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13757,7 +13757,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000270</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0001199</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_0001199</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000227"/>
@@ -13797,7 +13797,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000271</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0000388</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0000388</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -13837,7 +13837,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000272</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0410017</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0410017</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -14327,7 +14327,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000282</IRI>
-        <IRI>http://purl.obolibrary.org/obo/ARO_http://purl.obolibrary.org/obo/HIO_0000006</IRI>
+        <IRI>http://purl.obolibrary.org/obo/ARO_0000006</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -14847,7 +14847,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000294</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000106</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000106</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -14972,7 +14972,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000297</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0001901</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0001901</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -15377,7 +15377,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000307</IRI>
-        <IRI>http://purl.obolibrary.org/obo/DOID_http://purl.obolibrary.org/obo/HIO_0060690</IRI>
+        <IRI>http://purl.obolibrary.org/obo/DOID_0060690</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -15572,7 +15572,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000314</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000218</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000218</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -15787,7 +15787,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000318</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0021152</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_0021152</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -15822,7 +15822,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000319</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0021136</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_0021136</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -15967,7 +15967,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000323</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0011474</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0011474</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -16067,7 +16067,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000325</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0014363</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_0014363</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -16152,7 +16152,7 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000327</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000056</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000056</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -16234,7 +16234,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000329</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000123</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000123</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -16349,7 +16349,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000331</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000305</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000305</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -16554,7 +16554,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000336</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000490</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000490</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -16604,7 +16604,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000337</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000740</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000740</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -16709,7 +16709,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000339</IRI>
-        <IRI>http://purl.obolibrary.org/obo/ExO_http://purl.obolibrary.org/obo/HIO_0000034</IRI>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000034</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -16849,7 +16849,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000342</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0002243</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0002243</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -17094,7 +17094,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000347</IRI>
-        <IRI>http://purl.obolibrary.org/obo/PR_http://purl.obolibrary.org/obo/HIO_000012553</IRI>
+        <IRI>http://purl.obolibrary.org/obo/PR_000012553</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -17139,7 +17139,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000348</IRI>
-        <IRI>http://purl.obolibrary.org/obo/PR_http://purl.obolibrary.org/obo/HIO_000031772</IRI>
+        <IRI>http://purl.obolibrary.org/obo/PR_000031772</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -17234,7 +17234,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000350</IRI>
-        <IRI>http://purl.obolibrary.org/obo/PR_http://purl.obolibrary.org/obo/HIO_000004437</IRI>
+        <IRI>http://purl.obolibrary.org/obo/PR_000004437</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
@@ -17449,7 +17449,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000355</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0009797</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0009797</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -17514,7 +17514,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000356</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0024540</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_0024540</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -17569,7 +17569,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000357</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0012871</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_0012871</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -18294,7 +18294,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000371</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000391</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000391</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -18374,7 +18374,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000373</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000444</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000444</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -18454,7 +18454,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000375</IRI>
-        <IRI>http://purl.obolibrary.org/obo/OGMS_http://purl.obolibrary.org/obo/HIO_0000047</IRI>
+        <IRI>http://purl.obolibrary.org/obo/OGMS_0000047</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -18629,7 +18629,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000380</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000435</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000435</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -18759,7 +18759,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000383</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000897</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000897</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -18799,7 +18799,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000384</IRI>
-        <IRI>http://purl.obolibrary.org/obo/ExO_http://purl.obolibrary.org/obo/HIO_0000048</IRI>
+        <IRI>http://purl.obolibrary.org/obo/ExO_0000048</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -18839,7 +18839,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000385</IRI>
-        <IRI>http://purl.obolibrary.org/obo/GAZ_http://purl.obolibrary.org/obo/HIO_00000448</IRI>
+        <IRI>http://purl.obolibrary.org/obo/GAZ_00000448</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -18889,7 +18889,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000386</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001017</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0001017</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -18949,7 +18949,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000387</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001204</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0001204</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19069,7 +19069,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000390</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003593</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0003593</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19154,7 +19154,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000392</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003623</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0003623</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19194,7 +19194,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000393</IRI>
-        <IRI>http://purl.obolibrary.org/obo/HP_http://purl.obolibrary.org/obo/HIO_0003621</IRI>
+        <IRI>http://purl.obolibrary.org/obo/HP_0003621</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19309,7 +19309,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000396</IRI>
-        <IRI>http://purl.obolibrary.org/obo/MONDO_http://purl.obolibrary.org/obo/HIO_0021140</IRI>
+        <IRI>http://purl.obolibrary.org/obo/MONDO_0021140</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19459,7 +19459,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000400</IRI>
-        <IRI>http://purl.obolibrary.org/obo/OGSF_http://purl.obolibrary.org/obo/HIO_0000000</IRI>
+        <IRI>http://purl.obolibrary.org/obo/OGSF_0000000</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19594,7 +19594,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000403</IRI>
-        <IRI>http://purl.obolibrary.org/obo/RO_http://purl.obolibrary.org/obo/HIO_0002205</IRI>
+        <IRI>http://purl.obolibrary.org/obo/RO_0002205</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -19644,7 +19644,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000405</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000660</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000660</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19685,7 +19685,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000406</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000210</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000210</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19720,7 +19720,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000407</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000172</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000172</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19755,7 +19755,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000408</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000223</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000223</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19790,7 +19790,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000409</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000217</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000217</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19825,7 +19825,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000410</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000222</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000222</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000227"/>
@@ -19860,7 +19860,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000411</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000184</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000184</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19930,7 +19930,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000413</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000199</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000199</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -19965,7 +19965,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000414</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000203</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000203</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20040,7 +20040,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000416</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0001364</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0001364</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20075,7 +20075,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000417</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000663</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000663</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20110,7 +20110,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000418</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000220</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000220</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20145,7 +20145,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000419</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000194</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000194</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20180,7 +20180,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000420</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000192</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000192</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20215,7 +20215,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000421</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000474</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000474</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20250,7 +20250,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000422</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000664</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000664</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20285,7 +20285,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000423</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000475</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000475</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20320,7 +20320,7 @@ SCDO to suggest inclusion of property into RO. Update annotations at a later sta
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000424</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000180</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000180</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20411,7 +20411,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000426</IRI>
-        <IRI>http://purl.obolibrary.org/obo/RO_http://purl.obolibrary.org/obo/HIO_0002204</IRI>
+        <IRI>http://purl.obolibrary.org/obo/RO_0002204</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -20466,7 +20466,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000428</IRI>
-        <IRI>http://purl.obolibrary.org/obo/RO_http://purl.obolibrary.org/obo/HIO_0003302</IRI>
+        <IRI>http://purl.obolibrary.org/obo/RO_0003302</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20506,7 +20506,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000429</IRI>
-        <IRI>http://purl.obolibrary.org/obo/RO_http://purl.obolibrary.org/obo/HIO_0003303</IRI>
+        <IRI>http://purl.obolibrary.org/obo/RO_0003303</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20541,7 +20541,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000430</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000196</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000196</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20576,7 +20576,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000431</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000204</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000204</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20611,7 +20611,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000432</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000190</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000190</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20646,7 +20646,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000433</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000191</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000191</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20681,7 +20681,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000434</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000193</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000193</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20716,7 +20716,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000435</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000018</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000018</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20751,7 +20751,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000436</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000183</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000183</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20786,7 +20786,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000437</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000005</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000005</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20821,7 +20821,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000438</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_1000015</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_1000015</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20861,7 +20861,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000439</IRI>
-        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_http://purl.obolibrary.org/obo/HIO_0000468</IRI>
+        <IRI>http://scdontology.h3abionet.org/ontology/SCDO_0000468</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
@@ -20936,7 +20936,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000225"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000441</IRI>
-        <IRI>http://purl.obolibrary.org/obo/GENO_http://purl.obolibrary.org/obo/HIO_0000580</IRI>
+        <IRI>http://purl.obolibrary.org/obo/GENO_0000580</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000226"/>
