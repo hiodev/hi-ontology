@@ -11,7 +11,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/hio_">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hio/releases/2019-09-06/hio.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hio/releases/2019-09-09/hio.owl"/>
     </owl:Ontology>
     
 
@@ -786,10 +786,10 @@ Suggest update to description in RO.</obo:HIO_0000229>
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <obo:HIO_0000227>None</obo:HIO_0000227>
         <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>A relation between a disease and the nature in which the initial symptoms or manifestations of the disease usually appear in individuals.</dc:description>
+        <dc:description>A relation between a disease and the manner in which the initial symptoms or manifestations of the disease usually appear in individuals.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-22T09:01:48.76434Z</oboInOwl:creation_date>
-        <rdfs:label>has nature of onset</rdfs:label>
+        <rdfs:label>has mode of onset</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -5519,7 +5519,8 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:HIO_0000088>Neomycin-Induced Hearing Loss</obo:HIO_0000088>
-        <obo:HIO_0000227>Request inclusion into HPO below &quot;Aminoglycoside-Induced Hearing Loss&quot;</obo:HIO_0000227>
+        <obo:HIO_0000227>None</obo:HIO_0000227>
+        <obo:HIO_0000229>Request inclusion into HPO below &quot;Aminoglycoside-Induced Hearing Loss&quot;</obo:HIO_0000229>
         <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
         <dc:description>Partial or complete loss of hearing following ingestion of neomycin.</dc:description>
         <dc:source rdf:resource="https://www.researchgate.net/publication/http://purl.obolibrary.org/obo/HIO_276068740_Minocycline_Protection_of_Neomycin_Induced_Hearing_Loss_in_Gerbils"/>
@@ -8083,7 +8084,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000088>Paediatric Onset Hearing Loss</obo:HIO_0000088>
         <obo:HIO_0000227>None</obo:HIO_0000227>
         <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>Suggest update to description in HPO</dc:description>
+        <dc:description>Hearing impairment that begins manifesting before adulthood (before the age of 16 years, but excluding neonatal or congenital onset).</dc:description>
         <dc:source rdf:resource="http://purl.obolibrary.org/obo/HP_0410280"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-09-03T17:08:03.166355Z</oboInOwl:creation_date>

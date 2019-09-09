@@ -14437,6 +14437,11 @@ None</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000227"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000285</IRI>
+        <Literal>None</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000229"/>
+        <IRI>http://purl.obolibrary.org/obo/HIO_0000285</IRI>
         <Literal>Request inclusion into HPO below &quot;Aminoglycoside-Induced Hearing Loss&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -20911,7 +20916,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000440</IRI>
-        <Literal>A relation between a disease and the nature in which the initial symptoms or manifestations of the disease usually appear in individuals.</Literal>
+        <Literal>A relation between a disease and the manner in which the initial symptoms or manifestations of the disease usually appear in individuals.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#created_by"/>
@@ -20926,7 +20931,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000440</IRI>
-        <Literal>has nature of onset</Literal>
+        <Literal>has mode of onset</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000088"/>
@@ -22441,7 +22446,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000478</IRI>
-        <Literal>Suggest update to description in HPO</Literal>
+        <Literal>Hearing impairment that begins manifesting before adulthood (before the age of 16 years, but excluding neonatal or congenital onset).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/source"/>
