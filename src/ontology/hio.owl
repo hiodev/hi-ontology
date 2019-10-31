@@ -2933,7 +2933,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/CRISP?p=classes&amp;conceptid=http://purl.bioontology.org/ontology/CSP/0977-5562"/>
         <obo:HIO_0000226>CRISP:0977-5562</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:creator>Wearable sound-amplifying devices that are intended to compensate for impaired hearing; devices include air-conduction hearing aids and bone-conduction hearing aids.</dc:creator>
+        <dc:description>Wearable sound-amplifying devices that are intended to compensate for impaired hearing; devices include air-conduction hearing aids and bone-conduction hearing aids.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T08:26:53.430403Z</oboInOwl:creation_date>
         <rdfs:label>Hearing Aid</rdfs:label>
@@ -4014,7 +4014,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
         <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/CRISP/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FCSP%2F1065-6197&amp;jump_to_nav=true"/>
         <obo:HIO_0000226>CRISP:1065-6197</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:creator>Hormones which stimulate the female reproductive organs, and the development of secondary female sex characteristics.</dc:creator>
+        <dc:description>Hormones which stimulate the female reproductive organs, and the development of secondary female sex characteristics.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T19:53:43.564342Z</oboInOwl:creation_date>
         <rdfs:label>Estrogen</rdfs:label>
@@ -8820,6 +8820,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000225>Examination of the ear canal and eardrum with an otoscope.</obo:HIO_0000225>
         <obo:HIO_0000226>MESH:D038781</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>Examination of the ear canal and eardrum with an otoscope.</dc:description>
         <rdfs:label>Otoscopy</rdfs:label>
     </owl:Class>
     

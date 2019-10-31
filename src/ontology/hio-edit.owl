@@ -9218,7 +9218,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
         <Literal>Sufficient</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000111</IRI>
         <Literal>Wearable sound-amplifying devices that are intended to compensate for impaired hearing; devices include air-conduction hearing aids and bone-conduction hearing aids.</Literal>
     </AnnotationAssertion>
@@ -11513,7 +11513,7 @@ See dc:sources for causes of congenital and acquired hearing loss</Literal>
         <Literal>Sufficient</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000187</IRI>
         <Literal>Hormones which stimulate the female reproductive organs, and the development of secondary female sex characteristics.</Literal>
     </AnnotationAssertion>
@@ -24456,6 +24456,11 @@ Suggest update to description in RO.</Literal>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000227"/>
         <IRI>http://webprotege.stanford.edu/RBjghbo5plim28pFpvNwWrk</IRI>
         <Literal>Sufficient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RBjghbo5plim28pFpvNwWrk</IRI>
+        <Literal>Examination of the ear canal and eardrum with an otoscope.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

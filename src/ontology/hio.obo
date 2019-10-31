@@ -1490,7 +1490,7 @@ is_a: HIO:0000057 ! Therapeutic Device
 property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/CRISP?p=classes&conceptid=http://purl.bioontology.org/ontology/CSP/0977-5562
 property_value: HIO:0000226 CRISP:0977-5562 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "Wearable sound-amplifying devices that are intended to compensate for impaired hearing; devices include air-conduction hearing aids and bone-conduction hearing aids." xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Wearable sound-amplifying devices that are intended to compensate for impaired hearing; devices include air-conduction hearing aids and bone-conduction hearing aids." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T08:26:53.430403Z
 
@@ -2267,7 +2267,7 @@ property_value: HIO:0000088 "Premarin" xsd:string
 property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/CRISP/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FCSP%2F1065-6197&jump_to_nav=true
 property_value: HIO:0000226 CRISP:1065-6197 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "Hormones which stimulate the female reproductive organs, and the development of secondary female sex characteristics." xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hormones which stimulate the female reproductive organs, and the development of secondary female sex characteristics." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T19:53:43.564342Z
 
@@ -5729,6 +5729,7 @@ property_value: HIO:0000225 "Examination of the ear canal and eardrum with an ot
 property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D038781
 property_value: HIO:0000226 MESH:D038781 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Examination of the ear canal and eardrum with an otoscope." xsd:string
 
 [Term]
 id: http://webprotege.stanford.edu/RBwRKVrbKZYD4fo7VFF2yw2
