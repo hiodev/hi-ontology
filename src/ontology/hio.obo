@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: hio/releases/2019-09-09/hio.owl
+data-version: hio/releases/2019-10-31/hio.owl
 ontology: http://webprotege.stanford.edu/project/hio_
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/HIO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/HIO_0000005>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/HIO_0000001> (HIO)\n\nSubClassOf(<http://purl.obolibrary.org/obo/HIO_0000001> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/HIO_0000005> (deprecated terms)\n\nSubClassOf(<http://purl.obolibrary.org/obo/HIO_0000005> owl:Thing)\n\n\n)
 
@@ -515,8 +515,9 @@ property_value: HIO:0000088 "Therapy" xsd:string
 property_value: HIO:0000088 "Treatment" xsd:string
 property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D013812
 property_value: HIO:0000226 MESH:D013812 xsd:string
-property_value: HIO:0000227 "Sufficient" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "Procedures concerned with the remedial treatment or prevention of diseases." xsd:string
+property_value: HIO:0000227 "Suggest update to description" xsd:string
+property_value: HIO:0000229 "Suggest update to description in MESH" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Procedures, agents or devices concerned with the remedial treatment or prevention of diseases." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-05-31T07:22:43.208574Z
 
@@ -1486,6 +1487,10 @@ creation_date: 2019-06-07T11:07:05.334142Z
 id: HIO:0000111
 name: Hearing Aid
 is_a: HIO:0000057 ! Therapeutic Device
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/CRISP?p=classes&conceptid=http://purl.bioontology.org/ontology/CSP/0977-5562
+property_value: HIO:0000226 CRISP:0977-5562 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Wearable sound-amplifying devices that are intended to compensate for impaired hearing; devices include air-conduction hearing aids and bone-conduction hearing aids." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T08:26:53.430403Z
 
@@ -1493,6 +1498,10 @@ creation_date: 2019-06-10T08:26:53.430403Z
 id: HIO:0000112
 name: Vibrotactile Device
 is_a: HIO:0000057 ! Therapeutic Device
+property_value: HIO:0000225 https://www.medicinenet.com/script/main/art.asp?articlekey=13307
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Samuel Mawuli Adadey)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A mechanical instrument attached to the head, near the ear(s), that helps individuals who are deaf to detect and interpret sounds through their sense of touch. It is called a vibrotactile aid because it serves as an aid by permitting a person to feel the vibrations, in this case, of sounds." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T08:26:53.431183Z
 
@@ -1576,6 +1585,10 @@ creation_date: 2019-06-10T08:57:23.649868Z
 id: HIO:0000121
 name: Plastic Surgery
 is_a: HIO:0000119 ! Surgery
+property_value: HIO:0000088 "Cosmetic Surgery" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D013518
+property_value: HIO:0000226 MESH:D013518 xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The branch of surgery concerned with restoration, reconstruction, or improvement of defective, damaged, or missing structures." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T08:57:23.650596Z
 
@@ -1612,6 +1625,13 @@ id: HIO:0000126
 name: Antiarrhythmic Drug
 is_a: HIO:0000065 ! Drug
 is_a: HIO:0000169 ! Treatment of Cardiac Complications
+property_value: HIO:0000088 "Anti-arrhythmic Agent" xsd:string
+property_value: HIO:0000088 "Antiarrhythmic Agent" xsd:string
+property_value: HIO:0000088 "Cardiac Depressant" xsd:string
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C47793
+property_value: HIO:0000226 NCIT:C47793 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Agents used for the treatment or prevention of cardiac arrhythmias; they may effect the polarization-repolarization phase of the action potential, its excitability or refractoriness, or impulse conduction or membrane responsiveness within cardiac fibers." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T09:15:09.499661Z
 
@@ -1619,6 +1639,17 @@ creation_date: 2019-06-10T09:15:09.499661Z
 id: HIO:0000127
 name: Beta-Adrenergic Blocker
 is_a: HIO:0000126 ! Antiarrhythmic Drug
+property_value: HIO:0000088 "Beta-Adrenergic Antagonist" xsd:string
+property_value: HIO:0000088 "Beta-Adrenergic Blocker" xsd:string
+property_value: HIO:0000088 "Beta-Adrenergic Blockers" xsd:string
+property_value: HIO:0000088 "Beta-Adrenergic Receptor Blockaders" xsd:string
+property_value: HIO:0000088 "Beta-Adrenoceptor Antagonists" xsd:string
+property_value: HIO:0000088 "Beta-Blocker" xsd:string
+property_value: HIO:0000088 "Beta-Blockers" xsd:string
+property_value: HIO:0000225 CHEBI:35530
+property_value: HIO:0000226 CHEBI:35530 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "An agent that binds to but does not activate beta-adrenergic receptors thereby blocking the actions of endogenous or exogenous beta-adrenergic agonists. beta-Adrenergic antagonists are used for treatment of hypertension, cardiac arrhythmias, angina pectoris, glaucoma, migraine headaches and anxiety." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T09:16:39.394472Z
 
@@ -1785,6 +1816,10 @@ creation_date: 2019-06-10T10:31:18.08557Z
 id: HIO:0000143
 name: Audiologic Surveillance
 is_a: HIO:0000142 ! Secondary Preventative Therapeutics
+property_value: HIO:0000225 https://www.asha.org/articlesummary.aspx?id=8589960311
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Samuel Mawuli Adadey)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Early identification, surveillance, and monitoring of individuals (especially children) for permanent hearing loss." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T10:37:13.042567Z
 
@@ -1792,6 +1827,12 @@ creation_date: 2019-06-10T10:37:13.042567Z
 id: HIO:0000144
 name: Clinical Surveillance
 is_a: HIO:0000142 ! Secondary Preventative Therapeutics
+property_value: HIO:0000088 "Newborn Hearing Screening" xsd:string
+property_value: HIO:0000225 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114997/
+property_value: HIO:0000226 "PMC3114997" xsd:string
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Samuel Mawuli Adadey)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Clinical screening of hearing impairment as part of the universal newborn hearing screening." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T10:37:13.0433Z
 
@@ -1799,6 +1840,10 @@ creation_date: 2019-06-10T10:37:13.0433Z
 id: HIO:0000145
 name: Paraclinical Surveillance
 is_a: HIO:0000142 ! Secondary Preventative Therapeutics
+property_value: HIO:0000225 https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Samuel Mawuli Adadey)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Referring infants at high risk, such as those with a family history of deafness or those born with low birth weight, birth asphyxia, jaundice or meningitis, for early assessment of hearing, to ensure prompt diagnosis and appropriate management, as required;" xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T10:37:13.043981Z
 
@@ -1850,6 +1895,10 @@ creation_date: 2019-06-10T10:48:04.903652Z
 id: HIO:0000150
 name: Exposure Avoidance
 is_a: HIO:0000141 ! Primary Preventative Therapeutics
+property_value: HIO:0000225 https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Samuel Mawuli Adadey)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Reducing exposure to environmental risk factors which may be harmful to hearing." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T10:53:48.414847Z
 
@@ -1857,6 +1906,10 @@ creation_date: 2019-06-10T10:53:48.414847Z
 id: HIO:0000151
 name: Avoidance of Noise
 is_a: HIO:0000150 ! Exposure Avoidance
+property_value: HIO:0000225 https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Samuel Mawuli Adadey)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Reducing exposure to both occupational and recreational loud sound." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T10:54:46.014864Z
 
@@ -1877,7 +1930,11 @@ creation_date: 2019-06-10T11:06:05.820516Z
 [Term]
 id: HIO:0000154
 name: Proper Use of Ototoxic Drugs
-is_a: HIO:0000141 ! Primary Preventative Therapeutics
+is_a: HIO:0000150 ! Exposure Avoidance
+property_value: HIO:0000225 https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Samuel Mawuli Adadey)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Avoiding the use of particular drugs which may be harmful to hearing, unless prescribed and monitored by a qualified physician" xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T11:09:18.070327Z
 
@@ -1935,7 +1992,11 @@ creation_date: 2019-06-10T12:45:48.879769Z
 [Term]
 id: HIO:0000159
 name: Vaccination
-is_a: HIO:0000141 ! Primary Preventative Therapeutics
+is_a: http://webprotege.stanford.edu/RCcwbqSliRjkVkwuHOq8jMm ! Immunization
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C15346
+property_value: HIO:0000226 NCIT:C15346 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Administration of vaccines to stimulate the host's immune response. This includes any preparation intended for active immunological prophylaxis or treatment." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T14:49:22.884714Z
 
@@ -1964,6 +2025,9 @@ creation_date: 2019-06-10T15:07:46.624159Z
 id: HIO:0000163
 name: Therapeutic Screening
 is_a: HIO:0000141 ! Primary Preventative Therapeutics
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Samuel Mawuli Adadey)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Preliminary use of testing procedures or instruments to identify individuals at risk for a particular problem, or in need of a more thorough evaluation, or to determine an individual's suitability for a specific treatment." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T15:08:01.8496Z
 
@@ -2146,6 +2210,10 @@ id: HIO:0000182
 name: Auditory Midbrain Implantation
 is_a: HIO:0000120 ! Otologic Surgery
 is_a: HIO:0000170 ! Treatment of Hearing Loss
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D038263
+property_value: HIO:0000226 MESH:D038263 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Surgical insertion of an electronic hearing device (Auditory brain stem implants) with electrodes to the cochlea nucleus in the brain stem rather than to the inner ear as in cochlear implantation." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T19:19:45.649098Z
 
@@ -2167,6 +2235,12 @@ creation_date: 2019-06-10T19:41:45.504913Z
 id: HIO:0000185
 name: Endocrine Drug
 is_a: HIO:0000065 ! Drug
+property_value: HIO:0000088 "Endocrine System Drug" xsd:string
+property_value: HIO:0000088 "Endocrinology Drug" xsd:string
+property_value: HIO:0000225 https://www.ncbi.nlm.nih.gov/pubmed/24365354
+property_value: HIO:0000226 "PMID: 24365354" xsd:string
+property_value: HIO:0000227 "Few but definitions not available" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Agents directed to a malfunctioning endocrine path." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T19:49:16.324675Z
 
@@ -2174,6 +2248,11 @@ creation_date: 2019-06-10T19:49:16.324675Z
 id: HIO:0000186
 name: Insulin
 is_a: HIO:0000185 ! Endocrine Drug
+property_value: HIO:0000088 "Sodium Insulin" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D007328
+property_value: HIO:0000226 MESH:D007328 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A 51-amino acid pancreatic hormone that plays a major role in the regulation of glucose metabolism, directly by suppressing endogenous glucose production (glycogenolysis; gluconeogenesis) and indirectly by suppressing glucagon secretion and lipolysis. Native insulin is a globular protein comprised of a zinc-coordinated hexamer. Each insulin monomer containing two chains, A (21 residues) and B (30 residues), linked by two disulfide bonds. Insulin is used as a drug to control insulin-dependent diabetes mellitus (diabetes mellitus, type 1)." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T19:50:47.249828Z
 
@@ -2181,6 +2260,14 @@ creation_date: 2019-06-10T19:50:47.249828Z
 id: HIO:0000187
 name: Estrogen
 is_a: HIO:0000185 ! Endocrine Drug
+property_value: HIO:0000088 "Estrogen Replacement Therapy" xsd:string
+property_value: HIO:0000088 "Estrogen Sulfate" xsd:string
+property_value: HIO:0000088 "Estrogen Sulphate" xsd:string
+property_value: HIO:0000088 "Premarin" xsd:string
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/CRISP/?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FCSP%2F1065-6197&jump_to_nav=true
+property_value: HIO:0000226 CRISP:1065-6197 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Hormones which stimulate the female reproductive organs, and the development of secondary female sex characteristics." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T19:53:43.564342Z
 
@@ -2188,6 +2275,11 @@ creation_date: 2019-06-10T19:53:43.564342Z
 id: HIO:0000188
 name: Thyroid Hormone
 is_a: HIO:0000185 ! Endocrine Drug
+property_value: HIO:0000088 "Thyroid Gland Hormone" xsd:string
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C886
+property_value: HIO:0000226 NCIT:C886 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Any of several closely related compounds that are produced by the thyroid gland and are active metabolically." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T19:53:55.978928Z
 
@@ -2195,6 +2287,7 @@ creation_date: 2019-06-10T19:53:55.978928Z
 id: HIO:0000189
 name: Testosterone
 is_a: HIO:0000185 ! Endocrine Drug
+property_value: HIO:0000088 "4-androsten-17beta-ol-3-one" xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-06-10T19:54:06.965261Z
 
@@ -2885,7 +2978,7 @@ creation_date: 2019-07-30T09:13:13.960072Z
 [Term]
 id: HIO:0000253
 name: Abnormal Ear Morphology
-is_a: HIO:0000471 ! Auditory System Disease or Disorder
+is_a: HIO:0000196 ! Abnormality of the Ear
 property_value: HIO:0000088 "Abnormal Auditory/ Vestibular System Morphology" xsd:string
 property_value: HIO:0000088 "Abnormal Ear Development/ Ear Malformation" xsd:string
 property_value: HIO:0000088 "Auditory/ Vestibular System Abnormalities;" xsd:string
@@ -2931,6 +3024,7 @@ creation_date: 2019-07-30T13:29:29.068037Z
 id: HIO:0000256
 name: Tympanic Membrane Perforation
 is_a: HIO:0000255 ! Abnormal Tympanic Membrane Morphology
+is_a: HIO:0000471 ! Auditory System Disease or Disorder
 property_value: HIO:0000088 "Eardrum Perforation" xsd:string
 property_value: HIO:0000088 "Perforated Eardrum" xsd:string
 property_value: HIO:0000088 "Perforated Tympanic Membrane" xsd:string
@@ -2973,7 +3067,7 @@ creation_date: 2019-07-30T13:44:44.850321Z
 id: HIO:0000259
 name: Excessive Cerumen in Ear Canal
 is_a: HIO:0000258 ! Abnormal External Auditory Canal Morphology
-is_a: HIO:0000264 ! External Ear Canal Obstruction
+is_a: HIO:0000471 ! Auditory System Disease or Disorder
 property_value: HIO:0000088 "Cerumen Impaction" xsd:string
 property_value: HIO:0000088 "Ear Wax Accumulation" xsd:string
 property_value: HIO:0000088 "Ear Wax Buildup" xsd:string
@@ -3147,6 +3241,7 @@ creation_date: 2019-07-31T13:23:41.689596Z
 id: HIO:0000273
 name: Tympanic Membrane Retraction
 is_a: HIO:0000255 ! Abnormal Tympanic Membrane Morphology
+is_a: HIO:0000471 ! Auditory System Disease or Disorder
 property_value: HIO:0000088 "Eardrum Retraction" xsd:string
 property_value: HIO:0000088 "Retracted Eardrum" xsd:string
 property_value: HIO:0000088 "Retracted Tympanic Membrane" xsd:string
@@ -4019,7 +4114,7 @@ property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=c
 property_value: HIO:0000226 NCIT:C17049 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "An arbitrary classification of a taxonomic group that is a division of a species. It usually arises as a consequence of geographical isolation within a species and is characterized by shared heredity, physical attributes and behavior, and in the case of humans, by common history, nationality, or geographic distribution." xsd:string
-created_by: H3Africa
+created_by: Jade Hotchkiss
 creation_date: 2019-08-07T12:33:41.769384Z
 
 [Term]
@@ -4202,6 +4297,7 @@ creation_date: 2019-08-11T19:06:36.595141Z
 id: HIO:0000355
 name: Cholesteatoma
 is_a: HIO:0000254 ! Abnormal Middle Ear Morphology
+is_a: HIO:0000471 ! Auditory System Disease or Disorder
 property_value: HIO:0000225 HP:0009797
 property_value: HIO:0000226 HP:0009797 xsd:string
 property_value: HIO:0000227 "Sufficient" xsd:string
@@ -4291,7 +4387,7 @@ creation_date: 2019-08-13T12:36:17.824393Z
 
 [Term]
 id: HIO:0000361
-name: History of Cancer
+name: Personal History of Cancer
 is_a: HIO:0000340 ! Personal Medical History
 property_value: HIO:0000227 "None" xsd:string
 property_value: HIO:0000229 "Request inclusion into NCIT as a sub-class of \"Personal Medical History\"." xsd:string
@@ -4592,7 +4688,7 @@ name: Built Environment
 is_a: HIO:0000383 ! Physical Environment
 property_value: HIO:0000225 ExO:0000048
 property_value: HIO:0000226 ExO:0000048 xsd:string
-property_value: HIO:0000227 "Sufficiet" xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "Human-made surroundings that provide the setting for human activity, ranging in scale from personal shelter and buildings to neighborhoods and cite, and can often include their supporting infrastructure, such as water supply or energy networks." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-08-13T21:21:46.595672Z
@@ -5262,6 +5358,545 @@ property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" x
 property_value: http://purl.org/dc/elements/1.1/description "Hearing impairment that begins manifesting within the first 28 days of life." xsd:string
 created_by: Jade Hotchkiss
 creation_date: 2019-09-03T17:57:00.494767Z
+
+[Term]
+id: HIO:0000483
+name: Standing Balance
+is_a: HIO:0000067 ! Diagnostic Measurement
+
+[Term]
+id: HIO:0000484
+name: Postural Sway
+is_a: HIO:0000067 ! Diagnostic Measurement
+
+[Term]
+id: HIO:0000485
+name: Audiometer
+is_a: HIO:0000056 ! Diagnostic Device
+
+[Term]
+id: HIO:0000486
+name: Two-Channel Audiometer
+is_a: HIO:0000485 ! Audiometer
+
+[Term]
+id: HIO:0000487
+name: Accelerometer
+is_a: HIO:0000056 ! Diagnostic Device
+
+[Term]
+id: HIO:0000488
+name: Auditory Brainstem Response
+is_a: HIO:0000067 ! Diagnostic Measurement
+
+[Term]
+id: HIO:0000489
+name: Configuration of Hearing Loss
+is_a: HIO:0000067 ! Diagnostic Measurement
+
+[Term]
+id: HIO:0000490
+name: Air Conduction Testing
+is_a: http://webprotege.stanford.edu/RC24cXcDnaOLZSDybtNrxz9 ! Audiometry
+
+[Term]
+id: HIO:0000491
+name: Balance and Cerebellar Test
+is_a: HIO:0000073 ! Diagnostic Technique, Method, Test or Assay
+
+[Term]
+id: HIO:0000492
+name: NIH Toolbox Standing Balance Test
+is_a: HIO:0000491 ! Balance and Cerebellar Test
+property_value: HIO:0000225 "details"
+property_value: HIO:0000226 cogat:CAO_01322 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: HIO:0000229 "Link to Accelerometer" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The Standing Balance Test is a measure developed to assess static standing balance. It involves the participant assuming and maintaining up to five poses for 50 seconds each. The sequence of poses is: eyes open on a solid surface, eyes closed on a solid surface, eyes open on a 18 foam surface, eyes closed on a foam surface, eyes open in tandem stance on a solid surface. Detailed stopping rules are in place to ensure participant safety with these progressively demanding poses. Postural sway is recorded for each pose using an accelerometer that the participant wears at waist level." xsd:string
+
+[Term]
+id: HIO:0000493
+name: Stenger Test
+is_a: http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh ! Hearing Test
+
+[Term]
+id: HIO:0000494
+name: Test for Endolymphatic Hydrops
+is_a: HIO:0000073 ! Diagnostic Technique, Method, Test or Assay
+
+[Term]
+id: HIO:0000495
+name: Head and Neck Examination
+is_a: HIO:0000203 ! Physical Examination
+
+[Term]
+id: HIO:0000496
+name: Cranial Nerve Test
+is_a: HIO:0000073 ! Diagnostic Technique, Method, Test or Assay
+
+[Term]
+id: HIO:0000497
+name: Interaural Time Difference
+is_a: HIO:0000067 ! Diagnostic Measurement
+
+[Term]
+id: HIO:0000498
+name: Interaural Intensity Difference
+is_a: HIO:0000067 ! Diagnostic Measurement
+
+[Term]
+id: HIO:0000499
+name: Change Since Last Hearing Test
+is_a: HIO:0000067 ! Diagnostic Measurement
+
+[Term]
+id: HIO:0000500
+name: Otoacoustic Emissions
+is_a: HIO:0000067 ! Diagnostic Measurement
+property_value: HIO:0000088 "OAEs" xsd:string
+
+[Term]
+id: HIO:0000501
+name: Otoacoustic Emissions Test
+is_a: http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh ! Hearing Test
+property_value: HIO:0000088 "OAE Recording" xsd:string
+property_value: HIO:0000088 "OAE Test" xsd:string
+property_value: HIO:0000225 ONSTR?p=classes&conceptid=http%3A%2F%2Fonstr.googlecode.com%2Fsvn%2Ftags%2FcurrentRelease%2F2014-09-03%2FONSTR.owl%23ONSTR:1078710
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Otoacoustic emissions test is a hearing assay with the objective to detect, record and measure the otoacoustic emissions (OAEs), the sound waves that are produced by the motion of the outer cochlea hair cells responding to the auditory stimulation (as a by-product of a cochlear mechanism known as 'cochlear amplification') and that are transmitted backwards through the middle ear and received by the tympanum (ear drum). Definition source: http://asha.org./public/hearing/Otoacoustic-Emissions Even though the intensity of the observed OAE response is a primary factor of in OAE detectability, it is the presence of a detectable OAE response to a particular stimulus that is clinically important and not its strength. [Source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241.] Definition source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241 Otoacoustic emissions (OAEs) are recorded via an ear canal probe (containing both the miniature sound source and the microphone transducer) which is inserted deeply into the ear canal) after an auditory stimulus presentation. Unlike other audiometric tests,in the case of OAE recording, it is not necessary for the stimulus to be near to threshold levels to detect departures from normal function. Middle ear status (middle ear fluid or blockage) affects the OAEs and can prevent their detection. OAE signals are very sensitive to minos conductive losses caused by middle ear fluid and ear canal debris in neonates, so that sometimes, in first few hours after birth, an auditory brain-stem response (ARB) can be recorded and OAE cannot." xsd:string
+
+[Term]
+id: HIO:0000502
+name: Auditory Brainstem Response Test
+is_a: http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh ! Hearing Test
+
+[Term]
+id: HIO:0000503
+name: Whisper Test
+is_a: http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh ! Hearing Test
+
+[Term]
+id: HIO:0000504
+name: Acoustic Immittance
+is_a: HIO:0000067 ! Diagnostic Measurement
+created_by: H3Africa
+creation_date: 2019-10-30T10:39:17.904519Z
+
+[Term]
+id: HIO:0000505
+name: Acoustic Immittance Testing
+is_a: HIO:0000508 ! Audiologic Function Test
+
+[Term]
+id: HIO:0000506
+name: Tympanometry
+is_a: HIO:0000505 ! Acoustic Immittance Testing
+property_value: HIO:0000088 "Impedance Testing" xsd:string
+property_value: HIO:0000225 MMO:0000624
+property_value: HIO:0000226 MMO:0000624 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A method used to test the condition of the middle ear, including mobility of the tympanic membrane (eardrum) and condition of conduction bones. During the test, a tympanometer is inserted into the ear canal and the instrument causes a series of changes in the pressure in the ear, generates a tone and measures the response of the eardrum at the different pressures." xsd:string
+
+[Term]
+id: HIO:0000507
+name: Acoustic Reflex Threshold Testing
+is_a: HIO:0000505 ! Acoustic Immittance Testing
+
+[Term]
+id: HIO:0000508
+name: Audiologic Function Test
+is_a: HIO:0000073 ! Diagnostic Technique, Method, Test or Assay
+
+[Term]
+id: HIO:0000509
+name: Audiometry, Pure-Tone
+is_a: http://webprotege.stanford.edu/RC24cXcDnaOLZSDybtNrxz9 ! Audiometry
+property_value: HIO:0000088 "Bekesy Audiometry" xsd:string
+property_value: HIO:0000088 "Pure-Tone Audiometry" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D001301
+property_value: HIO:0000226 MESH:D001301 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Measurement of hearing based on the use of pure tones of various frequencies and intensities as auditory stimuli." xsd:string
+
+[Term]
+id: HIO:0000510
+name: Acoustic Reflex Threshold
+is_a: HIO:0000067 ! Diagnostic Measurement
+
+[Term]
+id: HIO:0000511
+name: Acoustic Reflex Decay Testing
+is_a: HIO:0000505 ! Acoustic Immittance Testing
+
+[Term]
+id: HIO:0000512
+name: Acoustic Reflex Decay
+is_a: HIO:0000067 ! Diagnostic Measurement
+
+[Term]
+id: HIO:0000513
+name: Tympanometer
+is_a: HIO:0000056 ! Diagnostic Device
+
+[Term]
+id: HIO:0000514
+name: Hearing Impairment based on Immaturity
+is_a: HIO:0000466 ! Hearing Impairment of Environmental Aetiology
+is_a: HIO:0000482 ! Neonatal Onset Hearing Impairment
+property_value: HIO:0000088 "Hearing Impairment due to Prematurity" xsd:string
+property_value: HIO:0000088 "Hearing Loss based on Immaturity" xsd:string
+property_value: HIO:0000088 "Hearing Loss due to Prematurity" xsd:string
+property_value: HIO:0000225 HP:0001622
+property_value: HIO:0000225 "vision-and-hearing-tests"
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Hearing impairment that occurs due to premature birth (birth at or before 37 weeks of gestational age)." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R2ennw99WiJ415xKdHT6C1
+name: Employment History
+is_a: HIO:0000101 ! Personal Attribute
+property_value: HIO:0000088 "Work History" xsd:string
+property_value: HIO:0000088 "Work Record" xsd:string
+property_value: HIO:0000225 APAONTO?p=classes&conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520(5).owl%23Employment:History
+property_value: HIO:0000226 APAONTO:Employment_History xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Past record of an individual's working life, including periods of unemployment." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R708g29URdxQztwO909iAjN
+name: Abnormal Inner Ear Morphology
+is_a: HIO:0000253 ! Abnormal Ear Morphology
+property_value: HIO:0000088 "Inner Ear Dysplasia" xsd:string
+property_value: HIO:0000225 MP:0000026
+property_value: HIO:0000226 MP:0000026 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Any structural anomaly of any components of the labyrinth, including the semicircular canals, vestibule and cochlea." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R7Ss9Q2KdIvAJzwNyph6WwV
+name: Audiogram
+is_a: HIO:0000068 ! Diagnostic Device Visual Output
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C92448
+property_value: HIO:0000226 NCIT:C92448 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A graphic record of the softest sounds that a person can hear at various frequencies, used to measure hearing loss." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R7zNaZHKYudP79ukruZEdib
+name: Abnormal Hearing Electrophysiology
+is_a: http://webprotege.stanford.edu/RBjAdQVbDCOrJErM8nETzOJ ! Abnormal Hearing Physiology
+property_value: HIO:0000225 MP:0006335
+property_value: HIO:0000226 MP:0006335 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Anomaly in auditory function as it relates to electrical phenomena." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R8DJ4mCSQgf774D7YYUPimR
+name: Educating About Causes of Hearing Loss
+is_a: HIO:0000141 ! Primary Preventative Therapeutics
+property_value: HIO:0000225 https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Samuel Mawuli Adadey)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Educating young people and population in general on hearing loss, its causes, prevention and identification." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R8QEt29LDDw0AdEFcE26cD5
+name: External Auditory Canal Atresia
+is_a: HIO:0000258 ! Abnormal External Auditory Canal Morphology
+is_a: HIO:0000471 ! Auditory System Disease or Disorder
+property_value: HIO:0000088 "Absent Auditory Canals" xsd:string
+property_value: HIO:0000088 "Absent Ear Canal" xsd:string
+property_value: HIO:0000088 "Atresia of the External Auditory Canal" xsd:string
+property_value: HIO:0000088 "Atresia of the External Auditory Canals" xsd:string
+property_value: HIO:0000088 "Atretic Auditory Canal" xsd:string
+property_value: HIO:0000088 "Atretic Auditory Canals" xsd:string
+property_value: HIO:0000088 "Atretic External Auditory Cana" xsd:string
+property_value: HIO:0000088 "Atretic External Auditory Canals" xsd:string
+property_value: HIO:0000088 "Auditory Canal Atresia" xsd:string
+property_value: HIO:0000088 "External Acoustic Meatus Atresia" xsd:string
+property_value: HIO:0000088 "External Auditory Meatal Atresia" xsd:string
+property_value: HIO:0000088 "External Auditory Meatus Atresia" xsd:string
+property_value: HIO:0000225 HP:0000413
+property_value: HIO:0000226 HP:0000413 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Absence or failure to form of the external auditory canal." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R8dA1STzRv1jH3qlwJ8katW
+name: Abnormal Ear Physiology
+is_a: HIO:0000196 ! Abnormality of the Ear
+property_value: HIO:0000225 MP:0003878
+property_value: HIO:0000226 MP:0003878 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Any functional anomaly of the ear, not due to an anatomical defect." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R9EhfyaMJXGJhPlJPPjFprA
+name: Personal History of Otological Treatment
+is_a: HIO:0000340 ! Personal Medical History
+property_value: HIO:0000225 "70"
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A record of an individual's history of otological treatment." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R9EvmTvrWmShvBg7Os4jQJr
+name: Mumps
+is_a: HIO:0000085 ! Infection
+property_value: HIO:0000088 "Epidemic Parotitides" xsd:string
+property_value: HIO:0000088 "Epidemic Parotitis" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D009107
+property_value: HIO:0000226 MESH:D009107 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R9KqvfDozIHk3kZ1yz0xvpY
+name: Background Noise
+is_a: HIO:0000383 ! Physical Environment
+property_value: HIO:0000088 "Ambient Noise" xsd:string
+property_value: HIO:0000225 Background:noise
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Any sound other than the sound being monitored (primary sound)." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R9dkWt7CDP9VwkS47PfYDec
+name: Vertigo
+is_a: http://webprotege.stanford.edu/RCcwu5OpAojlC0wWYkRNtCj ! Abnormal Vestibular System Physiology
+property_value: HIO:0000225 SYMP:0000399
+property_value: HIO:0000226 SYMP:0000399 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Vertigo is a dizziness characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R9eYvi4bRAczvG17LjlZPEo
+name: Vestibular Function Test
+is_a: HIO:0000073 ! Diagnostic Technique, Method, Test or Assay
+property_value: HIO:0000088 "Vestibular Function Tests" xsd:string
+property_value: HIO:0000088 "VFT" xsd:string
+property_value: HIO:0000225 "A test used to determine if the brain or balance portion of the inner ear are causing dizziness." xsd:string
+property_value: HIO:0000226 MESH:D014724 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A test used to determine if the brain or balance portion of the inner ear are causing dizziness." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R9mUlnHbqBaSFywCMCkObw5
+name: Pneumatic Otoscopy
+is_a: http://webprotege.stanford.edu/RBjghbo5plim28pFpvNwWrk ! Otoscopy
+property_value: HIO:0000225 https://emedicine.medscape.com/article/1348950-overview
+property_value: HIO:0000227 "Few but definitions not available" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "An examination that allows determination of the mobility of a patient's tympanic membrane (TM) in response to pressure changes." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/R9vCxaQ2OWhEynldml1ZM4n
+name: Meningitis
+is_a: HIO:0000085 ! Infection
+property_value: HIO:0000088 "Inflammation of Meninx" xsd:string
+property_value: HIO:0000088 "Meninx Inflammation" xsd:string
+property_value: HIO:0000227 "Few but definitions not specific enough" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Noluthando Manyisa)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Meningitis is the infection of the meninges that surround the brain and spinal cord. The infection may be due to bacterial, viral, fungal or parasitic infections or due to non-infectious causes. Symptoms include, but are not limited to, high fever( 38°C or above), severe headache, general malaise and/or confusion, photosensitivity, stiff neck, drowsiness and/or unresponsiveness, and/or seizures." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh
+name: Hearing Test
+is_a: HIO:0000508 ! Audiologic Function Test
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D006320
+property_value: HIO:0000226 MESH:D006320 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Part of an ear examination that measures the ability of sound to reach the brain." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RBjAdQVbDCOrJErM8nETzOJ
+name: Abnormal Hearing Physiology
+is_a: http://webprotege.stanford.edu/R8dA1STzRv1jH3qlwJ8katW ! Abnormal Ear Physiology
+property_value: HIO:0000088 "Abnormal Auditory Perception" xsd:string
+property_value: HIO:0000088 "Abnormal Auditory Physiology" xsd:string
+property_value: HIO:0000088 "Auditory Abnormalities" xsd:string
+property_value: HIO:0000225 MP:0001963
+property_value: HIO:0000226 MP:0001963 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Any functional anomaly in the ability to perceive auditory stimuli." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RBjghbo5plim28pFpvNwWrk
+name: Otoscopy
+is_a: HIO:0000203 ! Physical Examination
+property_value: HIO:0000225 "Examination of the ear canal and eardrum with an otoscope." xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D038781
+property_value: HIO:0000226 MESH:D038781 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RBwRKVrbKZYD4fo7VFF2yw2
+name: App-Based Hearing Test
+is_a: http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh ! Hearing Test
+property_value: HIO:0000225 https://www.mayoclinic.org/diseases-conditions/hearing-loss/diagnosis-treatment/drc-20373077
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A test made available via a mobile app that can be used to self-screen for moderate hearing loss." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RC24cXcDnaOLZSDybtNrxz9
+name: Audiometry
+is_a: http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh ! Hearing Test
+property_value: HIO:0000088 "Audiometer Test" xsd:string
+property_value: HIO:0000088 "Audiometric Test" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D001299
+property_value: HIO:0000226 MESH:D001299 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The testing of the acuity of the sense of hearing to determine the thresholds of the lowest intensity levels at which an individual can hear a set of tones. The frequencies between 125 and 8000 Hz are used to test air conduction thresholds and the frequencies between 250 and 4000 Hz are used to test bone conduction thresholds." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RCGJelLYZYVYBn0RETVh7Ta
+name: Abnormal Auditory Brainstem Response
+is_a: http://webprotege.stanford.edu/R7zNaZHKYudP79ukruZEdib ! Abnormal Hearing Electrophysiology
+property_value: HIO:0000088 "Abnormal ABRs" xsd:string
+property_value: HIO:0000088 "Abnormal BAEP(s)" xsd:string
+property_value: HIO:0000088 "Abnormal Brainstem Auditory Brainstem Response(s)" xsd:string
+property_value: HIO:0000088 "Abnormal Brainstem Auditory Evoked Potential" xsd:string
+property_value: HIO:0000088 "Abnormal Brainstem Evoked Responses" xsd:string
+property_value: HIO:0000225 MP:0004738
+property_value: HIO:0000226 MP:0004738 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Anomaly in the electrical activity generated in the ascending auditory system in response to short tone bursts; may be used to evaluate sensorineural hearing function; measurements may include the amplitude (the number of neurons firing), latency (the speed of transmission), interpeak latency (the time between peaks), interaural latency (the difference in wave V latency between ears) and threshold" xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RCcwbqSliRjkVkwuHOq8jMm
+name: Immunization
+is_a: HIO:0000141 ! Primary Preventative Therapeutics
+property_value: HIO:0000088 "Sensitization, Immunologic" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D007114
+property_value: HIO:0000226 MESH:D007114 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Deliberate stimulation of the host's immune response. Active immunization involves administration of antigens or immunologic adjuvants. Passive immunization involves administration of immune sera or lymphocytes or their extracts (e.g., transfer factor, immune RNA) or transplantation of immunocompetent cell producing tissue (thymus or bone marrow)." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RCcwu5OpAojlC0wWYkRNtCj
+name: Abnormal Vestibular System Physiology
+is_a: http://webprotege.stanford.edu/R8dA1STzRv1jH3qlwJ8katW ! Abnormal Ear Physiology
+property_value: HIO:0000088 "Impaired Vestibular Function" xsd:string
+property_value: HIO:0000088 "Vestibular Dysfunction" xsd:string
+property_value: HIO:0000088 "Vestibular Function Defect" xsd:string
+property_value: HIO:0000225 MP:0004742
+property_value: HIO:0000226 MP:0004742 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Any functional anomaly of the sensory system responsible for the sense of head position and movement of the body through space; such anomalies may result in impaired balance, dizziness, poor regulation of postural muscle tone and inability to detect quick movements of the head." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RDPjV6U14eW2s2xWyII9rrv
+name: Otosclerosis
+is_a: HIO:0000471 ! Auditory System Disease or Disorder
+is_a: http://webprotege.stanford.edu/RSBJeubUfVM2lfE1DUHbEl ! Abnormal Bony Labyrinth
+property_value: HIO:0000225 MP:0004897
+property_value: HIO:0000226 MP:0004897 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Formation of spongy bone in the bony labyrinth of the ear, especially adjacent to the footplate of the stapes; it may cause bony ankylosis of the stapes, resulting in conductive hearing loss; cochlear otosclerosis results in sensorineural hearing loss." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RDSeElwL4cmHDkALaxO2IDj
+name: Tinnitus
+is_a: http://webprotege.stanford.edu/RBjAdQVbDCOrJErM8nETzOJ ! Abnormal Hearing Physiology
+property_value: HIO:0000225 MP:0003741
+property_value: HIO:0000226 MP:0003741 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Persistent sensation of buzzing, ringing, clicking, or other noises in the ear." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RDbm6Ys3FxMphsiTzUS2XkS
+name: Gait
+is_a: HIO:0000067 ! Diagnostic Measurement
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C75445
+property_value: HIO:0000226 NCIT:C75445 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A pattern or manner of running, walking, or moving on foot." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RDh9R69ddAeSmTUDzcJa5bw
+name: Caloric Test
+is_a: http://webprotege.stanford.edu/R9eYvi4bRAczvG17LjlZPEo ! Vestibular Function Test
+property_value: HIO:0000088 "Barany's Test" xsd:string
+property_value: HIO:0000088 "Baranys Test" xsd:string
+property_value: HIO:0000088 "Caloric Tests" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D002150
+property_value: HIO:0000226 MESH:D002150 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Elicitation of a rotatory nystagmus by stimulating the semicircular canals with water or air which is above or below body temperature. In warm caloric stimulation a rotatory nystagmus is developed toward the side of the stimulated ear; in cold, away from the stimulated side. Absence of nystagmus indicates the labyrinth is not functioning." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RDuhe0bDe9A9QNPrd2EN6E9
+name: Bone Conduction Testing
+is_a: http://webprotege.stanford.edu/RC24cXcDnaOLZSDybtNrxz9 ! Audiometry
+property_value: HIO:0000088 "Bone Conduction Assessment" xsd:string
+property_value: HIO:0000088 "Bone Conduction Hearing Test" xsd:string
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C60916
+property_value: HIO:0000226 NCIT:C60916 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A test of the transmission of sound to the inner ear through the bones of the skull. This testing can measure functionality of the inner ear independent of the functionality of the outer and middle ears." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RDzs8GPbRFzv0UfnQTPWvup
+name: Bone Vibrator
+is_a: HIO:0000056 ! Diagnostic Device
+property_value: HIO:0000088 "Bone Conduction Vibrator" xsd:string
+property_value: HIO:0000088 "Bone Conductor" xsd:string
+property_value: HIO:0000225 https://www.ortofon.com/microtech/bone-conductors/bone-vibrators-in-general
+property_value: HIO:0000227 "Few but definitions not freely available" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A small vibrator connected to a hearing aid that produces vibrations that are transmitted through the skull to the inner ear, where they are perceived as sound." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RLMBOe8KzGmJ8zGk2aiHmV
+name: Otoscope
+is_a: HIO:0000056 ! Diagnostic Device
+property_value: HIO:0000088 "Auriscope" xsd:string
+property_value: HIO:0000225 http://purl.bioontology.org/ontology/MESH/D019720
+property_value: HIO:0000226 MESH:D019720 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Instruments designed to inspect or auscultate the ear. They are designed primarily to examine the outer ear canal and tympanic membrane by means of light and air under moderate pressure, as with a pneumatic otoscope." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RSBJeubUfVM2lfE1DUHbEl
+name: Abnormal Bony Labyrinth
+is_a: http://webprotege.stanford.edu/R708g29URdxQztwO909iAjN ! Abnormal Inner Ear Morphology
+property_value: HIO:0000088 "Abnormal Labyrinthus Osseus" xsd:string
+property_value: HIO:0000088 "Abnormal Osseous Labyrinth" xsd:string
+property_value: HIO:0000225 MP:0004289
+property_value: HIO:0000226 MP:0004289 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "Any structural anomaly in the series of cavities (cochlea, vestibule, and semicircular canals) contained within the otic capsule of the petrous portion of the temporal bone; the bony labyrinth is filled with perilymph, in which the delicate, endolymph-filled membranous labyrinth is suspended." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/Rogaf9PYQqwZx5LKS8F6hB
+name: Cytomegalovirus Infection
+is_a: HIO:0000085 ! Infection
+property_value: HIO:0000088 "CMV Infection" xsd:string
+property_value: HIO:0000088 "Cytomegaloviral Infection" xsd:string
+property_value: HIO:0000088 "HCMV Infection" xsd:string
+property_value: HIO:0000226 "HIO (Noluthando Manyisa)" xsd:string
+property_value: HIO:0000227 "Few but definitions not specific enough" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A viral infection caused by the cytomegalovirus. Infection rarely causes symptoms in healthy people, but symptoms may be similar to glandular fever; however, infection in pregnant or immunocompromised individuals is a cause for concern. CMV infection may result in serious congenital defects in children infected prior to birth or serious symptoms affecting the eyes, lungs, liver, oesophogus, stomach, and intestines in immunicompromised individuals." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RwXjmeAcgDaNcHY0cEnso3
+name: Personal History of Ear Surgery
+is_a: http://webprotege.stanford.edu/R9EhfyaMJXGJhPlJPPjFprA ! Personal History of Otological Treatment
+property_value: HIO:0000225 "70"
+property_value: HIO:0000227 "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "HIO (Jade Hotchkiss)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "A record of an individual's history of ear surgery." xsd:string
+
+[Term]
+id: http://webprotege.stanford.edu/RxEmFR2NDOI5RuJiH2Fr21
+name: Daily or Recreational Activity
+is_a: HIO:0000101 ! Personal Attribute
+property_value: HIO:0000225 http://bioportal.bioontology.org/ontologies/ROO?p=classes&conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSTY%2FT056
+property_value: HIO:0000226 STY:T056 xsd:string
+property_value: HIO:0000227 "Sufficient" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "An activity carried out for recreation or exercise, or as part of daily life." xsd:string
 
 [Typedef]
 id: HIO:0000314

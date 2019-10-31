@@ -23880,7 +23880,7 @@ Suggest update to description in RO.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000088"/>
         <IRI>http://purl.obolibrary.org/obo/HIO_0000514</IRI>
-        <Literal>Hearing Loss based on Immaturity</Literal>
+        <Literal>Hearing Loss based to Immaturity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/HIO_0000088"/>

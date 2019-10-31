@@ -11,7 +11,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/hio_">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hio/releases/2019-10-31/hio.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/hio/releases/2019-09-09/hio.owl"/>
     </owl:Ontology>
     
 
@@ -116,7 +116,6 @@ None</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/HIO_0000328 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/HIO_0000328">
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <obo:HIO_0000229>SCDO requested inclusion of this property into RO. Update details here again after inclusion.</obo:HIO_0000229>
         <dc:creator>SCDO</dc:creator>
         <dc:description>A relation between a measurement and a plan specification for obtaining the measurement that has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.</dc:description>
@@ -1628,9 +1627,8 @@ Mutations in three genes, EYA1, SIX1, and SIX5, have been reported in people wit
         <obo:HIO_0000088>Treatment</obo:HIO_0000088>
         <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D013812"/>
         <obo:HIO_0000226>MESH:D013812</obo:HIO_0000226>
-        <obo:HIO_0000227>Suggest update to description</obo:HIO_0000227>
-        <obo:HIO_0000229>Suggest update to description in MESH</obo:HIO_0000229>
-        <dc:description>Procedures, agents or devices concerned with the remedial treatment or prevention of diseases.</dc:description>
+        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <dc:description>Procedures concerned with the remedial treatment or prevention of diseases.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-05-31T07:22:43.208574Z</oboInOwl:creation_date>
         <rdfs:label>Therapeutics</rdfs:label>
@@ -2930,10 +2928,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000057"/>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/CRISP?p=classes&amp;conceptid=http://purl.bioontology.org/ontology/CSP/0977-5562"/>
-        <obo:HIO_0000226>CRISP:0977-5562</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:creator>Wearable sound-amplifying devices that are intended to compensate for impaired hearing; devices include air-conduction hearing aids and bone-conduction hearing aids.</dc:creator>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T08:26:53.430403Z</oboInOwl:creation_date>
         <rdfs:label>Hearing Aid</rdfs:label>
@@ -2945,10 +2939,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000057"/>
-        <obo:HIO_0000225 rdf:resource="https://www.medicinenet.com/script/main/art.asp?articlekey=13307"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Samuel Mawuli Adadey)</dc:creator>
-        <dc:description>A mechanical instrument attached to the head, near the ear(s), that helps individuals who are deaf to detect and interpret sounds through their sense of touch. It is called a vibrotactile aid because it serves as an aid by permitting a person to feel the vibrations, in this case, of sounds.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T08:26:53.431183Z</oboInOwl:creation_date>
         <rdfs:label>Vibrotactile Device</rdfs:label>
@@ -3068,10 +3058,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000119"/>
-        <obo:HIO_0000088>Cosmetic Surgery</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D013518"/>
-        <obo:HIO_0000226>MESH:D013518</obo:HIO_0000226>
-        <dc:description>The branch of surgery concerned with restoration, reconstruction, or improvement of defective, damaged, or missing structures.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T08:57:23.650596Z</oboInOwl:creation_date>
         <rdfs:label>Plastic Surgery</rdfs:label>
@@ -3128,13 +3114,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000065"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000169"/>
-        <obo:HIO_0000088>Anti-arrhythmic Agent</obo:HIO_0000088>
-        <obo:HIO_0000088>Antiarrhythmic Agent</obo:HIO_0000088>
-        <obo:HIO_0000088>Cardiac Depressant</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C47793"/>
-        <obo:HIO_0000226>NCIT:C47793</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Agents used for the treatment or prevention of cardiac arrhythmias; they may effect the polarization-repolarization phase of the action potential, its excitability or refractoriness, or impulse conduction or membrane responsiveness within cardiac fibers.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T09:15:09.499661Z</oboInOwl:creation_date>
         <rdfs:label>Antiarrhythmic Drug</rdfs:label>
@@ -3146,17 +3125,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000126"/>
-        <obo:HIO_0000088>Beta-Adrenergic Antagonist</obo:HIO_0000088>
-        <obo:HIO_0000088>Beta-Adrenergic Blocker</obo:HIO_0000088>
-        <obo:HIO_0000088>Beta-Adrenergic Blockers</obo:HIO_0000088>
-        <obo:HIO_0000088>Beta-Adrenergic Receptor Blockaders</obo:HIO_0000088>
-        <obo:HIO_0000088>Beta-Adrenoceptor Antagonists</obo:HIO_0000088>
-        <obo:HIO_0000088>Beta-Blocker</obo:HIO_0000088>
-        <obo:HIO_0000088>Beta-Blockers</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35530"/>
-        <obo:HIO_0000226>CHEBI:35530</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>An agent that binds to but does not activate beta-adrenergic receptors thereby blocking the actions of endogenous or exogenous beta-adrenergic agonists. beta-Adrenergic antagonists are used for treatment of hypertension, cardiac arrhythmias, angina pectoris, glaucoma, migraine headaches and anxiety.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T09:16:39.394472Z</oboInOwl:creation_date>
         <rdfs:label>Beta-Adrenergic Blocker</rdfs:label>
@@ -3387,10 +3355,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000142"/>
-        <obo:HIO_0000225 rdf:resource="https://www.asha.org/articlesummary.aspx?id=8589960311"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Samuel Mawuli Adadey)</dc:creator>
-        <dc:description>Early identification, surveillance, and monitoring of individuals (especially children) for permanent hearing loss.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T10:37:13.042567Z</oboInOwl:creation_date>
         <rdfs:label>Audiologic Surveillance</rdfs:label>
@@ -3402,12 +3366,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000142"/>
-        <obo:HIO_0000088>Newborn Hearing Screening</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3114997/"/>
-        <obo:HIO_0000226>PMC3114997</obo:HIO_0000226>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Samuel Mawuli Adadey)</dc:creator>
-        <dc:description>Clinical screening of hearing impairment as part of the universal newborn hearing screening.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T10:37:13.0433Z</oboInOwl:creation_date>
         <rdfs:label>Clinical Surveillance</rdfs:label>
@@ -3419,10 +3377,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000145">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000142"/>
-        <obo:HIO_0000225 rdf:resource="https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Samuel Mawuli Adadey)</dc:creator>
-        <dc:description>Referring infants at high risk, such as those with a family history of deafness or those born with low birth weight, birth asphyxia, jaundice or meningitis, for early assessment of hearing, to ensure prompt diagnosis and appropriate management, as required;</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T10:37:13.043981Z</oboInOwl:creation_date>
         <rdfs:label>Paraclinical Surveillance</rdfs:label>
@@ -3494,10 +3448,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000141"/>
-        <obo:HIO_0000225 rdf:resource="https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Samuel Mawuli Adadey)</dc:creator>
-        <dc:description>Reducing exposure to environmental risk factors which may be harmful to hearing.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T10:53:48.414847Z</oboInOwl:creation_date>
         <rdfs:label>Exposure Avoidance</rdfs:label>
@@ -3509,10 +3459,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000151">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000150"/>
-        <obo:HIO_0000225 rdf:resource="https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Samuel Mawuli Adadey)</dc:creator>
-        <dc:description>Reducing exposure to both occupational and recreational loud sound.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T10:54:46.014864Z</oboInOwl:creation_date>
         <rdfs:label>Avoidance of Noise</rdfs:label>
@@ -3545,11 +3491,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000154">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000150"/>
-        <obo:HIO_0000225 rdf:resource="https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Samuel Mawuli Adadey)</dc:creator>
-        <dc:description>Avoiding the use of particular drugs which may be harmful to hearing, unless prescribed and monitored by a qualified physician</dc:description>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000141"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T11:09:18.070327Z</oboInOwl:creation_date>
         <rdfs:label>Proper Use of Ototoxic Drugs</rdfs:label>
@@ -3627,11 +3569,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000159 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000159">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcwbqSliRjkVkwuHOq8jMm"/>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C15346"/>
-        <obo:HIO_0000226>NCIT:C15346</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Administration of vaccines to stimulate the host&apos;s immune response. This includes any preparation intended for active immunological prophylaxis or treatment.</dc:description>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000141"/>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T14:49:22.884714Z</oboInOwl:creation_date>
         <rdfs:label>Vaccination</rdfs:label>
@@ -3676,9 +3614,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000141"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Samuel Mawuli Adadey)</dc:creator>
-        <dc:description>Preliminary use of testing procedures or instruments to identify individuals at risk for a particular problem, or in need of a more thorough evaluation, or to determine an individual&apos;s suitability for a specific treatment.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T15:08:01.8496Z</oboInOwl:creation_date>
         <rdfs:label>Therapeutic Screening</rdfs:label>
@@ -3937,10 +3872,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000120"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000170"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D038263"/>
-        <obo:HIO_0000226>MESH:D038263</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Surgical insertion of an electronic hearing device (Auditory brain stem implants) with electrodes to the cochlea nucleus in the brain stem rather than to the inner ear as in cochlear implantation.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T19:19:45.649098Z</oboInOwl:creation_date>
         <rdfs:label>Auditory Midbrain Implantation</rdfs:label>
@@ -3974,12 +3905,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000065"/>
-        <obo:HIO_0000088>Endocrine System Drug</obo:HIO_0000088>
-        <obo:HIO_0000088>Endocrinology Drug</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="https://www.ncbi.nlm.nih.gov/pubmed/24365354"/>
-        <obo:HIO_0000226>PMID: 24365354</obo:HIO_0000226>
-        <obo:HIO_0000227>Few but definitions not available</obo:HIO_0000227>
-        <dc:description>Agents directed to a malfunctioning endocrine path.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T19:49:16.324675Z</oboInOwl:creation_date>
         <rdfs:label>Endocrine Drug</rdfs:label>
@@ -3991,11 +3916,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000185"/>
-        <obo:HIO_0000088>Sodium Insulin</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D007328"/>
-        <obo:HIO_0000226>MESH:D007328</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>A 51-amino acid pancreatic hormone that plays a major role in the regulation of glucose metabolism, directly by suppressing endogenous glucose production (glycogenolysis; gluconeogenesis) and indirectly by suppressing glucagon secretion and lipolysis. Native insulin is a globular protein comprised of a zinc-coordinated hexamer. Each insulin monomer containing two chains, A (21 residues) and B (30 residues), linked by two disulfide bonds. Insulin is used as a drug to control insulin-dependent diabetes mellitus (diabetes mellitus, type 1).</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T19:50:47.249828Z</oboInOwl:creation_date>
         <rdfs:label>Insulin</rdfs:label>
@@ -4007,14 +3927,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000185"/>
-        <obo:HIO_0000088>Estrogen Replacement Therapy</obo:HIO_0000088>
-        <obo:HIO_0000088>Estrogen Sulfate</obo:HIO_0000088>
-        <obo:HIO_0000088>Estrogen Sulphate</obo:HIO_0000088>
-        <obo:HIO_0000088>Premarin</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/CRISP/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FCSP%2F1065-6197&amp;jump_to_nav=true"/>
-        <obo:HIO_0000226>CRISP:1065-6197</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:creator>Hormones which stimulate the female reproductive organs, and the development of secondary female sex characteristics.</dc:creator>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T19:53:43.564342Z</oboInOwl:creation_date>
         <rdfs:label>Estrogen</rdfs:label>
@@ -4026,11 +3938,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000185"/>
-        <obo:HIO_0000088>Thyroid Gland Hormone</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C886"/>
-        <obo:HIO_0000226>NCIT:C886</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Any of several closely related compounds that are produced by the thyroid gland and are active metabolically.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T19:53:55.978928Z</oboInOwl:creation_date>
         <rdfs:label>Thyroid Hormone</rdfs:label>
@@ -4042,7 +3949,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000185"/>
-        <obo:HIO_0000088>4-androsten-17beta-ol-3-one</obo:HIO_0000088>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-06-10T19:54:06.965261Z</oboInOwl:creation_date>
         <rdfs:label>Testosterone</rdfs:label>
@@ -5054,7 +4960,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
     <!-- http://purl.obolibrary.org/obo/HIO_0000253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000253">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000196"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
         <obo:HIO_0000088>Abnormal Auditory/ Vestibular System Morphology</obo:HIO_0000088>
         <obo:HIO_0000088>Abnormal Ear Development/ Ear Malformation</obo:HIO_0000088>
         <obo:HIO_0000088>Auditory/ Vestibular System Abnormalities;</obo:HIO_0000088>
@@ -5112,7 +5018,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000255"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
         <obo:HIO_0000088>Eardrum Perforation</obo:HIO_0000088>
         <obo:HIO_0000088>Perforated Eardrum</obo:HIO_0000088>
         <obo:HIO_0000088>Perforated Tympanic Membrane</obo:HIO_0000088>
@@ -5167,7 +5072,7 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000258"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000264"/>
         <obo:HIO_0000088>Cerumen Impaction</obo:HIO_0000088>
         <obo:HIO_0000088>Ear Wax Accumulation</obo:HIO_0000088>
         <obo:HIO_0000088>Ear Wax Buildup</obo:HIO_0000088>
@@ -5397,7 +5302,6 @@ See dc:sources for causes of congenital and acquired hearing loss</obo:HIO_00002
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000255"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
         <obo:HIO_0000088>Eardrum Retraction</obo:HIO_0000088>
         <obo:HIO_0000088>Retracted Eardrum</obo:HIO_0000088>
         <obo:HIO_0000088>Retracted Tympanic Membrane</obo:HIO_0000088>
@@ -6601,7 +6505,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <obo:HIO_0000226>NCIT:C17049</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
         <dc:description>An arbitrary classification of a taxonomic group that is a division of a species. It usually arises as a consequence of geographical isolation within a species and is characterized by shared heredity, physical attributes and behavior, and in the case of humans, by common history, nationality, or geographic distribution.</dc:description>
-        <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
+        <oboInOwl:created_by>H3Africa</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-07T12:33:41.769384Z</oboInOwl:creation_date>
         <rdfs:label>Race</rdfs:label>
     </owl:Class>
@@ -6850,7 +6754,6 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000355">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000254"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
         <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0009797"/>
         <obo:HIO_0000226>HP:0009797</obo:HIO_0000226>
         <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
@@ -6982,7 +6885,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <dc:description>A record of an individual&apos;s history of cancer.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-16T12:33:36.450747Z</oboInOwl:creation_date>
-        <rdfs:label>Personal History of Cancer</rdfs:label>
+        <rdfs:label>History of Cancer</rdfs:label>
     </owl:Class>
     
 
@@ -7367,7 +7270,7 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000383"/>
         <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/ExO_0000048"/>
         <obo:HIO_0000226>ExO:0000048</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
+        <obo:HIO_0000227>Sufficiet</obo:HIO_0000227>
         <dc:description>Human-made surroundings that provide the setting for human activity, ranging in scale from personal shelter and buildings to neighborhoods and cite, and can often include their supporting infrastructure, such as water supply or energy networks.</dc:description>
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-08-13T21:21:46.595672Z</oboInOwl:creation_date>
@@ -8254,805 +8157,6 @@ The PhenX protocol is U.S. specific. Is there one relevant to the African settin
         <oboInOwl:created_by>Jade Hotchkiss</oboInOwl:created_by>
         <oboInOwl:creation_date>2019-09-03T17:57:00.494767Z</oboInOwl:creation_date>
         <rdfs:label>Neonatal Onset Hearing Impairment</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000483 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000483">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <rdfs:label>Standing Balance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000484 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000484">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <rdfs:label>Postural Sway</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000485 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000485">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000056"/>
-        <rdfs:label>Audiometer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000486 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000486">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000485"/>
-        <rdfs:label>Two-Channel Audiometer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000487 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000487">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000056"/>
-        <rdfs:label>Accelerometer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000488 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000488">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <rdfs:label>Auditory Brainstem Response</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000489 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000489">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <rdfs:label>Configuration of Hearing Loss</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000490 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000490">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC24cXcDnaOLZSDybtNrxz9"/>
-        <rdfs:label>Air Conduction Testing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000491 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000491">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000073"/>
-        <rdfs:label>Balance and Cerebellar Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000492 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000492">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000491"/>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/COGAT?p=classes&amp;conceptid=http%3A%2F%2Fwww.cognitiveatlas.org%2Fontology%2Fcogat.owl%23CAO_01322#details"/>
-        <obo:HIO_0000226>cogat:CAO_01322</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <obo:HIO_0000229>Link to Accelerometer</obo:HIO_0000229>
-        <dc:description>The Standing Balance Test is a measure developed to assess static standing balance. It involves the participant assuming and maintaining up to five poses for 50 seconds each. The sequence of poses is: eyes open on a solid surface, eyes closed on a solid surface, eyes open on a 18 foam surface, eyes closed on a foam surface, eyes open in tandem stance on a solid surface. Detailed stopping rules are in place to ensure participant safety with these progressively demanding poses. Postural sway is recorded for each pose using an accelerometer that the participant wears at waist level.</dc:description>
-        <rdfs:label>NIH Toolbox Standing Balance Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000493 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000493">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh"/>
-        <rdfs:label>Stenger Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000494 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000494">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000073"/>
-        <rdfs:label>Test for Endolymphatic Hydrops</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000495 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000495">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000203"/>
-        <rdfs:label>Head and Neck Examination</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000496 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000496">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000073"/>
-        <rdfs:label>Cranial Nerve Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000497 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000497">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <rdfs:label>Interaural Time Difference</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000498 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000498">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <rdfs:label>Interaural Intensity Difference</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000499 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000499">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <rdfs:label>Change Since Last Hearing Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000500 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000500">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <obo:HIO_0000088>OAEs</obo:HIO_0000088>
-        <rdfs:label>Otoacoustic Emissions</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000501 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000501">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh"/>
-        <obo:HIO_0000088>OAE Recording</obo:HIO_0000088>
-        <obo:HIO_0000088>OAE Test</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/ONSTR?p=classes&amp;conceptid=http%3A%2F%2Fonstr.googlecode.com%2Fsvn%2Ftags%2FcurrentRelease%2F2014-09-03%2FONSTR.owl%23ONSTR_1078710"/>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Otoacoustic emissions test is a hearing assay with the objective to detect, record and measure the otoacoustic emissions (OAEs), the sound waves that are produced by the motion of the outer cochlea hair cells responding to the auditory stimulation (as a by-product of a cochlear mechanism known as &apos;cochlear amplification&apos;) and that are transmitted backwards through the middle ear and received by the tympanum (ear drum). Definition source: http://asha.org./public/hearing/Otoacoustic-Emissions Even though the intensity of the observed OAE response is a primary factor of in OAE detectability, it is the presence of a detectable OAE response to a particular stimulus that is clinically important and not its strength. [Source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241.] Definition source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241 Otoacoustic emissions (OAEs) are recorded via an ear canal probe (containing both the miniature sound source and the microphone transducer) which is inserted deeply into the ear canal) after an auditory stimulus presentation. Unlike other audiometric tests,in the case of OAE recording, it is not necessary for the stimulus to be near to threshold levels to detect departures from normal function. Middle ear status (middle ear fluid or blockage) affects the OAEs and can prevent their detection. OAE signals are very sensitive to minos conductive losses caused by middle ear fluid and ear canal debris in neonates, so that sometimes, in first few hours after birth, an auditory brain-stem response (ARB) can be recorded and OAE cannot.</dc:description>
-        <rdfs:label>Otoacoustic Emissions Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000502 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000502">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh"/>
-        <rdfs:label>Auditory Brainstem Response Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000503 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000503">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh"/>
-        <rdfs:label>Whisper Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000504 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000504">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <oboInOwl:created_by>H3Africa</oboInOwl:created_by>
-        <oboInOwl:creation_date>2019-10-30T10:39:17.904519Z</oboInOwl:creation_date>
-        <rdfs:label>Acoustic Immittance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000505 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000505">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000508"/>
-        <rdfs:label>Acoustic Immittance Testing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000506 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000506">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000505"/>
-        <obo:HIO_0000088>Impedance Testing</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MMO_0000624"/>
-        <obo:HIO_0000226>MMO:0000624</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>A method used to test the condition of the middle ear, including mobility of the tympanic membrane (eardrum) and condition of conduction bones. During the test, a tympanometer is inserted into the ear canal and the instrument causes a series of changes in the pressure in the ear, generates a tone and measures the response of the eardrum at the different pressures.</dc:description>
-        <rdfs:label>Tympanometry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000507 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000507">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000505"/>
-        <rdfs:label>Acoustic Reflex Threshold Testing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000508 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000508">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000073"/>
-        <rdfs:label>Audiologic Function Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000509 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000509">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC24cXcDnaOLZSDybtNrxz9"/>
-        <obo:HIO_0000088>Bekesy Audiometry</obo:HIO_0000088>
-        <obo:HIO_0000088>Pure-Tone Audiometry</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D001301"/>
-        <obo:HIO_0000226>MESH:D001301</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Measurement of hearing based on the use of pure tones of various frequencies and intensities as auditory stimuli.</dc:description>
-        <rdfs:label>Audiometry, Pure-Tone</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000510 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000510">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <rdfs:label>Acoustic Reflex Threshold</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000511 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000511">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000505"/>
-        <rdfs:label>Acoustic Reflex Decay Testing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000512 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000512">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <rdfs:label>Acoustic Reflex Decay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000513 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000513">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000056"/>
-        <rdfs:label>Tympanometer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HIO_0000514 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HIO_0000514">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000466"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000482"/>
-        <obo:HIO_0000088>Hearing Impairment due to Prematurity</obo:HIO_0000088>
-        <obo:HIO_0000088>Hearing Loss based on Immaturity</obo:HIO_0000088>
-        <obo:HIO_0000088>Hearing Loss due to Prematurity</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0001622"/>
-        <obo:HIO_0000225 rdf:resource="https://www.healthline.com/health/pregnancy/premature-baby-eyes-ears#vision-and-hearing-tests"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>Hearing impairment that occurs due to premature birth (birth at or before 37 weeks of gestational age).</dc:description>
-        <rdfs:label>Hearing Impairment based on Immaturity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R2ennw99WiJ415xKdHT6C1 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R2ennw99WiJ415xKdHT6C1">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000101"/>
-        <obo:HIO_0000088>Work History</obo:HIO_0000088>
-        <obo:HIO_0000088>Work Record</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/APAONTO?p=classes&amp;conceptid=http%3A%2F%2Fontology.apa.org%2Fapaonto%2FtermsonlyOUT%2520(5).owl%23Employment_History"/>
-        <obo:HIO_0000226>APAONTO:Employment_History</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Past record of an individual&apos;s working life, including periods of unemployment.</dc:description>
-        <rdfs:label>Employment History</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R708g29URdxQztwO909iAjN -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R708g29URdxQztwO909iAjN">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000253"/>
-        <obo:HIO_0000088>Inner Ear Dysplasia</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0000026"/>
-        <obo:HIO_0000226>MP:0000026</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Any structural anomaly of any components of the labyrinth, including the semicircular canals, vestibule and cochlea.</dc:description>
-        <rdfs:label>Abnormal Inner Ear Morphology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7Ss9Q2KdIvAJzwNyph6WwV -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Ss9Q2KdIvAJzwNyph6WwV">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000068"/>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C92448"/>
-        <obo:HIO_0000226>NCIT:C92448</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>A graphic record of the softest sounds that a person can hear at various frequencies, used to measure hearing loss.</dc:description>
-        <rdfs:label>Audiogram</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R7zNaZHKYudP79ukruZEdib -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R7zNaZHKYudP79ukruZEdib">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBjAdQVbDCOrJErM8nETzOJ"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0006335"/>
-        <obo:HIO_0000226>MP:0006335</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Anomaly in auditory function as it relates to electrical phenomena.</dc:description>
-        <rdfs:label>Abnormal Hearing Electrophysiology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8DJ4mCSQgf774D7YYUPimR -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8DJ4mCSQgf774D7YYUPimR">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000141"/>
-        <obo:HIO_0000225 rdf:resource="https://www.who.int/news-room/fact-sheets/detail/deafness-and-hearing-loss"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Samuel Mawuli Adadey)</dc:creator>
-        <dc:description>Educating young people and population in general on hearing loss, its causes, prevention and identification.</dc:description>
-        <rdfs:label>Educating About Causes of Hearing Loss</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8QEt29LDDw0AdEFcE26cD5 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8QEt29LDDw0AdEFcE26cD5">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000258"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
-        <obo:HIO_0000088>Absent Auditory Canals</obo:HIO_0000088>
-        <obo:HIO_0000088>Absent Ear Canal</obo:HIO_0000088>
-        <obo:HIO_0000088>Atresia of the External Auditory Canal</obo:HIO_0000088>
-        <obo:HIO_0000088>Atresia of the External Auditory Canals</obo:HIO_0000088>
-        <obo:HIO_0000088>Atretic Auditory Canal</obo:HIO_0000088>
-        <obo:HIO_0000088>Atretic Auditory Canals</obo:HIO_0000088>
-        <obo:HIO_0000088>Atretic External Auditory Cana</obo:HIO_0000088>
-        <obo:HIO_0000088>Atretic External Auditory Canals</obo:HIO_0000088>
-        <obo:HIO_0000088>Auditory Canal Atresia</obo:HIO_0000088>
-        <obo:HIO_0000088>External Acoustic Meatus Atresia</obo:HIO_0000088>
-        <obo:HIO_0000088>External Auditory Meatal Atresia</obo:HIO_0000088>
-        <obo:HIO_0000088>External Auditory Meatus Atresia</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/HP_0000413"/>
-        <obo:HIO_0000226>HP:0000413</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Absence or failure to form of the external auditory canal.</dc:description>
-        <rdfs:label>External Auditory Canal Atresia</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R8dA1STzRv1jH3qlwJ8katW -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R8dA1STzRv1jH3qlwJ8katW">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000196"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0003878"/>
-        <obo:HIO_0000226>MP:0003878</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Any functional anomaly of the ear, not due to an anatomical defect.</dc:description>
-        <rdfs:label>Abnormal Ear Physiology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9EhfyaMJXGJhPlJPPjFprA -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9EhfyaMJXGJhPlJPPjFprA">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000340"/>
-        <obo:HIO_0000225 rdf:resource="https://www.nap.edu/read/11099/chapter/5#70"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>A record of an individual&apos;s history of otological treatment.</dc:description>
-        <rdfs:label>Personal History of Otological Treatment</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9EvmTvrWmShvBg7Os4jQJr -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9EvmTvrWmShvBg7Os4jQJr">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000085"/>
-        <obo:HIO_0000088>Epidemic Parotitides</obo:HIO_0000088>
-        <obo:HIO_0000088>Epidemic Parotitis</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D009107"/>
-        <obo:HIO_0000226>MESH:D009107</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>An acute infectious disease caused by RUBULAVIRUS, spread by direct contact, airborne droplet nuclei, fomites contaminated by infectious saliva, and perhaps urine, and usually seen in children under the age of 15, although adults may also be affected.</dc:description>
-        <rdfs:label>Mumps</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9KqvfDozIHk3kZ1yz0xvpY -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9KqvfDozIHk3kZ1yz0xvpY">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000383"/>
-        <obo:HIO_0000088>Ambient Noise</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="https://en.wikipedia.org/wiki/Background_noise"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>Any sound other than the sound being monitored (primary sound).</dc:description>
-        <rdfs:label>Background Noise</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9dkWt7CDP9VwkS47PfYDec -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9dkWt7CDP9VwkS47PfYDec">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCcwu5OpAojlC0wWYkRNtCj"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000399"/>
-        <obo:HIO_0000226>SYMP:0000399</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Vertigo is a dizziness characterized by a specific type of dizziness, a major symptom of a balance disorder. It is the sensation of spinning or swaying while the body is stationary with respect to the surroundings.</dc:description>
-        <rdfs:label>Vertigo</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9eYvi4bRAczvG17LjlZPEo -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9eYvi4bRAczvG17LjlZPEo">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000073"/>
-        <obo:HIO_0000088>VFT</obo:HIO_0000088>
-        <obo:HIO_0000088>Vestibular Function Tests</obo:HIO_0000088>
-        <obo:HIO_0000225>A test used to determine if the brain or balance portion of the inner ear are causing dizziness.</obo:HIO_0000225>
-        <obo:HIO_0000226>MESH:D014724</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>A test used to determine if the brain or balance portion of the inner ear are causing dizziness.</dc:description>
-        <rdfs:label>Vestibular Function Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9mUlnHbqBaSFywCMCkObw5 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9mUlnHbqBaSFywCMCkObw5">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBjghbo5plim28pFpvNwWrk"/>
-        <obo:HIO_0000225 rdf:resource="https://emedicine.medscape.com/article/1348950-overview"/>
-        <obo:HIO_0000227>Few but definitions not available</obo:HIO_0000227>
-        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>An examination that allows determination of the mobility of a patient&apos;s tympanic membrane (TM) in response to pressure changes.</dc:description>
-        <rdfs:label>Pneumatic Otoscopy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/R9vCxaQ2OWhEynldml1ZM4n -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vCxaQ2OWhEynldml1ZM4n">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000085"/>
-        <obo:HIO_0000088>Inflammation of Meninx</obo:HIO_0000088>
-        <obo:HIO_0000088>Meninx Inflammation</obo:HIO_0000088>
-        <obo:HIO_0000227>Few but definitions not specific enough</obo:HIO_0000227>
-        <dc:creator>HIO (Noluthando Manyisa)</dc:creator>
-        <dc:description>Meningitis is the infection of the meninges that surround the brain and spinal cord. The infection may be due to bacterial, viral, fungal or parasitic infections or due to non-infectious causes. Symptoms include, but are not limited to, high fever( 38°C or above), severe headache, general malaise and/or confusion, photosensitivity, stiff neck, drowsiness and/or unresponsiveness, and/or seizures.</dc:description>
-        <rdfs:label>Meningitis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000508"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D006320"/>
-        <obo:HIO_0000226>MESH:D006320</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Part of an ear examination that measures the ability of sound to reach the brain.</dc:description>
-        <rdfs:label>Hearing Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBjAdQVbDCOrJErM8nETzOJ -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBjAdQVbDCOrJErM8nETzOJ">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8dA1STzRv1jH3qlwJ8katW"/>
-        <obo:HIO_0000088>Abnormal Auditory Perception</obo:HIO_0000088>
-        <obo:HIO_0000088>Abnormal Auditory Physiology</obo:HIO_0000088>
-        <obo:HIO_0000088>Auditory Abnormalities</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0001963"/>
-        <obo:HIO_0000226>MP:0001963</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Any functional anomaly in the ability to perceive auditory stimuli.</dc:description>
-        <rdfs:label>Abnormal Hearing Physiology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBjghbo5plim28pFpvNwWrk -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBjghbo5plim28pFpvNwWrk">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000203"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D038781"/>
-        <obo:HIO_0000225>Examination of the ear canal and eardrum with an otoscope.</obo:HIO_0000225>
-        <obo:HIO_0000226>MESH:D038781</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <rdfs:label>Otoscopy</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RBwRKVrbKZYD4fo7VFF2yw2 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RBwRKVrbKZYD4fo7VFF2yw2">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh"/>
-        <obo:HIO_0000225 rdf:resource="https://www.mayoclinic.org/diseases-conditions/hearing-loss/diagnosis-treatment/drc-20373077"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>A test made available via a mobile app that can be used to self-screen for moderate hearing loss.</dc:description>
-        <rdfs:label>App-Based Hearing Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RC24cXcDnaOLZSDybtNrxz9 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RC24cXcDnaOLZSDybtNrxz9">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBOa37xVROmMkiqYF8HdPMh"/>
-        <obo:HIO_0000088>Audiometer Test</obo:HIO_0000088>
-        <obo:HIO_0000088>Audiometric Test</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D001299"/>
-        <obo:HIO_0000226>MESH:D001299</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>The testing of the acuity of the sense of hearing to determine the thresholds of the lowest intensity levels at which an individual can hear a set of tones. The frequencies between 125 and 8000 Hz are used to test air conduction thresholds and the frequencies between 250 and 4000 Hz are used to test bone conduction thresholds.</dc:description>
-        <rdfs:label>Audiometry</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCGJelLYZYVYBn0RETVh7Ta -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCGJelLYZYVYBn0RETVh7Ta">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7zNaZHKYudP79ukruZEdib"/>
-        <obo:HIO_0000088>Abnormal ABRs</obo:HIO_0000088>
-        <obo:HIO_0000088>Abnormal BAEP(s)</obo:HIO_0000088>
-        <obo:HIO_0000088>Abnormal Brainstem Auditory Brainstem Response(s)</obo:HIO_0000088>
-        <obo:HIO_0000088>Abnormal Brainstem Auditory Evoked Potential</obo:HIO_0000088>
-        <obo:HIO_0000088>Abnormal Brainstem Evoked Responses</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0004738"/>
-        <obo:HIO_0000226>MP:0004738</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Anomaly in the electrical activity generated in the ascending auditory system in response to short tone bursts; may be used to evaluate sensorineural hearing function; measurements may include the amplitude (the number of neurons firing), latency (the speed of transmission), interpeak latency (the time between peaks), interaural latency (the difference in wave V latency between ears) and threshold</dc:description>
-        <rdfs:label>Abnormal Auditory Brainstem Response</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCcwbqSliRjkVkwuHOq8jMm -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCcwbqSliRjkVkwuHOq8jMm">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000141"/>
-        <obo:HIO_0000088>Sensitization, Immunologic</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D007114"/>
-        <obo:HIO_0000226>MESH:D007114</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Deliberate stimulation of the host&apos;s immune response. Active immunization involves administration of antigens or immunologic adjuvants. Passive immunization involves administration of immune sera or lymphocytes or their extracts (e.g., transfer factor, immune RNA) or transplantation of immunocompetent cell producing tissue (thymus or bone marrow).</dc:description>
-        <rdfs:label>Immunization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RCcwu5OpAojlC0wWYkRNtCj -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RCcwu5OpAojlC0wWYkRNtCj">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8dA1STzRv1jH3qlwJ8katW"/>
-        <obo:HIO_0000088>Impaired Vestibular Function</obo:HIO_0000088>
-        <obo:HIO_0000088>Vestibular Dysfunction</obo:HIO_0000088>
-        <obo:HIO_0000088>Vestibular Function Defect</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0004742"/>
-        <obo:HIO_0000226>MP:0004742</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Any functional anomaly of the sensory system responsible for the sense of head position and movement of the body through space; such anomalies may result in impaired balance, dizziness, poor regulation of postural muscle tone and inability to detect quick movements of the head.</dc:description>
-        <rdfs:label>Abnormal Vestibular System Physiology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDPjV6U14eW2s2xWyII9rrv -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPjV6U14eW2s2xWyII9rrv">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000471"/>
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSBJeubUfVM2lfE1DUHbEl"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0004897"/>
-        <obo:HIO_0000226>MP:0004897</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Formation of spongy bone in the bony labyrinth of the ear, especially adjacent to the footplate of the stapes; it may cause bony ankylosis of the stapes, resulting in conductive hearing loss; cochlear otosclerosis results in sensorineural hearing loss.</dc:description>
-        <rdfs:label>Otosclerosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDSeElwL4cmHDkALaxO2IDj -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSeElwL4cmHDkALaxO2IDj">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBjAdQVbDCOrJErM8nETzOJ"/>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0003741"/>
-        <obo:HIO_0000226>MP:0003741</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Persistent sensation of buzzing, ringing, clicking, or other noises in the ear.</dc:description>
-        <rdfs:label>Tinnitus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDbm6Ys3FxMphsiTzUS2XkS -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDbm6Ys3FxMphsiTzUS2XkS">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000067"/>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C75445"/>
-        <obo:HIO_0000226>NCIT:C75445</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>A pattern or manner of running, walking, or moving on foot.</dc:description>
-        <rdfs:label>Gait</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDh9R69ddAeSmTUDzcJa5bw -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDh9R69ddAeSmTUDzcJa5bw">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9eYvi4bRAczvG17LjlZPEo"/>
-        <obo:HIO_0000088>Barany&apos;s Test</obo:HIO_0000088>
-        <obo:HIO_0000088>Baranys Test</obo:HIO_0000088>
-        <obo:HIO_0000088>Caloric Tests</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D002150"/>
-        <obo:HIO_0000226>MESH:D002150</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Elicitation of a rotatory nystagmus by stimulating the semicircular canals with water or air which is above or below body temperature. In warm caloric stimulation a rotatory nystagmus is developed toward the side of the stimulated ear; in cold, away from the stimulated side. Absence of nystagmus indicates the labyrinth is not functioning.</dc:description>
-        <rdfs:label>Caloric Test</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDuhe0bDe9A9QNPrd2EN6E9 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDuhe0bDe9A9QNPrd2EN6E9">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC24cXcDnaOLZSDybtNrxz9"/>
-        <obo:HIO_0000088>Bone Conduction Assessment</obo:HIO_0000088>
-        <obo:HIO_0000088>Bone Conduction Hearing Test</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/NCIT/?p=classes&amp;conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C60916"/>
-        <obo:HIO_0000226>NCIT:C60916</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>A test of the transmission of sound to the inner ear through the bones of the skull. This testing can measure functionality of the inner ear independent of the functionality of the outer and middle ears.</dc:description>
-        <rdfs:label>Bone Conduction Testing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RDzs8GPbRFzv0UfnQTPWvup -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RDzs8GPbRFzv0UfnQTPWvup">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000056"/>
-        <obo:HIO_0000088>Bone Conduction Vibrator</obo:HIO_0000088>
-        <obo:HIO_0000088>Bone Conductor</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="https://www.ortofon.com/microtech/bone-conductors/bone-vibrators-in-general"/>
-        <obo:HIO_0000227>Few but definitions not freely available</obo:HIO_0000227>
-        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>A small vibrator connected to a hearing aid that produces vibrations that are transmitted through the skull to the inner ear, where they are perceived as sound.</dc:description>
-        <rdfs:label>Bone Vibrator</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RLMBOe8KzGmJ8zGk2aiHmV -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RLMBOe8KzGmJ8zGk2aiHmV">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000056"/>
-        <obo:HIO_0000088>Auriscope</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.bioontology.org/ontology/MESH/D019720"/>
-        <obo:HIO_0000226>MESH:D019720</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Instruments designed to inspect or auscultate the ear. They are designed primarily to examine the outer ear canal and tympanic membrane by means of light and air under moderate pressure, as with a pneumatic otoscope.</dc:description>
-        <rdfs:label>Otoscope</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RSBJeubUfVM2lfE1DUHbEl -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RSBJeubUfVM2lfE1DUHbEl">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R708g29URdxQztwO909iAjN"/>
-        <obo:HIO_0000088>Abnormal Labyrinthus Osseus</obo:HIO_0000088>
-        <obo:HIO_0000088>Abnormal Osseous Labyrinth</obo:HIO_0000088>
-        <obo:HIO_0000225 rdf:resource="http://purl.obolibrary.org/obo/MP_0004289"/>
-        <obo:HIO_0000226>MP:0004289</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>Any structural anomaly in the series of cavities (cochlea, vestibule, and semicircular canals) contained within the otic capsule of the petrous portion of the temporal bone; the bony labyrinth is filled with perilymph, in which the delicate, endolymph-filled membranous labyrinth is suspended.</dc:description>
-        <rdfs:label>Abnormal Bony Labyrinth</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/Rogaf9PYQqwZx5LKS8F6hB -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/Rogaf9PYQqwZx5LKS8F6hB">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000085"/>
-        <obo:HIO_0000088>CMV Infection</obo:HIO_0000088>
-        <obo:HIO_0000088>Cytomegaloviral Infection</obo:HIO_0000088>
-        <obo:HIO_0000088>HCMV Infection</obo:HIO_0000088>
-        <obo:HIO_0000226>HIO (Noluthando Manyisa)</obo:HIO_0000226>
-        <obo:HIO_0000227>Few but definitions not specific enough</obo:HIO_0000227>
-        <dc:description>A viral infection caused by the cytomegalovirus. Infection rarely causes symptoms in healthy people, but symptoms may be similar to glandular fever; however, infection in pregnant or immunocompromised individuals is a cause for concern. CMV infection may result in serious congenital defects in children infected prior to birth or serious symptoms affecting the eyes, lungs, liver, oesophogus, stomach, and intestines in immunicompromised individuals.</dc:description>
-        <rdfs:label>Cytomegalovirus Infection</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RwXjmeAcgDaNcHY0cEnso3 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RwXjmeAcgDaNcHY0cEnso3">
-        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9EhfyaMJXGJhPlJPPjFprA"/>
-        <obo:HIO_0000225 rdf:resource="https://www.nap.edu/read/11099/chapter/5#70"/>
-        <obo:HIO_0000227>None</obo:HIO_0000227>
-        <dc:creator>HIO (Jade Hotchkiss)</dc:creator>
-        <dc:description>A record of an individual&apos;s history of ear surgery.</dc:description>
-        <rdfs:label>Personal History of Ear Surgery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://webprotege.stanford.edu/RxEmFR2NDOI5RuJiH2Fr21 -->
-
-    <owl:Class rdf:about="http://webprotege.stanford.edu/RxEmFR2NDOI5RuJiH2Fr21">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HIO_0000101"/>
-        <obo:HIO_0000225 rdf:resource="http://bioportal.bioontology.org/ontologies/ROO?p=classes&amp;conceptid=http%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSTY%2FT056"/>
-        <obo:HIO_0000226>STY:T056</obo:HIO_0000226>
-        <obo:HIO_0000227>Sufficient</obo:HIO_0000227>
-        <dc:description>An activity carried out for recreation or exercise, or as part of daily life.</dc:description>
-        <rdfs:label>Daily or Recreational Activity</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
