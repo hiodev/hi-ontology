@@ -4,6 +4,10 @@ The Hearing Impairment Ontology (HIO) is a collaboratively developed resource by
 ### Stable release versions
 The latest version of the ontology can always be found at https://bioportal.bioontology.org/ontologies/HIO
 
+### Release notes
+Release notes can be viewed here:
+https://docs.google.com/document/d/e/2PACX-1vRAxYhAEJGkUMp6p96ZlXAJBcP6ZhlZ4Wm2vVPZdT4k1XgR71DEPeGU1aC_f-SnhUfI4OFVJYMDKtQF/pub
+
 ### Editors' version
 Editors of this ontology should use the edit version, [src/ontology/hio-edit.owl](src/ontology/hio-edit.owl)
 
